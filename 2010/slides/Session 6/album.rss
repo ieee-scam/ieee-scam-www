@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Session 6</title>
+   	<link>..</link>
+        <generator>Jalbum 8.9</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>01</title>
+            <link>slides/01.html#</link>
+            <pubDate>Wed, 29 Sep 2010 16:19:24 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/01.jpg" width="180" height="180"/>
+            <media:content type="image/jpeg" url="slides/01.jpg" width="424" height="600"/>
+            
+            
+            <guid isPermaLink="false">slides/01.jpg</guid>
+        </item>
+        
+        <item>
+            <title>02</title>
+            <link>slides/02.html#</link>
+            <pubDate>Wed, 29 Sep 2010 16:19:24 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/02.jpg" width="180" height="180"/>
+            <media:content type="image/jpeg" url="slides/02.jpg" width="424" height="600"/>
+            
+            
+            <guid isPermaLink="false">slides/02.jpg</guid>
+        </item>
+        
+        <item>
+            <title>03</title>
+            <link>slides/03.html#</link>
+            <pubDate>Wed, 29 Sep 2010 16:19:24 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/03.jpg" width="180" height="180"/>
+            <media:content type="image/jpeg" url="slides/03.jpg" width="424" height="600"/>
+            
+            
+            <guid isPermaLink="false">slides/03.jpg</guid>
+        </item>
+        
+        <item>
+            <title>04</title>
+            <link>slides/04.html#</link>
+            <pubDate>Wed, 29 Sep 2010 16:19:24 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/04.jpg" width="180" height="180"/>
+            <media:content type="image/jpeg" url="slides/04.jpg" width="424" height="600"/>
+            
+            
+            <guid isPermaLink="false">slides/04.jpg</guid>
+        </item>
+        
+        <item>
+            <title>05</title>
+            <link>slides/05.html#</link>
+            <pubDate>Wed, 29 Sep 2010 16:19:24 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/05.jpg" width="180" height="180"/>
+            <media:content type="image/jpeg" url="slides/05.jpg" width="424" height="600"/>
+            
+            
+            <guid isPermaLink="false">slides/05.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

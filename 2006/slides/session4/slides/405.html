@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<HTML>
+<HEAD>
+<!-- saved from url=(0013)about:internet -->
+<TITLE>session4: 405</TITLE>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<meta name="Keywords" content="photo album,gallery,photo gallery,digital,photo,gallery,online">
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+<meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+
+
+
+<link href="../../res/styles.css" rel="stylesheet">
+<script language="javascript" type="text/javascript">
+<!--keyboard controls-->
+function keypress(e){
+  if(!e) var e=window.event;
+  if(e.keyCode) keyCode=e.keyCode; else if(e.which) keyCode=e.which;
+  switch(keyCode) {
+	case 8: window.location="../index.html"; return false; break;
+	
+	case 63234: case 37: window.location="404.html"; return false; break;
+	case 63273: case 36: window.location="401.html"; return false; break;
+	case 63275: case 35: window.location="405.html"; return false; break;
+	case 32: show_down(); setTimeout('show_out()', 200); return false; break;
+  }
+  return true;
+}
+function keypresslistener() {
+if(document.all) { document.onkeydown = keypress; }
+else if(document.layers || document.getElementById) { document.onkeypress = keypress; }
+}
+idx0 = new Image(31,31); idx0.src = "../../res/idx.gif";
+idx1 = new Image(31,31); idx1.src = "../../res/idx1.gif";
+next0 = new Image(31,31);next0.src = "../../res/next.gif";
+next1 = new Image(31,31);next1.src = "../../res/next1.gif";
+prev0 = new Image(31,31);prev0.src = "../../res/prev.gif";
+prev1 = new Image(31,31);prev1.src = "../../res/prev1.gif";
+
+show0 = new Image(31,31);show0.src = "../../res/show.gif";
+show1 = new Image(31,31);show1.src = "../../res/show1.gif";
+stop0 = new Image(31,31);stop0.src = "../../res/stop.gif";
+stop1 = new Image(31,31);stop1.src = "../../res/stop1.gif";
+<!--slide show code-->
+var show_param = -1; // -1 = slideshow stopped 
+if(window.location.search.length > 1){
+  var parms = window.location.search.substring(1,location.search.length).split("&");
+    for(var i = 0; i < parms.length; i++){		
+      if(parms[i].substring(0, parms[i].indexOf("=")) == "show_param"){
+        show_param= parms[i].substring(parms[i].indexOf("=")+1, parms[i].length);
+}}}
+var show_delay = show_param;
+function show_timer() {
+  if(show_delay >= 0){
+    show_delay--;
+    if(show_delay<0 && show_param>0) {
+      show_down(); setTimeout('show_out()', 200);
+    }
+    else { if(show_param>0) { window.status='Time left: '+(show_delay+1)+' s'; }}
+  }
+  setTimeout('show_timer()', 1000);	
+}
+function show_over()
+{ if(show_param >= 0) { document.show.src=stop1.src; }
+  else { document.show.src=show1.src; }
+}
+function show_out()
+{ if(show_param >= 0) { document.show.src=stop0.src; }
+  else { document.show.src=show0.src; }
+}
+function show_down()
+{ if(show_param >= 0) { show_param = -1; document.show.src=stop1.src; window.status=''; } 
+  else { show_param = 3; document.show.src=show1.src; } 
+  show_delay = show_param; 
+}
+
+</script>
+<style type="text/css">
+  body { background-image: url(../../res/bg.gif); background-repeat: repeat-x; }
+</style>
+</HEAD>
+
+<BODY ID="slide" onload="show_timer(); show_out(); keypresslistener();">
+<CENTER>
+<TABLE style="height:54px;" cellspacing="0" cellpadding="0" border="0">
+<TR><TD valign="middle">
+<!-- Header with Multilevel index links for slide pages -->
+<TABLE style="width:720px;" cellspacing="0" cellpadding="0" border="0">
+<TR>
+<TD style="width:31px;"><a href="../index.html" onmouseover="document.idx.src=idx1.src" onmouseout="document.idx.src=idx0.src"><img src="../../res/idx.gif" width="31" height="31" border="0" title="Index page" name="idx" alt=""></a></TD>
+<TD style="width:20px;"><IMG SRC="../../res/hdr_left.gif" width="20" height="31" border="0" alt=""></TD>
+<TD align="left" valign="middle" style="background:url(../../res/hdr_mid.gif);" class="osxtitle" nowrap="nowrap">
+<a href="../../index.html">slides</a> / <a href="../index.html">session4</a> 
+</TD>
+<TD style="width:20px;"><IMG SRC="../../res/hdr_right.gif" width="20" height="31" border="0" alt=""></TD>
+<TD style="width:31px;">
+  <a href="404.html" onmouseover="document.prev.src=prev1.src" onmouseout="document.prev.src=prev0.src"><img src="../../res/prev.gif" width="31" height="31" border="0" title="Previous image" name="prev" alt=""></a></TD>
+<TD style="width:31px;">
+  <IMG SRC="../../res/next-disabled.gif" width="31" height="31" title="At last page" border="0" alt=""></TD>
+<TD style="width:31px;"><a href="#" onmouseover="show_over();" onmouseout="show_out();" onmousedown="show_down();"><img src="../../res/show.gif" width="31" height="31" border="0" title="Start/Stop slideshow" name="show" alt=""></a></TD>
+</TR></TABLE>
+</TD></TR></TABLE>
+<!-- Code that adds a "Print with Photobox or Shutterfly" link to slide images.
+     These services prints images and delivers them to your door.
+-->
+
+
+
+
+
+
+
+	<script type="text/javascript">
+	function submitOrderForm()
+	{
+		if (location.protocol != 'http:') alert("Ordering prints on-line requires this album to be hosted on a public web server.\n" +
+		 "Use the JAlbum publish section to publish this album.");
+		else if (confirm("You will now be transferred to www.photobox.co.uk where you may order prints of this image.\nwww.photobox.co.uk will shortly grab your selected images (originals if published)\nfrom this web site for printing. Make sure they are available on-line!\n\nDisclaimer:\nJAlbum assumes no responsibility for the fulfillment of this printing service.")) {
+			form = document.forms['orderform'];
+			location = window.location;
+			href = location.href;
+			var s = href.substring(0,href.lastIndexOf("slides/")) + form.toImage.value;
+			form["photo_url_405.jpg"].value = s.substring(0,7) + escape(s.substring(7));
+			var s2 = href.substring(0,href.lastIndexOf("slides/")) + form.toThumb.value;
+			form["thumbnail_url_405.jpg"].value = s2.substring(0,7) + escape(s2.substring(7));
+			form.submit();
+		}
+	}
+	</script>
+
+
+	<form name="orderform" action="http://printbutton.photobox.co.uk/printbutton.html" method="post" target="printbutton" onSubmit="window.open('','printbutton','width=200,height=350')">
+
+		<input type="hidden" name="v_id" value="1010432">
+		<input type="hidden" name="buy" value="405.jpg">
+		<input type="hidden" name="subvendor_405.jpg" value="Chameleon">
+		<input type="hidden" name="notfromcache" value="true">
+		
+		<input type="hidden" name="photo_url_405.jpg" value="REPLACE_ME">
+		<input type="hidden" name="thumbnail_url_405.jpg" value="REPLACE_ME">
+		
+			<input type="hidden" name="photo_width_405.jpg" value="848">
+			<input type="hidden" name="photo_height_405.jpg" value="1165">
+			<input type="hidden" name="toImage" value="405.jpg">
+		
+
+		<input type="hidden" name="toThumb" value="thumbs/405.jpg">
+		</p>
+	</form>
+	
+
+
+
+<!-- Comment and image data -->
+<TABLE style="width:720px;" class="infotable" cellspacing="0" cellpadding="2">
+<TR><TD style="width:720px;" align="center" class="comment">405.jpg</TD>
+<TD style="width:144px;" align="center" class="smalltxt">05/10/06 12:35</TD>
+<TD style="width:64px;" align="center" class="xsmalltxt"><a href="javascript:submitOrderForm()" title="Print service">Order</a></TD><!-- On-line image printing service -->
+</TR>
+<TR><TD colspan="3" align="center" class="smalltxt">
+Image |<a href="401.html"> 1 </a>|<a href="402.html"> 2 </a>|<a href="403.html"> 3 </a>|<a href="404.html"> 4 </a>|<span class="current"> 5 </span>|
+</TD></TR>
+</TABLE>
+<BR>
+<!-- Image, optionally with link to original -->
+<map name="imagemap" style="text-decoration:none">
+<area coords="0,0,194,800" href="404.html" TITLE="Previous image" alt="">
+<area coords="388,0,582,800" TITLE="At last page" alt="">
+<area coords="194,0,388,400" href="../index.html" TITLE="Index page" alt="">
+<area coords="194,400,388,800" href="#" onClick="window.open('405_orig.html','originalslide','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes')" TITLE="Original Image [405.jpg - 128kB]" alt="">
+</map>
+<TD><A href="#"><IMG SRC="405.jpg" WIDTH="582" HEIGHT="800" TITLE="Original Image [405.jpg]" usemap="#imagemap" border="0" alt=""></A></TD>
+</TR></TABLE>
+<BR>
+<!-- EXIF data and copyright info -->
+<TABLE style="width:720px;" class="infotable" cellspacing="0" cellpadding="2">
+<TR>
+<TD align="center" class="smalltxt">
+
+
+
+<b>RESOLUTION:</b> 848 x 1165 | 
+
+
+
+
+
+</TD></TR><TR>
+
+<TD align="center" class="xsmalltxt">
+  Generated by <a href="http://jalbum.net" title="JAlbum - Freeware web photo album generator" target="_blank">JAlbum 6.4</a>&nbsp;&nbsp;|&nbsp;&nbsp;Chameleon skin by <a href="http://www.worx.hu" target="_blank">LazaDezign</a>
+
+</TD></TR>
+</TABLE>
+
+
+<script language="javascript" type="text/javascript">
+previous_image=new Image(); previous_image.src="404.jpg";
+</script>
+</CENTER>
+</BODY>
+</HTML>

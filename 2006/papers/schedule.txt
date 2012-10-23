@@ -1,0 +1,95 @@
+
+
+27th September
+
+2.00pm - 2.15 pm Welcome
+2.15pm - 3.30 pm Keynote speech
+John Hatcliff- Slicing concurrent Java programs with Indus
+3.30pm - 4.00 pm Coffee break
+4.00pm-5.30pm
+Session 1: Slicing
+Keith Gallagher, Dave Binkley and Mark Harman
+Stop-list Slicing
+Árpád Beszédes, Tamás Gergely and Tibor Gyimóthy
+Graph-Less Dynamic Dependence-Based Dynamic Slicing Algorithms
+Kai Pan, Sunghun Kim and E. James Whitehead, Jr.
+Bug Classification Using Program Slicing Metrics
+
+
+28th September
+9.00am-10.30am
+Session 2: Static Analysis I
+Dave Binkley, Mark Harman and Jens Krinke
+Animated Visualisation of Static Analysis: Characterising, Explaining and Exploiting the Approximate Nature of Static Analysis
+Jason Sawin and Atanas Rountev
+Estimating the Run-Time Progress of a Call Graph Construction Algorithm
+Weilei Zhang and Barbara Ryder
+Constructing Accurate Application Call Graph For Java To Model Library Callbacks
+10.30am-11.00am - Coffee break
+
+11.00am-12.30pm
+Session 3: Transformations
+Andrew Walenstein, Rachit Mathur, Mohamed Chouchane and Arun Lakhotia
+Normalizing Metamorphic Malware Using Term Rewriting
+Michael Fagan, Laurent Hascoet and Jean Utke
+Data Representation Alternatives in Semantically Augmented Numerical Models
+Matthew Jacobs and E Christopher Lewis
+SMART C: A Semantic Macro Replacement Translator for C
+
+12.30am - 2.00pm - Lunch
+
+2.00pm - 3.30pm
+Session 4: Tools
+
+Magiel Bruntink
+Linking Analysis and Transformation Tools with Source-based Mappings
+
+Adrian D. Thurston and Jim Cordy
+Evolving TXL
+
+Lajos Fülöp, Tamás Gyovai and Rudolf Ferenc
+Evaluating C++ Design Pattern Miner Tools
+
+3.30pm-4.00pm Coffee break
+
+4.00pm-5.00pm
+Session 5: Static Analysis II
+
+Dawn Lawrie, Henry Feild and Dave Binkley
+Syntactic Identifier Conciseness and Consistency
+Cathal Boogerd and Leon Moonen
+Prioritizing Software Inspection Results using Static Profiling
+
+5.00pm-6.00pm
+Tool Demonstrations
+Eric Van Wyk, Derek Bodin, Lijesh Krishnan, Phillip Russel and Eric Johnson
+Tool Demonstration: The Silver Extensible Compiler Framework and Modular Extensions to Java and C
+
+7.00pm-22.00pm Reception
+
+29th September
+9.00am - 10.30am
+Session 6: Formal Methods
+
+Alejandra Garrido and Jose Meseguer
+Formal Specification and Verification of Java Refactorings
+Carlos Noguera, Renaud Pawlak
+AVal: an Extensible Attribute-Oriented Programming Validator for Java
+Kim Henriksen, John Gallagher
+Abstract Interpretation of PIC programs through Logic Programming
+
+10.30am-11.00am Coffee break
+
+
+11.00am-12.30pm
+Session 7: Refactoring
+Huiqing Li and Simon Thompson
+A Comparative Study of Refactoring Haskell and Erlang Programs
+Dennis Strein, Hans Kratz, Welf Löwe
+Cross-language Program Analysis and Refactoring
+Michael Collard, Huzefa Kagdi and Jonathan Maletic
+Factoring Differences for Iterative Change Management 
+
+12.30pm-1.30pm
+Open Steering Committee Meeting
+Wrap-Up

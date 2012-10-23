@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* Style specific styles */
+
+body {
+	color: #333;
+	background: #fff;
+}
+
+a:link,
+a:visited {
+	color: #666;
+}
+
+a:active,
+a:hover {
+	color: #333;
+}
+
+.border,
+.box {
+	border: none;
+}
+
+.icon-container,
+.thumb-container {
+	border-style:solid;
+	border-color:#fff;
+}
+
+h2,
+#comment {
+	color: #333;
+}
+
+.thumb-container:hover,
+.icon-container:hover {
+	border-color:#cecece;
+	background-color:#cecece;
+}
+
+#comment {
+	border: none;
+}
+
+.label {
+	left: 8px;
+	top: 8px;	
+}
+
+#comment,
+#content {
+	margin: 0 0 20px 0;	
+}
+
+#footer {
+	padding: 5px 0 0 0;	
+}

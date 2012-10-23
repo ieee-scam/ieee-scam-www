@@ -1,0 +1,86 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #888888;
+	background-color: #ffffff;
+	margin-top: 0px;
+}
+
+a:link {
+	text-decoration: none;
+ 	color: #222222;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #222222;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #a7dcf4;
+}
+
+.current {
+	font-weight: bold;
+	background-color: #CCDDFF;
+}
+
+.image { margin: 0px; border-width: 1px; border: 1px solid;}
+a:link .image { border-color: #aaaaaa; color: #aaaaaa;}
+a:visited .image { border-color: #666666; color: #666666;}
+a:hover .image { border-color: #ffffff; color: #ffffff;}
+
+.osxtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.osxtitle a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.osxtitle a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.osxtitle a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.infotable {
+	border: 1px solid #88a8ca;
+	border-collapse: collapse;
+}
+
+.infotable td {
+	background-color: #ffffff;
+	border: 1px solid #88a8ca;
+}
+
+.dirname {
+	font-size: 12px;
+	font-weight: bold;
+	color: #888888;
+}
+
+.comment {
+	color: #222222;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.smalltxt {
+	color: #666666;
+	font-size: 11px;
+}
+
+.xsmalltxt {
+	color: #888888;
+	font-size: 9px;
+}
