@@ -119,11 +119,7 @@ found_list.each do |f|
 	content_html.sub!(/<h1>[^<]+<\/h1>/, "") # remove h1 which is used for title
 	menu_html = create_menu(menu, f)
 
-	result = template.gsub("<!-- Title -->", title_html)
-				.gsub("<!-- Menu -->", menu_html)
-				.gsub("<!-- Announcement -->", announcements)
-				.gsub("<!-- Content -->", content_html)
-				.gsub("<!-- RootDir -->", $ROOT_DIR)
+	result = template.gsub("<!-- Title -->", title_html).gsub("<!-- Menu -->", menu_html).gsub("<!-- Announcement -->", announcements).gsub("<!-- Content -->", content_html).gsub("<!-- RootDir -->", $ROOT_DIR)
 	File.open(f.gsub(".md", ".html"), "w") { |h| h.write(result) }
 end
 puts "Succesfully rebuild all pages"
