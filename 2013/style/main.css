@@ -1,0 +1,92 @@
+html {
+	font-family: "Helvetica Neue", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial;
+	font-size: 0.9em;
+	background: #fafafa;
+}
+body {
+	width: 65%;
+	max-width: 1800px;
+	min-width: 600px;
+	margin: 1em auto 2em auto;
+	background: #eee;
+	padding: 2px;
+}
+#container {
+	padding: 0.2em 0.5em;
+	background: #fff;
+	border: solid 1px #ddd;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+	padding: 1em;
+	padding-left: 200px;
+	background: 1em center no-repeat url("SCAM_logo.png");
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  list-style: none;
+  display: block;
+  float: left;
+  padding: 0.5em 1em;
+}
+
+header img {
+	border: 1px solid #ddd;
+}
+
+header h1 {
+	font-size:1.5em;
+}
+header h2 {
+	font-size:1.2em;
+}
+
+.clear { clear: both; }
+
+section {
+	line-height: 1.3em;
+}
+
+a {
+  color: #005580;
+}
+a:hover {
+  color: #08c;
+}
+
+#sidebarcontainer {
+	 float: left;
+	 width: 200px;
+	 border-right: 1px solid #ddd;
+	 padding-top: 1em;
+}
+#sidebar {
+	padding-right: 1em;
+}
+
+#maincontainer {
+	border-left: 200px solid #fff;
+}
+
+#main {
+	border-left: 1px solid #ddd;
+	padding-left: 1em;
+}
+
+footer {
+	position: absolute;
+	width: 65%;
+	max-width: 1800px;
+	min-width: 600px;
+	font-size: 0.8em;
+	color: #333;
+	padding: 0.5em;
+	text-align: center;
+}
+
