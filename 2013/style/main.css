@@ -22,7 +22,10 @@ header {
 	padding: 1em 1em 0 1em;
 	padding-left: 200px;
 	background: 1em center no-repeat url("SCAM_logo.png");
+	overflow: hidden;
+	zoom: 1;	
 }
+
 
 header p {
 	text-align: center;
@@ -36,9 +39,11 @@ header p img {
 
 header h1 {
 	font-size:1.5em;
+	margin: 0;
 }
 header h2 {
 	font-size:1.2em;
+	margin: 0.3em 0 0.7em 0;
 }
 
 .clear { clear: both; }
@@ -58,6 +63,8 @@ a:hover {
 	 float: left;
 	 width: 200px;
 	 border-right: 1px solid #ddd;
+	 margin-right: -200px;
+	 position: relative;
 }
 #sidebar {
 	padding-right: 1em;
@@ -65,6 +72,7 @@ a:hover {
 
 #maincontainer {
 	border-left: 200px solid #fff;
+	float:left;
 }
 
 #main {
@@ -81,5 +89,7 @@ footer {
 	color: #333;
 	padding: 0.5em;
 	text-align: center;
+	overflow: hidden;
+	zoom: 1;	
 }
 
