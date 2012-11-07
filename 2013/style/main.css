@@ -61,6 +61,61 @@ header h2 {
 	margin-right: -1px;
 	border-right: solid 1px #ddd;
 }
+#sidebar h3 {
+	font-size:1em;
+	margin: 0.5em;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #555;
+}
+#sidebar nav ul {
+	background: #fcfcfc;
+	border: 1px solid #ddd;
+	padding: 0;
+	margin: 0 0.5em 2em 0.5em;
+}
+#sidebar nav ul ul {
+	margin: 0 0 0 1em;
+	border: none;
+}
+#sidebar nav li {
+	position: relative;	
+}
+
+
+
+#sidebar nav a {
+	display: block;
+	text-decoration: none;
+	line-height: 1.1em;
+	padding: 0.2em 0.5em;
+}
+#sidebar nav li a:hover {
+	text-decoration: underline;
+	position: relative;	
+}
+
+#sidebar section {
+	margin-right:0.5em;
+}
+#announcements {
+	margin-left:0.5em;
+}
+#announcements ul {
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size:0.9em;
+}
+
+#announcements li:before {
+	content: "\00BB \0020";
+}
+
+
 
 #main {
 	float: left;
@@ -93,4 +148,3 @@ a {
 a:hover {
   color: #08c;
 }
-
