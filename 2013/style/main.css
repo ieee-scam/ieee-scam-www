@@ -19,24 +19,18 @@ body {
 
 header {
 	border-bottom: 1px solid #ddd;
-	padding: 1em;
+	padding: 1em 1em 0 1em;
 	padding-left: 200px;
 	background: 1em center no-repeat url("SCAM_logo.png");
 }
 
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-header ul li {
-  list-style: none;
-  display: block;
-  float: left;
-  padding: 0.5em 1em;
+header p {
+	text-align: center;
+	margin :0;
 }
 
-header img {
+header p img {
+	margin: 0.5em 1em;
 	border: 1px solid #ddd;
 }
 
@@ -64,7 +58,6 @@ a:hover {
 	 float: left;
 	 width: 200px;
 	 border-right: 1px solid #ddd;
-	 padding-top: 1em;
 }
 #sidebar {
 	padding-right: 1em;
