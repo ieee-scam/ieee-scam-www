@@ -5,8 +5,8 @@ html {
 }
 	
 body {
-	width: 65%;
-	max-width: 1800px;
+	width: 75%;
+	max-width: 1200px;
 	min-width: 600px;
 	margin: 1em auto 2em auto;
 	background: #eee;
@@ -84,6 +84,9 @@ header h2 {
 }
 
 
+#sidebar nav a.current {
+	font-weight: bold;
+}
 
 #sidebar nav a {
 	display: block;
@@ -130,8 +133,8 @@ header h2 {
 
 footer {
 	position: absolute;
-	width: 65%;
-	max-width: 1800px;
+	width: 75%;
+	max-width: 1200px;
 	min-width: 600px;
 	font-size: 0.8em;
 	color: #333;
