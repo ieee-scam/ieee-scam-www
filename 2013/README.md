@@ -38,6 +38,28 @@ Adding a new page (``2013/Event/Travel.html``) takes four steps:
 ## Adding announcements
 To edit announcements, edit the ``2013/announce.md`` file and rebuild.
 
+## Committing changes
+Get the latest version first:
+
+	git pull
+
+Make your changes as explained above.
+
+Commit all your changes:
+
+	git commit -a -m "Commit message"
+
+Share your changes:
+
+	git push
+	
+if this fails, try to pull again:
+
+	git pull
+
+and then push.
+
+For more info about git see: [Introduction to Git](http://learn.github.com/p/intro.html). 
 
 # SCAM site architecture (for future developers)
 
