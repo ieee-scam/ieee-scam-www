@@ -109,8 +109,13 @@ header h2 {
 	padding-left: 1em;
 	text-indent: -1em;
 	font-size:0.9em;
+	line-height:1.1em;
+
 }
 
+#announcements li {
+	padding-bottom: 0.25em;
+}
 #announcements li:before {
 	content: "\00BB \0020";
 }
