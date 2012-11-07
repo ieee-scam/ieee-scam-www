@@ -2,8 +2,9 @@ require 'rubygems'
 require 'redcarpet'
 require 'set'
 
-$ROOT_DIR="/ieee-scam-www/2013/"
-$TEMPLATE="template.html"
+#$ROOT_DIR="/ieee-scam-www/2013/"
+$ROOT_DIR="/2013/"
+$TEMPLATE="newtemplate.html"
 
 @menu_list = File.read("menu.txt").split(/[\n\r]+/)
 found_list = Dir.glob("**/*.md") - ["announce.md", "README.md"]
@@ -121,6 +122,6 @@ found_list.each do |f|
 	menu_html = create_menu(menu, f)
 
 	result = template.gsub("<!-- Title -->", title_html).gsub("<!-- Menu -->", menu_html).gsub("<!-- Announcement -->", announcements).gsub("<!-- Content -->", content_html).gsub("<!-- RootDir -->", $ROOT_DIR)
-	File.open(f.gsub(".md", ".html"), "w") { |h| h.write(result) }
+	File.open(f.sub(".md", ".html"), "w") { |h| h.write(result) }
 end
 puts "Succesfully rebuild all pages"
