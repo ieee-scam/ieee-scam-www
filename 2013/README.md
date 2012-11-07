@@ -35,6 +35,9 @@ Adding a new page (``2013/Event/Travel.html``) takes four steps:
 3. Build using ``make`` or ``ruby build.rb``.
 3. Commit and push the changes.
 
+## Adding announcements
+To edit announcements, edit the ``2013/announce.md`` file and rebuild.
+
 
 # SCAM site architecture (for future developers)
 
