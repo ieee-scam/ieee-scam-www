@@ -2,8 +2,8 @@ require 'rubygems'
 require 'redcarpet'
 require 'set'
 
-#$ROOT_DIR="/ieee-scam-www/2013/"
-$ROOT_DIR="/2013/"
+$ROOT_DIR="/ieee-scam-www/2013/"
+#$ROOT_DIR="/2013/"
 $TEMPLATE="newtemplate.html"
 
 @menu_list = File.read("menu.txt").split(/[\n\r]+/)
