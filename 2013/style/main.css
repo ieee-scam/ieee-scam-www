@@ -3,6 +3,7 @@ html {
 	font-size: 0.9em;
 	background: #fafafa;
 }
+	
 body {
 	width: 65%;
 	max-width: 1800px;
@@ -12,20 +13,19 @@ body {
 	padding: 2px;
 }
 #container {
-	padding: 0.2em 0.5em;
+	padding: 0.5em;
 	background: #fff;
 	border: solid 1px #ddd;
 }
 
 header {
+	overflow: hidden;
+	zoom: 1;
 	border-bottom: 1px solid #ddd;
 	padding: 1em 1em 0 1em;
-	padding-left: 200px;
-	background: 1em center no-repeat url("SCAM_logo.png");
-	overflow: hidden;
-	zoom: 1;	
+	padding-left: 12em;
+	background: 0.5em center no-repeat url("SCAM_logo.png");
 }
-
 
 header p {
 	text-align: center;
@@ -46,37 +46,25 @@ header h2 {
 	margin: 0.3em 0 0.7em 0;
 }
 
-.clear { clear: both; }
-
-section {
-	line-height: 1.3em;
+#wrapper {
+	display: inline-block;
+	border-left: 12em solid #fff;
+	position: relative;
+	vertical-align: bottom;
 }
 
-a {
-  color: #005580;
-}
-a:hover {
-  color: #08c;
-}
-
-#sidebarcontainer {
-	 float: left;
-	 width: 200px;
-	 border-right: 1px solid #ddd;
-	 margin-right: -200px;
-	 position: relative;
-}
 #sidebar {
-	padding-right: 1em;
-}
-
-#maincontainer {
-	border-left: 200px solid #fff;
-	float:left;
+	float: left;
+	width: 12em;
+	position: relative;
+	margin-left: -12em;
+	margin-right: -1px;
+	border-right: solid 1px #ddd;
 }
 
 #main {
-	border-left: 1px solid #ddd;
+	float: left;
+	border-left: solid 1px #ddd;
 	padding-left: 1em;
 }
 
@@ -89,7 +77,20 @@ footer {
 	color: #333;
 	padding: 0.5em;
 	text-align: center;
-	overflow: hidden;
-	zoom: 1;	
+}
+
+section {
+	line-height: 1.3em;
+}
+
+section p {
+	margin: 1em 0 0 0;
+}
+
+a {
+  color: #005580;
+}
+a:hover {
+  color: #08c;
 }
 
