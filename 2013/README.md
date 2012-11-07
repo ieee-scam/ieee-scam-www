@@ -1,17 +1,48 @@
-# SCAM site architecture
+# How to write content for the site
+## First time installation
+Make sure you have ``ruby`` installed (version 1.8.7 or 1.9.x).
+
+Install the one `gem` needed:
+
+	[sudo] gem install redcarpet 
+
+If this fails, try running it with `sudo`. If it fails during compilation of the native libraries, make sure you have the [Command Line Tools for Xcode installed](https://developer.apple.com/downloads). 
+
+Hereafter, just clone the github project into a directory.
+
+	$ git clone git@github.com:ieee-scam/ieee-scam-www.git
+	
+And make sure you are on the gh-pages branch:
+
+	$ git checkout gh-pages
+	
+After this use regular git commands to commit, push, and pull your changes.
+
+## Changing the text of an existing page
+Say you want to change the page ``2013/CFP/Details.html`` (which can have a different title in the menu, so look at the URL). 
+
+Find the ``2013/CFP/Details.md`` file and open it using a text editor (or perhaps a Markdown editor). You can now freely edit the file, as long as you keep it markdown (HTML nesting is allowed).
+
+Go to the command line, go to the ``2013`` directory and run ``make`` (only on OSX and Linux) or ``ruby build.rb`` to rebuild the HTML files. 
+
+Now commit (and push) both the ``.md`` and the ``.html`` file. After a few minutes, the changes should appear on the site.
+
+## Adding a new page
+Adding a new page (``2013/Event/Travel.html``) takes four steps:
+
+1. Create the file ``2013/Event/Travel.md`` and give it at least a title (example: ``# Title``)
+2. Add a link to the file to the ``2013/menu.txt``, the position of the line has a influence on where it appears in the menu.
+3. Build using ``make`` or ``ruby build.rb``.
+3. Commit and push the changes.
+
+
+# SCAM site architecture (for future developers)
 
 - Ruby build script.
-- Just one scripting language (ruby?)
 - Build static HTML files, no fancy javascript client-side loading
 - One template, dynamic menu and dynamic main content
 - Content in markdown
 
-
-## Ruby packages
-### Markdown
-
-- kramdown: good fast pure ruby markdown -> HTML, does deviate from the github markdown syntax in a few small ways
-- Redcarpet2: fast ruby parser, the one used in github, UTF8 aware, has some native libraries, but is very simple, no special depencencies.
 
 ## Template language
 Simple: 
