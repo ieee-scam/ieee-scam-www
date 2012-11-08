@@ -32,7 +32,7 @@ end
 	:lax_spacing => true)
 
 class MenuItem
-	attr_accessor :title, :path, :childs
+	attr_accessor :title, :path, :childs, :nestedTitle
 
 	def is_leaf?
 		not @childs 
@@ -48,7 +48,7 @@ class MenuItem
 	end
 	
 
-	def initialize(filename)
+	def initialize(filename, titleprefix)
 		content = @@markdown.render(File.read(filename))
 		if content.match(/<h1>([^<]+)<\/h1>/)
 			@title = $1
@@ -57,11 +57,16 @@ class MenuItem
 			fail "Title Missing"
 		end
 		@path = filename
+		if titleprefix.empty?
+			@nestedTitle = @title
+		else 
+			@nestedTitle = titleprefix + " - " + @title 
+		end
 	end
 end
 
 
-def build_menu_tree(root, f_index)
+def build_menu_tree(root, f_index, titleprefix)
 	result = []
 	while f_index < @menu_list.size
 		f = @menu_list[f_index]
@@ -69,12 +74,12 @@ def build_menu_tree(root, f_index)
 		if c_dir != root && root != "." && !c_dir.start_with?(root)
 			return [f_index, result]
 		elsif ((root == "." && c_dir != root) || ((c_dir != root) && c_dir.start_with?(root)))
-			m = MenuItem.new(f)
-			f_index, childs = build_menu_tree(c_dir, f_index + 1)
+			m = MenuItem.new(f, titleprefix)
+			f_index, childs = build_menu_tree(c_dir, f_index + 1, m.nestedTitle)
 			m.childs = childs if childs && childs.size > 0
 			result << m
 		else 
-			m = MenuItem.new(f)
+			m = MenuItem.new(f, titleprefix)
 			f_index += 1
 			result << m
 		end
@@ -102,19 +107,29 @@ def create_menu(items, current_file)
 end
 
 puts "Preparing menu and checking files"
-i, menu = build_menu_tree(".", 0)
+i, menu = build_menu_tree(".", 0, "")
 
 puts "Rebuilding pages"
 template = File.read($TEMPLATE)
 announcements = @@markdown.render(File.read("announce.md"))
 
+@titlemap = {}
+def fill_title_map(items) 
+	items.each do |i| 
+		@titlemap[i.path] = i.nestedTitle 
+		fill_title_map(i.childs) if not i.childs.nil?
+	end
+end
+
+fill_title_map(menu)
+
 found_list.each do |f|
 	puts "Building #{f}"
 	content_html = @@markdown.render(File.read(f))
-	title_html = ""
-	if content_html.match(/<h1>([^<]+)<\/h1>/)
+	title_html = @titlemap[f]
+	if not title_html and content_html.match(/<h1>([^<]+)<\/h1>/)
 		title_html = $1
-	else
+	elsif not title_html
 		puts "Error: file #{f} does not have a title"
 		fail "Title Missing"
 	end
