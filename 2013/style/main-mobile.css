@@ -52,10 +52,17 @@ body #wrapper {
 	margin: 0.1em;
 }
 
-#wrapper #facebook {
+#sidebar #facebook {
 	display: none;
 }
 
+#sidebar #facebookFallback {
+	display: block;
+}
+#facebookFallback a {
+	background: left center no-repeat url('facebook_button.png');
+	padding-left: 24px;
+}
 #wrapper #sidebar section:last-child {
 	padding-bottom: 0.5em;
 }

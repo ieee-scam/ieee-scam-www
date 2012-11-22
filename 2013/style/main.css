@@ -155,3 +155,7 @@ a {
 a:hover {
   color: #08c;
 }
+
+#facebookFallback {
+	display: none;
+}
