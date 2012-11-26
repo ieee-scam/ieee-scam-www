@@ -1,3 +1,4 @@
 index.md
 CFP/index.md
 CFP/CFP.md
+Committee.md
