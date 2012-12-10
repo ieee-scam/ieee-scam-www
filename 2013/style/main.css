@@ -33,7 +33,7 @@ header p {
 }
 
 header p img {
-	margin: 0.5em 1em;
+	margin: 0.25em;
 	border: 1px solid #ddd;
 }
 
@@ -113,7 +113,6 @@ header h2 {
 	text-indent: -1em;
 	font-size:0.9em;
 	line-height:1.1em;
-
 }
 
 #announcements li {
@@ -155,4 +154,8 @@ a {
 }
 a:hover {
   color: #08c;
+}
+
+#facebookFallback {
+	display: none;
 }
