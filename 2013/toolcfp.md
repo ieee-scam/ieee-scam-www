@@ -1,4 +1,5 @@
-# SCAM 2013 - Call For Papers: Tool Paper Track 
+# Call for tool papers
+# Call for tool papers
 
 Apart from a research track (see separate CFP), the 13th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2013) will also feature a Tool Paper track. This track welcomes six-page papers that report on the design and implementation of tools for source code analysis and manipulation.
 

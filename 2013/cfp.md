@@ -1,4 +1,5 @@
-# Call For Papers
+# Call for papers
+# Call for papers
 
 13th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
 

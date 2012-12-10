@@ -1,4 +1,4 @@
-# Committee
+# Committees
 
 ## Conference Officers
 
@@ -15,9 +15,12 @@
 
 - Foutse Khomh
 
+**Publication chair**
+
+- Marcin Zalewski
+ 
 **Local organization chairs** 
 
-- Martijn Klabbers 
 - Sacha Claessens
 
 **Publicity** 
