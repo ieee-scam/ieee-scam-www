@@ -59,6 +59,13 @@ body #wrapper {
 #sidebar #facebookFallback {
 	display: block;
 }
+#sidebar #twitter {
+	display: none;
+}
+
+#sidebar #twitterFallback {
+	display: block;
+}
 #facebookFallback a {
 	background: left center no-repeat url('facebook_button.png');
 	padding-left: 24px;

@@ -21,4 +21,8 @@ if (isMedia("only screen and (max-width:640px)") || isMedia("screen and (max-dev
 	if (facebook) {
 		facebook.parentNode.removeChild(facebook);	// avoid iFrame loading on mobile pages
 	}
+	var twitter = document.getElementById("twitter");
+	if (twitter) {
+		twitter.parentNode.removeChild(twitter);	// avoid iFrame loading on mobile pages
+	}
 }

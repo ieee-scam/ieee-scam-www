@@ -159,6 +159,14 @@ a:hover {
 #facebookFallback {
 	display: none;
 }
+#twitterFallback {
+	display: none;
+}
+
+#twitter iframe {
+	width: 11.5em;
+}
+
 #main table {
 	border-collapse: none;
 	border-spacing: 0;
