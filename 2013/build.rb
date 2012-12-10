@@ -28,7 +28,8 @@ end
 	:autolink => true, 
 	:space_after_headers => true, 
 	:fenced_code_blocks => true, 
-	:lax_spacing => true)
+	:lax_spacing => true,
+	:tables => true)
 
 class MenuItem
 	attr_accessor :title, :path, :childs, :nestedTitle
