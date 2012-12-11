@@ -26,3 +26,10 @@ if (isMedia("only screen and (max-width:640px)") || isMedia("screen and (max-dev
 		twitter.parentNode.removeChild(twitter);	// avoid iFrame loading on mobile pages
 	}
 }
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+	if (links[i].hostname != window.location.hostname) {
+		links[i].target = '_blank';
+	} 
+}
