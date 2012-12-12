@@ -20,6 +20,9 @@ The aim of the International Working Conference on Source Code Analysis & Manipu
 |Tool paper camera ready version | July 26, 2013 |
 |Working Conference| 22nd-23rd of September, 2013 |
 
+# Sponsors
+[![Grammatech](images/grammatech.png)](http://www.grammatech.com/)
+[![Semantic Designs](images/semanticdesign.jpg)](http://semdesigns.com/)
 
 
 
