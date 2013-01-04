@@ -10,15 +10,15 @@ The aim of the International Working Conference on Source Code Analysis & Manipu
 
 | event | date |
 | ------ | ------ |
-|Paper abstracts| 18th of April, 2013 |
-|**Deadline for paper submission**| 21st of April, 2013 |
-|Paper notification| 10th of June, 2013 |
+|Paper abstracts| April 18, 2013 |
+|**Deadline for paper submission**| April 21, 2013 |
+|Paper notification| June 10, 2013 |
 |Tool paper abstracts | June 17, 2013 |
 |**Deadline for tool paper submission** | June 21, 2013 |
+|Paper camera ready version| July 1, 2013 |
 |Tool paper notification | July 16, 2013 |
-|Paper camera ready version|1st of July, 2013 |
 |Tool paper camera ready version | July 26, 2013 |
-|Working Conference| 22nd-23rd of September, 2013 |
+|Working Conference| September 22-23, 2013 |
 
 # Sponsors
 [![Grammatech](images/grammatech.png)](http://www.grammatech.com/)

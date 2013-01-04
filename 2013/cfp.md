@@ -3,7 +3,7 @@
 
 13th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
 
-22nd-23rd September <br>
+September 22-23, 2013 <br>
 Eindhoven, The Netherlands <br>
 Co-located with ICSM 2013 
 
@@ -91,9 +91,9 @@ extension, and publication in a special issue. More details will follow.
 
 | event | date |
 | ------ | ------ |
-|Abstracts| 18th of April, 2013 |
-|Deadline for submission| 21st of April, 2013 |
-|Notification| 10th of June, 2013 |
-|Camera ready version|1st of July, 2013 |
-|Working Conference| 22nd-23rd of September, 2013 |
+|Abstracts| April 18, 2013 |
+|Deadline for submission| April 21, 2013 |
+|Notification| June 10, 2013 |
+|Camera ready version| July 1, 2013 |
+|Working Conference| September 22-23, 2013 |
 
