@@ -29,7 +29,7 @@
 - Felienne Hermans (social) 
 - Davy Landman (web)
 
-## Steering Committee members
+## Steering Committee
 
 - Jurgen Vinju
 - Leon Moonen
