@@ -32,8 +32,9 @@ Please follow the IEEE guidelines in preparing your manuscripts available at
 
 | event | date |
 | ------ | ------ |
-| Abstract submission | June 17, 2013 |
-| Full tool paper submission | June 21, 2013 |
+| Abstract submission | June 21, 2013 |
+| Full tool paper submission | June 25, 2013 |
 | Notification | July 16, 2013 |
 | Camera Ready | July 26, 2013 |
 | Conference   | September 22 - 23, 2013 |
+

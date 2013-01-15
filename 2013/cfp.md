@@ -91,9 +91,11 @@ extension, and publication in a special issue. More details will follow.
 
 | event | date |
 | ------ | ------ |
-|Abstracts| April 18, 2013 |
-|Deadline for submission| April 21, 2013 |
-|Notification| June 10, 2013 |
+|Abstracts| April 28, 2013 |
+|Deadline for submission| May 5, 2013 |
+|Notification| June 17, 2013 |
 |Camera ready version| July 1, 2013 |
 |Working Conference| September 22-23, 2013 |
+
+
 
