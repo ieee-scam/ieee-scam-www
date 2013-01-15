@@ -1,43 +1,5 @@
 # Committees
 
-## Conference Officers
-
-**General Chair**
-
-- Jurgen Vinju
-
-**Main track PC co-chairs** 
-
-- Juergen Rilling 
-- Bram Adams
-
-**Tool track PC chair** 
-
-- Foutse Khomh
-
-**Publication chair**
-
-- Marcin Zalewski
- 
-**Local organization chairs** 
-
-- Sacha Claessens
-
-**Publicity** 
-
-- Veronika Bauer (chair)
-- Felienne Hermans (social) 
-- Davy Landman (web)
-
-## Steering Committee
-
-- Jurgen Vinju
-- Leon Moonen
-- Andrew Walenstein
-- Thomas Dean
-- Pascale Cuoq
-- Sibylle Schupp
-
 ## Program Committee 
 
  - [Dave Binkley](), Loyola University Maryland 
@@ -71,3 +33,43 @@
  - [Thomas Dean](http://post.queensu.ca/~trd), Queens University 
  - [Ettore Merlo](), Ecole Polytechnique de Montreal 
  - [Abram Hindle](http://softwareprocess.es/), University of Alberta
+
+## Conference Officers
+
+**General Chair**
+
+- Jurgen Vinju, Centrum Wiskunde & Informatica and Universiteit van Amsterdam, The Netherlands, and INRIA Lille, France.
+
+**Main track PC co-chairs** 
+
+- Juergen Rilling, École Polytechnique de Montréal, Canada.
+- Bram Adams, Concordia University, Canada.
+
+**Tool track PC chair** 
+
+- Foutse Khomh, Queen’s University, Canada.
+
+**Publication chair**
+
+- Marcin Zalewski, Indiana University, USA.
+ 
+**Local organization chairs** 
+
+- Sacha Claessens, Eindhoven University of Technology, The Netherlands.
+- Martijn Klabbers, Eindhoven University of Technology, The Netherlands.
+
+**Publicity** 
+
+- Veronika Bauer (chair), TU München, Germany.
+- Felienne Hermans (social), TU Delft, The Netherlands.
+- Davy Landman (web), Centrum Wiskunde & Informatica, The Netherlands
+
+## Steering Committee
+
+- Jurgen Vinju
+- Leon Moonen
+- Andrew Walenstein
+- Thomas Dean
+- Pascale Cuoq
+- Sibylle Schupp
+
