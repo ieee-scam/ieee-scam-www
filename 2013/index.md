@@ -9,7 +9,7 @@ The aim of the International Working Conference on Source Code Analysis & Manipu
 # Important dates
 
 |   | standard papers | tool papers |
-| ------ | ------ |
+| ------ | ------ | ---- |
 | Abstracts deadline | April 28, 2013 | June 21, 2013 |
 |**Deadline for paper submission**| **May 5, 2013** |  **June 25, 2013** |
 |Paper notification| June 17, 2013 |  July 16, 2013 |
