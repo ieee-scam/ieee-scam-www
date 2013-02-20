@@ -33,19 +33,22 @@
  - [Thomas Dean](http://post.queensu.ca/~trd), Queens University 
  - Ettore Merlo, Ecole Polytechnique de Montreal 
  - [Abram Hindle](http://softwareprocess.es/), University of Alberta
+ - [Sebastian Danicic](http://www.mcs.gold.ac.uk/~mas01sd/), Goldsmiths College, University of London 
+ - [Ira Baxter](http://www.semdesigns.com), Semantic Designs 
+
  
 ## Program Committee Tool Paper Track
 
-- [Foutse	Khomh](http://www.khomh.net/),	Ecole Polytechnique de Montreal, Canada.
-- [Andy	Zaidman](http://www.st.ewi.tudelft.nl/~zaidman), TU Delft, The Netherlands.
-- [Emad	Shihab](http://www.se.rit.edu/~emad),	Rochester Institute of Technology, USA.
-- David	Lo, Singapore Management University, Singapore
-- [Marcus	Denker](http://www.marcus-denker.de), INRIA Lille, France.
-- Gabriele	Bavota, Department of Mathematics and Informatics, University of Salerno, Fisciano (SA), Italy
-- [Jan	Harder](http://www.informatik.uni-bremen.de/st), University of Bremen, Germany.
-- [Suresh	Thummalapenta](http://www4.ncsu.edu/~sthumma), Department of Computer Science, North Carolina State University, USA.
-- [Malcom	Gethers](http://www.umbc.edu/~mgethers), University of Maryland, Baltimore County, USA.
-- Nasir Ali,	Ecole Polytechnique de Montreal, Canada.
+- [Foutse Khomh](http://www.khomh.net/), Ecole Polytechnique de Montreal, Canada.
+- [Andy Zaidman](http://www.st.ewi.tudelft.nl/~zaidman), TU Delft, The Netherlands.
+- [Emad Shihab](http://www.se.rit.edu/~emad), Rochester Institute of Technology, USA.
+- David Lo, Singapore Management University, Singapore
+- [Marcus Denker](http://www.marcus-denker.de), INRIA Lille, France.
+- Gabriele Bavota, Department of Mathematics and Informatics, University of Salerno, Fisciano (SA), Italy
+- [Jan Harder](http://www.informatik.uni-bremen.de/st), University of Bremen, Germany.
+- [Suresh Thummalapenta](http://www4.ncsu.edu/~sthumma), Department of Computer Science, North Carolina State University, USA.
+- [Malcom Gethers](http://www.umbc.edu/~mgethers), University of Maryland, Baltimore County, USA.
+- Nasir Ali, Ecole Polytechnique de Montreal, Canada.
 
 ## Conference Officers
 
@@ -55,8 +58,8 @@
 
 **Main track PC co-chairs** 
 
-- Juergen Rilling, École Polytechnique de Montréal, Canada.
-- Bram Adams, Concordia University, Canada.
+- Juergen Rilling, Concordia University, Canada.
+- Bram Adams, École Polytechnique de Montréal, Canada. 
 
 **Tool track PC chair** 
 
