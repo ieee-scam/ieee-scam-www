@@ -15,7 +15,7 @@
  - [Massimiliano Di Penta](http://www.rcost.unisannio.it/mdipenta), RCOST - University of Sannio, Italy 
  - [Nicolas Gold](http://www0.cs.ucl.ac.uk/staff/N.Gold/), University College London 
  - [Mark Harman](http://www.cs.ucl.ac.uk/staff/mharman), University college london 
- - [Emily Hill](http://netdrive.montclair.edu/~hillem/), University of Delaware 
+ - [Emily Hill](http://netdrive.montclair.edu/~hillem/), Montclair State University  
  - [Abram Hindle](http://softwareprocess.es/), University of Alberta
  - [Rob Johnson](http://www.cs.sunysb.edu/~rob/), Stony Brook University 
  - [Akos Kiss](http://www.inf.u-szeged.hu/~akiss/), Department of Software Engineering, University of Szeged 
