@@ -23,7 +23,7 @@ header {
 	zoom: 1;
 	border-bottom: 1px solid #ddd;
 	padding: 1em 1em 0 1em;
-	padding-left: 12em;
+	padding-left: 15.85em;
 	background: 0.5em center no-repeat url("SCAM_logo.png");
 }
 
@@ -48,16 +48,16 @@ header h2 {
 
 #wrapper {
 	display: inline-block;
-	border-left: 12em solid #fff;
+	border-left: 15.85em solid #fff;
 	position: relative;
 	vertical-align: bottom;
 }
 
 #sidebar {
 	float: left;
-	width: 12em;
+	width: 15.85em;
 	position: relative;
-	margin-left: -12em;
+	margin-left: -15.85em;
 	margin-right: -1px;
 	border-right: solid 1px #ddd;
 }
@@ -161,10 +161,6 @@ a:hover {
 }
 #twitterFallback {
 	display: none;
-}
-
-#twitter iframe {
-	width: 11.5em;
 }
 
 #main table {
