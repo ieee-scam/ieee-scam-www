@@ -1,4 +1,5 @@
 index.md
+authorkit.md
 cfp.md
 toolcfp.md
 Committee.md
