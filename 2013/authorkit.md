@@ -12,7 +12,7 @@ Congratulations on getting your work accepted for SCAM 2013!  Please prepare a c
     1. Verify that the paper is IEEE Xplore compliant and submit it using IEEE PDF eXpress Plus ([IEEE PDF eXpress Plus](http://www.pdf-express.org/plus/)). Please note that passing this compliance test does not guarantee all formatting and copyright requirement conformance. Authors are best advised to closely adhere to the formatting requirements stated in item 2.a.
     2. Ensure that the PDF file name adheres to the appropriate format:
 `<TrackAbbreviation>-<lastname-of-first-author>-<firstname-of-first-author>-<two-keywords-from-title>.pdf` (all lowercase). Track abbreviation is `rp` for research papers and `tp` for tool papers. For example, the file name for the paper entitled "The Best Bread Slicer in the World" authored by John Doe accepted in the research track would be `rp-doe-john-bread-slicer.pdf` .
- 4. Complete the [IEEE Copyright Form](http://www.ieee.org/publications_standards/publications/rights/copyrightmain.html#sect2) and email a PDF copy to <zalewski@indiana.edu> with the subject line `icsm12 <filename from 3.b above> copyright form.`   
+ 4. Complete the [IEEE Copyright Form](http://www.ieee.org/publications_standards/publications/rights/copyrightmain.html#sect2) and email a PDF copy to <zalewski@indiana.edu> with the subject line `scam13 <filename from 3.b above> copyright form.`   
  5. Register for the conference. For papers accepted in either track at least one author must register by the early registration deadline and present the paper.
 
 Direct all questions related to the final submission to <zalewski@indiana.edu>, please put `[SCAM2013]` into the email subject.
