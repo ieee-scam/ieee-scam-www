@@ -7,7 +7,7 @@ Eindhoven, The Netherlands.<br/>
 Check the ICSM site for [travel details](http://icsm2013.tue.nl/Travel/index.html) and [venue
 information](http://icsm2013.tue.nl/Venue/index.html).
 
-[The registration of ICSM and collocated events is now open.](http://icsm2013.tue.nl/Registration/index.html)
+<strong>Update: </strong>[The registration of ICSM and collocated events is now open.](http://icsm2013.tue.nl/Registration/index.html)
 
 The aim of the International Working Conference on Source Code Analysis & Manipulation (SCAM) is to bring together researchers and practitioners working on theory, techniques and applications which concern analysis and/or manipulation of the source code of computer systems. While much attention in the wider software engineering community is properly directed towards other aspects of systems development and evolution, such as specification, design and requirements engineering, it is the source code that contains the only precise description of the behaviour of the system. The analysis and manipulation of source code thus remains a pressing concern.
 
