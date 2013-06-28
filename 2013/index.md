@@ -1,6 +1,8 @@
 Homepage
 ========
 
+[The registration of ICSM and collocated events is now open.](http://icsm2013.tue.nl/Registration/index.html)
+
 The 13th edition of [SCAM](http://www.ieee-scam.org/) is co-located with [ICSM 2013](http://icsm2013.tue.nl/) held in
 Eindhoven, The Netherlands.<br/>
 Check the ICSM site for [travel details](http://icsm2013.tue.nl/Travel/index.html) and [venue
