@@ -1,10 +1,10 @@
 # Program
 # Preliminary Program
 
-## Sunday 22 september 2013
+## Sunday 22 September 2013
 
 
-|  |  |
+|  Sunday | 22 September 2013 |
 | ----------- | --------------------- |
 | 8.30 - 8.45 | Welcome, Introduction – General and Program Chairs 
 | 8.45 – 9.45 | Keynote speaker 
