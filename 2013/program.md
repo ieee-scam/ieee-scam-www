@@ -60,22 +60,3 @@
 |16.05 | 16.15  | Closing & Awards
 |16.15 | 16.30  | Coffee break
 |16.30 | 17.00 | Open Steering Committee Meeting
-
-## ICSM schedule
-|  Time |  | Activity |
-| ------:|----- | --------------------- |
-|8.30 | 8.45 | Opening 
-|8.45 | 9.45 | Session 
-|9.45 | 10.00 | Coffee break 
-|10.00 | 11.15 | Session 
-|11.15 | 11.30 | Coffee break 
-|11.30 | 12.30 | Session 
-|12.30 | 13.45 | Lunch 
-|13.45 | 15.00 | Session 
-|15.00 | 15.15 | Coffee break 
-|15.15 | 16.15 | Session 
-|16.15 | 16.30 | Coffee break 
-|16.30 | 17.45 | Session 
-|18.00 | 19.00 | Break/Evening meeting/Closure 
-|19.00 | ? | Social event
-
