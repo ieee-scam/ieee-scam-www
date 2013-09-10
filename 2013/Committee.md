@@ -56,6 +56,10 @@
 
 - [Jurgen Vinju](http://homepages.cwi.nl/~jurgenv/), Centrum Wiskunde & Informatica and Universiteit van Amsterdam, The Netherlands, and INRIA Lille, France.
 
+**Finance Chair**
+
+- [Dave Binkley](http://www.cs.loyola.edu/~binkley/), Loyola University Maryland, USA.
+
 **Main track PC co-chairs** 
 
 - [Juergen Rilling](https://sites.google.com/site/juergenrilling/), Concordia University, Canada.
