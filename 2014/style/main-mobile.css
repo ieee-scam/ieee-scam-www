@@ -1,0 +1,82 @@
+html body {
+	width: auto;
+	margin: 0;
+	min-width: 0;
+	max-width: none;
+}
+
+body footer {
+	position: relative;
+	width: 100%;
+	min-width: 0;
+	max-width: none;
+	font-size: 0.8em;
+	color: #333;
+	padding: 0.5em 0;
+	text-align: center;
+	background: #fafafa;
+	margin-bottom:-2px;
+	
+}
+
+#container header  {
+	padding-left: 64px;
+	background: left center no-repeat url("SCAM_logo_small.png");
+}
+
+#container header p img {
+	height: 50px;
+	margin: 0.1em;
+}
+#container header h1 {
+	font-size: 1.1em;
+}
+#container header h2 {
+	font-size: 1.0em;
+	margin: 0.1em 0 0.3em 0;
+}
+
+body #wrapper {
+	display: block;
+	border: 0;
+}
+
+#wrapper #sidebar {
+	float:none;
+	width: 100%;
+	margin: 0.1em;
+	border-right: none;
+	border-bottom: solid 1px #ddd;
+}
+#wrapper #sidebar h3 {
+	margin: 0.1em;
+}
+
+#sidebar #facebook {
+	display: none;
+}
+
+#sidebar #facebookFallback {
+	display: block;
+}
+#sidebar #twitter {
+	display: none;
+}
+
+#sidebar #twitterFallback {
+	display: block;
+}
+#facebookFallback a {
+	background: left center no-repeat url('facebook_button.png');
+	padding-left: 24px;
+}
+#wrapper #sidebar section:last-child {
+	padding-bottom: 0.5em;
+}
+
+#wrapper #main {
+	float: none;
+	border: none;
+	padding-left: 0.5em;
+}
+
