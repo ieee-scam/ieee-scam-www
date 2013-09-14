@@ -26,7 +26,7 @@
 | | | David Baca. Tracing with Minimal Number of Probes
 | | | Yan Wang, Min Feng, Rajiv Gupta and Iulian Neamtiu. A State Alteration and Inspection-based Interactive Debugger
 | | | [DEMO] Mike Papadakis, Marcio Eduardo Delamaro and Yves Le Traon. Proteum/FL: a Mutation-based Fault Localization Tool
-| | | [DEMO] Antoine Floc’h, Tomofumi Yuki, Ali El-Moussawi, Antoine Morvan, Kevin Martin, Maxime Naullet, Mythri Alle, Ludovic L’hours, Nicolas Simon, Steven Derrien, Franois Charot, Christophe Wolinski and Olivier Sentieys. Gecos: An Extensible Source-to-Source Compiler for Embedded Hardware
+| | | [DEMO] Antoine Floc’h, Tomofumi Yuki, Ali El-Moussawi, Antoine Morvan, Kevin Martin, Maxime Naullet, Mythri Alle, Ludovic L’hours, Nicolas Simon, Steven Derrien, Franois Charot, Christophe Wolinski and Olivier Sentieys.GeCoS: A Framework for Prototyping Custom Hardware Design Flows
 | 15.00 | 15.15 | Coffee break 
 | 15.15 | 16.15 | Working/Discussion session 
 | 16.15 | 16.30 | Coffee break 
