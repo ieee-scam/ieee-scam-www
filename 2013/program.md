@@ -7,7 +7,7 @@
 |  Time |  | Activity |
 | ------:|----- | --------------------- |
 | 8.30 | 8.45 | Welcome, Introduction – General and Program Chairs 
-| 8.45 | 9.45 | Keynote speaker 
+| 8.45 | 9.45 | Keynote:  Paul Jansen - Is source code analysis able to predict defects? The first steps of a long journey
 | 9.45 | 10.00 | Coffee break 
 | 10.00 | 11.15 | Session1: Dependency Analysis 
 | | | Árpád Beszédes, Lajos Schrettner, Béla Csaba, Tamás Gergely, Judit Jász and Tibor Gyimóthy. Empirical Investigation of SEA-Based Dependence Cluster Properties 
@@ -37,7 +37,7 @@
 |  Time |  | Activity |
 | ------:|----- | --------------------- |
 |8.30 | 8.40 | Day 2 Welcome
-|8.40 | 9.45 | Keynote speaker
+|8.40 | 9.45 | Keynote: Oscar Nierstrasz - Agile Modeling -- When can we have it?
 |9.45 | 10.00 | Coffee break
 |10.00 | 11.15 | Session 4: Source code metrics
 | | | Tukaram Muske, Ankit Baid and Tushar Sanas. Review Efforts Reduction by Partitioning of Static Analysis Warnings 
