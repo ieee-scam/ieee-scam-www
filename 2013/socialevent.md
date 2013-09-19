@@ -1,7 +1,7 @@
 # Social Event
 # Social Event
 
-## Sunday (22 september) SCAM diner
+## Sunday (22 september) SCAM dinner
 Culinary walk ([also see the ICSM page](http://icsm2013.tue.nl/Venue/SocialEvents/index.html))
 
   - After the end of the workshop we leave together to our first restaurant: Meneer Frits, [Jan van Lieshoutstraat 3, Eindhoven](https://www.google.nl/maps?q=Meneer+Frits&t=m&z=16&iwloc=A)
