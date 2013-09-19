@@ -16,6 +16,7 @@ body {
 	padding: 0.5em;
 	background: #fff;
 	border: solid 1px #ddd;
+	width:100%;
 }
 
 header {
@@ -40,6 +41,7 @@ header p img {
 header h1 {
 	font-size:1.5em;
 	margin: 0;
+	width:100%;
 }
 header h2 {
 	font-size:1.2em;
@@ -47,10 +49,9 @@ header h2 {
 }
 
 #wrapper {
-	display: inline-block;
 	border-left: 15.85em solid #fff;
 	position: relative;
-	vertical-align: bottom;
+	vertical-align: top;
 }
 
 #sidebar {
@@ -128,7 +129,7 @@ header h2 {
 	float: left;
 	border-left: solid 1px #ddd;
 	padding-left: 1em;
-	width:99%;
+	width:90%;
 }
 
 footer {
