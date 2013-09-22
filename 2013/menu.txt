@@ -1,5 +1,6 @@
 index.md
 program.md
+socialevent.md
 authorkit.md
 cfp.md
 toolcfp.md
