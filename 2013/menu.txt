@@ -1,5 +1,6 @@
 index.md
 program.md
+notes.md
 socialevent.md
 authorkit.md
 cfp.md
