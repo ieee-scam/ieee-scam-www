@@ -1,4 +1,5 @@
-Welcome the repository behind the http://www.ieee-scam.org website.
+Welcome the repository behind the http://www.cser.ca website.
+This website was forked from the http://www.ieee-scam.org website repo.
 
 If you want to test your changes locally, run:
 
