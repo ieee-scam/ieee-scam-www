@@ -1,2 +1,0 @@
-all:
-	ruby build.rb

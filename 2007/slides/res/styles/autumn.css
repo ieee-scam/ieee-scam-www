@@ -1,63 +1,0 @@
-/* Combined style sheet for the index pages and the slide pages. *//* Style for all bodies and to control the margin on top. */body {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;	line-height: 16px;	color: #0000CC;	margin: 0px;	padding: 0px;	background-color: #CCCC99;}html {	scrollbar-face-color: #ACC2E3;	scrollbar-highlight-color: #F7F7F7;	scrollbar-shadow-color: #F7F7F7;	scrollbar-3dlight-color: #ACC2E3;	scrollbar-arrow-color: #F7F7F7;	scrollbar-track-color: #F7F7F7;	scrollbar-darkshadow-color: #ACC2E3;	scrollbar-base-color: #F7F7F7;	overflow-x: auto;	/*overflow-y: auto;*/}/* Style for the Top bar */.topbar {	background-color: #6595D6;	background-image: url(../topbars/golden-green/classic.gif);	background-repeat: repeat-x;	height: 25px;}/* Style for the Top ruler */.topruler {	height: 0px;}/* Style for the Bottom ruler */.bottomruler {	height: 0px;}/* Style for the Image/Folder Path Information */.bpppath {	font-size: 12px;	font-weight: bold;	color: #FAFAFA;}/* Style for the Image/Folder Index Information */.bppindex {	color: #FAFAFA;}/* Style for the Header */.bppheader {	color: #0000CC;}/* Style for the Footer */.bppfooter {	color: #0000CC;	font-size: 10px;}/* Style for the Page Bottom Shadow */.shadow {	visibility: visible;}/* Style for the page body */.index-pagebody, .slide-pagebody, .original-slide-pagebody {	background-color: #DED6A3;	padding: 10px;}/* Style for the Image Comment */.comment {	color: #CC0000;	font-size: 10px;}.commentheader {	vertical-align: top;	font-weight: bold;	color: black;	margin-right: 10px;}/* Style for any note/comment */.note {	color: #333333;	font-size: 10px;}/* Style for help-tips statusbar */.statusbar1, .statusbar2 {	color: #333333;	font-size: 10px;	text-align: center;	margin-top: 10px;}/* Style for photographic meta information */.photometainfo {	position: absolute;	left: 75px;	top: 100px;	z-index: 1;	background-color: #FFFFCC;	color: #999999;	visibility: hidden;	border: 1px dashed #000000;	padding: 5px 5px 5px 5px;}.metainfo-header {	font-weight: bold;}.metainfo-name {}.metainfo-value {    font-style: italic;}/* Style for help tips */.help {	position: absolute;	right: 40px;	top: 80px;	z-index: 1;	background-color: #FFFFCC;	color: #999999;	visibility: hidden;	border: 1px dashed #000000;	padding: 5px 5px 5px 5px;}.small {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 9px;	font-weight: normal;}/* Style for server side error messages */.errorbox {	background-color: #fcc;    border: 1px solid #c00;    padding: 5px;    margin: 10px 0px 10px 0px;}.errormessage {	color: #c00;}/* Style for remarks */.remarksheader {	font-size: 14px;	font-weight: bold;	font-family: Arial, sans-serif;    padding: 3px 0px 2px 0px;    margin: 8px 4px 2px 0px;	color: #70750D;	border-bottom: 1px solid #70750D;}.remarksbody { 	width: 80%; 	visibility: hidden; 	display: none;}.remarksinput {	border: 1px solid #8C8C8C;	padding: 10px;	margin: 5px 1px 5px 1px;	background-color: #f0f0f0; 	width: 70%;}.remarksadmin {
-	border: 1px dashed #3c78b5;
-	padding: 10px;
-	margin: 5px 0px 10px 0px;
-/*	width: 95%; RAC!! deleted*/
-	background-color: #f0f0f0;
-}
-
-.remarksadminheader {
-	margin: 0px 20px 0px 0px;
-	font-size: 12px; /*RAC!! added*/
-	font-weight: bold;
-	vertical-align: super;
-}
-
-.remarkbox {
-	padding: 5px 10px 5px 10px;
-    margin: 5px 0px 5px 0px;
-    border: 1px #bbb solid;
-}
-
-.remarkblock {
-	margin: 0px 0px 10px 0px;
-	color: #3561A2;
-}
-
-.remarksource {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9px;
-	color: #666666;
- 	width: 98%;
-}
-
-.remarkstatusbox {
-    border: 1px dashed red;
-	background-color: #f0f0f0;
-    font-size: 11px;
-	font-style: italic;
-    padding: 10px 5px 10px 5px;
-    margin: 5px 0px 5px 0px;
-}
-/*RAC!! added*/
-.remarksadminbuttons {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #3561A2;
-	border-style: outset;
-	margin: 1px;
-	padding: 1px;
-	width: 15em;
-}
-/*RAC!! added*/
-.remarksadmindropdown {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #3561A2;
-	margin: 1px;
-	padding: 1px;
-	width: 30em;
-}
-/* Custom link styles */a:active {	text-decoration: none;	color: #000066;}a:visited {	text-decoration: none;	color: #000066;}a:link {	text-decoration: none;	color: #000066;}a.footer:active {	text-decoration: none;	color: #000066;}a.footer:visited {	text-decoration: none;	color: #000066;}a.footer:link {	text-decoration: none;	color: #000066;}a.note:active {	text-decoration: none;	color: #333333;}a.note:visited {	text-decoration: none;	color: #333333;}a.note:link {	text-decoration: none;	color: #333333;}a.path:active {	text-decoration: none;	font-size: 12px;	font-weight: bold;	color: #FAFAFA;}a.path:visited {	text-decoration: none;	font-size: 12px;	font-weight: bold;	color: #FAFAFA;}a.path:link {	text-decoration: none;	font-size: 12px;	font-weight: bold;	color: #FAFAFA;}a:hover {	text-decoration: none;	color: red;}a.footer:hover {	text-decoration: none;	color: red;}a.note:hover {	text-decoration: none;	color: red;}a.path:hover {	text-decoration: underline;	font-size: 12px;	font-weight: bold;	color: #FAFAFA;}
