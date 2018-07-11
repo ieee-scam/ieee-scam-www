@@ -66,7 +66,8 @@
             <!-- Enable links to subpages by removing the "no-" prefix. -->
             <ul class="nav nav-stacked nav-pills" id="sidebar">
               <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-              <li><a data-toggle="no-pill" href="#acceptedPapers">Accepted Papers</a></li>
+              <li><a data-toggle="pill" href="#acceptedPapers" class="nav-highlight">Accepted Papers</a></li>
+              <li><a href="https://icsme2018.github.io/registration.html" target="_blank">Registration (via ICSME)</a></li>
               <!-- <li><a data-toggle="no-pill" href="#program">Program</a></li> -->
               <li><a data-toggle="pill" href="#call">Call for Research Papers</a></li>
               <li><a data-toggle="pill" href="#engcall">Call for Engineering Papers</a></li>
@@ -201,6 +202,9 @@
                     <td><del>July 9, 2018, AoE (23:59:59)</del></td>
                     <td><del>July 9, 2018, AoE (23:59:59)</del></td>
                   </tr>
+                  <tr class="table-highlight">
+                    <td colspan="3" class="text-center"><a href="https://icsme2018.github.io/registration.html" target="_blank">Registration (early-bird): July 15, 2018</a></td>
+                  </tr>
                   <tr>
                     <td>Camera Ready Deadline</td>
                     <td>Aug 13, 2018, AoE (23:59:59)</td>
@@ -228,37 +232,39 @@
               <h4>Research Track</h4>
 
               <ul>
-                <li>Yoshitaka Sakurai, Yoshitaka Arahori and Katsuhiko Gondow. <i>Skew-Aware Parallel Race Detection</i></li>
                 <li>Gábor Antal, Péter Hegedűs, Zoltán Tóth, Rudolf Ferenc and Tibor Gyimóthy. <i>Static JavaScript Call Graphs: a Comparative Study</i></li>
-                <li>Renate Eilers, Jurriaan Hage, Wishnu Prasetya and Joost Bosman. <i>Fine-Grained Model Slicing for Rebel</i></li>
-                <li>Eric Larson. <i>Automatic Checking of Regular Expressions</i></li>
-                <li>Sydney Pugh, Dave Binkley and Leon Moonen. <i>The Case for Adaptive Change Recommendation</i></li>
-                <li>Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy and Kevin Schneider. <i>On the Use of Machine Learning Techniques Towards the Design of Automatic Code Clone Validation Tools</i></li>
-                <li>Renhe Jiang, Zhengzhao Chen, Zejun Zhang, Yu Pei, Minxue Pan and Tian Zhang. <i>Semantics-Based Code Search Using Input/Output Examples</i></li>
                 <li>Michael J. Decker, Christian D. Newman, Natalia Dragan, Michael L. Collard, Jonathan I. Maletic and Nicholas A. Kraft. <i>Which Method-Stereotype Changes are Indicators of Code Smells?</i></li>
+                <li>J. Andres Diaz-Pace, Antonela Tommasel and Daniela Godoy. <i>Towards Anticipation of Architectural Smells using Link Prediction Techniques</i></li>
+                <li>Renate Eilers, Jurriaan Hage, Wishnu Prasetya and Joost Bosman. <i>Fine-Grained Model Slicing for Rebel</i></li>
+                <li>Serge Guelton, Adrien Guinet, Pierrick Brunet, Juan Manuel Martinez, Fabien Dagnat and Nicolas Szlifierski. <i>Combining Obfuscation and Optimizations in the Real World</i></li>
                 <li>Md. Anaytul Islam, Md. Moksedul Islam, Manishankar Mondal, Banani Roy, Chanchal K Roy and Kevin Schneider. <i>Detecting Evolutionary Coupling Using Transitive Association Rules</i></li>
+                <li>Renhe Jiang, Zhengzhao Chen, Zejun Zhang, Yu Pei, Minxue Pan and Tian Zhang. <i>Semantics-Based Code Search Using Input/Output Examples</i></li>
+                <li>Seldağ Özcan Kini and Ayşe Tosun. <i>Periodic Developer Metrics in Software Defect Prediction</i></li>
+                <li>Eric Larson. <i>Automatic Checking of Regular Expressions</i></li>
+                <li>Kawser Wazed Nafi, Banani Roy, Chanchal K. Roy and Kevin Schneider. <i>CroPSim: Cross Platform Software Similarity Detector using API documentation</i></li>
+                <li>Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy and Kevin Schneider. <i>On the Use of Machine Learning Techniques Towards the Design of Automatic Code Clone Validation Tools</i></li>
                 <li>Ward Muylaert and Coen De Roover. <i>Untangling Composite Commits Using Program Slicing</i></li>
                 <li>Davide Pizzolotto and Mariano Ceccato. <i>Obfuscating Java Programs by Translating Selected Portions of Bytecode to Native Libraries</i></li>
+                <li>Sydney Pugh, Dave Binkley and Leon Moonen. <i>The Case for Adaptive Change Recommendation</i></li>
+                <li>Yoshitaka Sakurai, Yoshitaka Arahori and Katsuhiko Gondow. <i>Skew-Aware Parallel Race Detection</i></li>
                 <li>Darius Sas, Francesca Fontana Arcelli and Marco Bessi. <i>Automatic Detection of Sources and Sinks in Arbitrary Java Libraries</i></li>
-                <li>Serge Guelton, Adrien Guinet, Pierrick Brunet, Juan Manuel Martinez, Fabien Dagnat and Nicolas Szlifierski. <i>Combining Obfuscation and Optimizations in the Real World</i></li>
-                <li>J. Andres Diaz-Pace, Antonela Tommasel and Daniela Godoy. <i>Towards Anticipation of Architectural Smells using Link Prediction Techniques</i></li>
-                <li>Seldağ Özcan Kini and Ayşe Tosun. <i>Periodic Developer Metrics in Software Defect Prediction</i></li>
-                <li>Kawser Wazed Nafi, Banani Roy, Chanchal K. Roy and Kevin Schneider. <i>CroPSim: Cross Platform Software Similarity Detector using API documentation</i></li>
               </ul>
 
               <h4>Engineering Track</h4>
 
               <ul>
-                <li>Raffi Khatchadourian, Yiming Tang, Mehdi Bagherzadeh and Syed Ahmed. <i>A Tool for Optimizing Java 8 Stream Software via Automated Refactoring</i></li>
                 <li>Kamel Alrashedy, Dhanush Dharmaretnam, Daniel M German, Venkatesh Srinivasan and T. Aaron Gulliver. <i>SCC: Automatic Classification of Code Snippets</i></li>
-                <li>Gábor Horváth, Péter Szécsi, Zoltán Gera, Daniel Krupp and Norbert Pataki. <i>Challenges of Implementing Cross Translation Unit Analysis in Clang Static Analyzer</i></li>
                 <li>Muslim Chochlov, Michael English, Jim Buckley, Daniel Ilie and Maria Scanlon. <i>CoRA: a Tool to Identify Feature Clones in a Suite of Software Systems</i></li>
-                <li>Rainer Koschke, Urs-Björn Schmidt and Bernhard J. Berger. <i>Built-in Clone Detection in Meta Languages</i></li>
                 <li>Valerio Cosentino, Santiago Dueñas, Gregorio Robles, Jesus M. Gonzalez-Barahona and Ahmed Zerouali. <i>Graal: The Quest for Source Code Knowledge</i></li>
+                <li>Gábor Horváth, Péter Szécsi, Zoltán Gera, Daniel Krupp and Norbert Pataki. <i>Challenges of Implementing Cross Translation Unit Analysis in Clang Static Analyzer</i></li>
                 <li>Matthieu Jimenez, Yves Le Traon and Mike Papadakis. <i>Enabling the Continous Analysis of Security Vulnerabilities with VulData7</i></li>
-                <li>David Shepherd, Patrick Francis, David Weintrop, Diana Franklin, Boyang Li and Afsoon Afzal. <i>An IDE for Easy Programming of Simple Robotics Tasks</i></li>
+                <li>Raffi Khatchadourian, Yiming Tang, Mehdi Bagherzadeh and Syed Ahmed. <i>A Tool for Optimizing Java 8 Stream Software via Automated Refactoring</i></li>
+                <li>Rainer Koschke, Urs-Björn Schmidt and Bernhard J. Berger. <i>Built-in Clone Detection in Meta Languages</i></li>
                 <li>Sandro Schulze and Wolfram Fenske. <i>Analyzing the Evolution of Preprocessor-Based Variability: A Tale of a Thousand and One Scripts</i></li>
+                <li>David Shepherd, Patrick Francis, David Weintrop, Diana Franklin, Boyang Li and Afsoon Afzal. <i>An IDE for Easy Programming of Simple Robotics Tasks</i></li>
               </ul>
+
+              <p class="text-center"><i>To be finalized...</i></p>
 
             </div>
             <!-- End Accepted Papers -->
