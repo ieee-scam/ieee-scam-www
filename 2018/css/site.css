@@ -22,3 +22,19 @@ li > a.nav-highlight {
   background-color: #5cb85c !important;
   text-decoration: none;
 }
+
+#program .panel-heading {
+  font-weight: bold;
+}
+
+#program td:first-child {
+  width: 17%;
+}
+
+#program b {
+  display: block;
+}
+
+#program small {
+  font-style: italic;
+}
