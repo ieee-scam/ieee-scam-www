@@ -31,10 +31,7 @@ li > a.nav-highlight {
   width: 17%;
 }
 
-#program b {
-  display: block;
-}
-
 #program small {
+  display: block;
   font-style: italic;
 }
