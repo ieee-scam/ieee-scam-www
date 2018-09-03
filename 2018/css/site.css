@@ -35,3 +35,8 @@ li > a.nav-highlight {
   display: block;
   font-style: italic;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
