@@ -281,9 +281,27 @@
 
               <h3>Program</h3>
 
+              <h5>Format</h5>
+
               <p>
                 Click <a href="#format">here</a> for further information about the presentations and the conference format.
               </p>
+
+              <h5>WiFi</h5>
+
+              <p>
+                SSID: Clientes_CBA<br>
+                Password: <span class="wifi"></span>
+              </p>
+
+              <h5>Proceedings</h5>
+
+              <p>
+                The proceedings are available <a href="http://conferences.computer.org/icsme/2018">here</a>.<br>
+                Username: icsme18<br>
+                Password: <span class="proceedings"></span>
+              </p>
+
 
               <div class="panel-group">
                 <div class="panel panel-info">
@@ -584,8 +602,8 @@
                       <tr>
                         <td>15:00 - 15:30</td>
                         <td>
-                          <b>Session 7: Demos</b>
-                            <small>Session Chair: Johan Fabry</small>
+                          <a href="#format"><b>Session 7: Demos</b></a>
+                          <small>Session Chair: Johan Fabry</small>
                         </td>
                         <td><i class="fas fa-laptop"></i></td>
                       </tr>
@@ -644,7 +662,7 @@
                       </tr>
                       <tr>
                         <td>18:30 - </td>
-                        <td><b>Social Event (fraternity activity with VISSOFT)</b></td>
+                        <td><a href="#venue"><b>Social Event (fraternity activity with VISSOFT)</b></a></td>
                         <td><i class="fas fa-users"></i></td>
                       </tr>
                     </tbody>
@@ -677,6 +695,14 @@
 
               <p>
                 If you have further questions, please do not hesitate to contact the <a href="#orgcom">program chairs</a>
+              </p>
+
+              <h4>Demos</h4>
+
+              <p>
+                There is a slot reserved for informal tool demos on <a href="#program">Monday afternoon</a>.
+                As the demos are informal, they can take place in the room where the session is or in the coffee break area.
+                Do not be afraid to show your tool, working (or barely working) software is always appreciated at SCAM!
               </p>
 
               <h4>sli.do</h4>
@@ -1055,8 +1081,14 @@
                   Please contact ICSME organizers if you need a visa letter.
                 </p>
 
-                <p><a href="https://icsme2018.github.io/travel/visareq.html">More info via ICSME</a></p>
+                <p><a href="https://icsme2018.github.io/travel/visareq.html">More info via ICSME</a></p>                
 
+                <h4>WiFi</h4>
+
+                <p>
+                  SSID: Clientes_CBA<br>
+                  Password: <span class="wifi"></span>
+                </p>
 
                 <h4>Coffee Breaks</h4>
 
@@ -1375,6 +1407,18 @@
     </footer>
 
     <script type="text/javascript">
+      var palette = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-/";
+
+      function decrypt(indices) {
+        var text = "";
+
+        for (var i in indices) {
+          text += palette[indices[i]];
+        }
+
+        return text;
+      }
+
       $(function() {
         var hash = window.location.hash;
         hash && $('ul.nav a[href="' + hash + '"]').tab('show');
@@ -1388,6 +1432,12 @@
             window.location.hash = hash;
           }
         });
+
+        var proceedings = [28, 40, 39, 31, 53, 60, 63, 63];
+        var wifi = [28, 46, 44, 45, 40, 38, 53, 59, 62, 2, 1, 0];
+
+        $('.proceedings').text(decrypt(proceedings));
+        $('.wifi').text(decrypt(wifi));
       });
 
       $(window).bind('hashchange', function(event) {
