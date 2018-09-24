@@ -61,24 +61,22 @@ li > a.nav-highlight {
   height: 60px;
 }
 
-#carousel {
-  height: 350px;
-  background-color: #444;
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
-#carousel div.item > img {
-  height: 350px;
-  margin-left: auto;
-  margin-right: auto;
+#gallery .thumbnail {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-#carousel div.carousel-caption > p {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+#gallery img {
+  max-height: 275px;
 }
 
-#carousel div.carousel-caption {
-  width: 100%;
-  left: 0;
-  right: 0;
+#gallery p {
+  text-align: center;
 }
-
