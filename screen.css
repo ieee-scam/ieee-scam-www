@@ -52,12 +52,12 @@ img {
 border: 0;
 }
 
-#entrylist {
+.entrylist {
 margin: 1em;
 list-style: none;
 }
 
-#entrylist li {
+.entrylist li {
 margin-bottom: .5em;
 }
 
@@ -938,3 +938,6 @@ h2.about {
 	color: #111;
 }
 
+.no-decoration {
+	text-decoration: none;
+}
