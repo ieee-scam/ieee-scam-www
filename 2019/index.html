@@ -286,64 +286,332 @@
             <div id="program" class="tab-pane fade">
 
               <h3>Program</h3>
+			  
+			  <style type="text/css">
+			  
+					td.cleaner{
+					border-bottom-width:0px;
+					}
 
+					li.cleaner{
+					border-bottom-width:0px;
+					}
+					.dayheader{
+					background-color: orange;
+					font-weight: bold;
+					padding:10px;
+					}
+
+					.keynote{
+					background-color: #CCCCFF;
+					padding:5px;
+					}
+
+					.sessionheader{
+					background-color: #cbdaf2;
+					font-weight: bold;
+					padding:5px;
+					}
+					.break{
+					background-color:#e4e8c0;
+					}
+
+					.majorsession{
+					background-color: yellow;
+					padding:5px;
+					}
+					.duration{
+					font-weight:bold;
+					border-top: 1px solid #CCCCCC;
+					}
+					
+					tr.paperentry{
+					vertical-align:top;
+					border-bottom-height:1px;
+					border-bottom-color:gray;
+					}
+					
+					td.papertime{
+					width:50px;
+					text-align:left;
+					}
+					td.papertype{
+					width:100px;
+					text-align:left;
+					}
+					
+					
+					
+			  </style>
+			  
               <p>
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
-				<tr style="background-color:#CCCCCC">
-				<th width="100px">Session</th><th width="75px" align="center">Duration</th><th width="75px">Track</th><th>Title</th>
-				</tr>
-				<tr>
-				<td align="center" colspan="4"><h4>September 30, 2019</h4></td>
-				</tr>
-				<tr>
-				<td>9:00-10:00</td><td align="center" >60</td><td>Keynote</td><td>Rainer Koschke <br> Pending Title (joint with VISSOFT) </td>
-				</tr>
-				<tr>
-				<td>10:00-10:20</td><td align="center">20</td><td>Opening</td><td>Yoshiki Higo and Alexander Serebrenik<br></td>
-				</tr>
-
-				<tr>
-				<td colspan="4" align="center" ><strong>Program Analysis (Session Chair: Mark Hills)</strong> </td>
-				</tr>
-				<tr>
-				<td rowspan="4">10:30-12:20</td>
-				<td align="center">15</td>
-				<td>Research</td><td>Kirsten Bradley and Mike Godfrey <br> A Study on the Effects of Exception Usage in Open-Source C++ Systems</td>
-				</tr>
-				<tr>
-				<td align="center">15</td>
-				<td>Research</td><td>Seongmin Lee, David Binkley, Nicolas Gold, Robert Feldt and Shin Yoo <br>MOAD: Modeling Observation-based Approximate Dependency</br></td>
-				</tr>
-				<tr>
-				<td align="center">15</td>
-				<td>Research</td><td>Abu Naser Masud and Federico Ciccozzi<br>Towards constructing the SSA form using reaching definitions over dominance frontiers</td>
-				</tr>
-				<tr>
-				<td align="center">15</td>
-				<td>Research</td><td>Diego Marcilio, Carlo A Furia, Rodrigo Bonifacio and Gustavo Pinto<br>Automatically Generating Fix Suggestions in Response to Static Code Analysis Warnings<br></td>
-				</tr>
-
-				<tr><td colspan="4" align="center"><strong>Mining Software Repositories (Session Chair: TBD)</strong>
-				</td> </tr>
-				<tr><td rowspan="5">13:30-15:00</td>
-				<td align="center">15</td>
-				<td> Research</td><td>Matheus Paixão and Paulo Henrique Maia <br>Rebasing Considered Harmful: A Large-scale Investigation in Modern Code Review</td></tr>
-				<tr>
-				  <td align="center">10</td>
-				  <td>Engineering</td><td>Marcus Kessel and Colin Atkinson <br>Automatically Curated Datasets</td>	</tr>
-				<tr>
-				  <td align="center">10</td>
-				  <td>RENE</td><td>Amit Kumar Mondal, Banani Roy and Kevin A. Schneider <br> An Exploratory Study on Automatic Architectural Change Analysis Using Natural Language Processing Techniques</td></tr>	
-				<tr>
-				  <td align="center">15</td>
-				  <td>Research</td><td>Anthony Peruma, Mohamed Wiem Mkaouer, Michael J Decker and Christian Newman<br> Contextualizing Rename Decisions using Refactorings and Commit Messages</td></tr>	
-				<tr>
-				  <td align="center">10</td> 
-				  <td>Engineering</td><td>Isaac M. M. Gomes, Daniel Coutinho and Marcelo Schots <br>No Accounting for Taste: Supporting Developers' Individual Choices of Coding Styles</td></tr>	
 				
+				<tr>
+				<td class="dayheader" colspan="4"><p><strong>September 30, 2019</strong></p></td>
+				</tr>
+				<tr>
+				<td class="duration">9:00-10:00</td><td colspan="3" class="keynote"><strong>Rainer Koschke</strong> TBD (joint with VISSOFT) </td>
+				</tr>
+				<tr>
+				<td class="duration">10:00-10:20</td><td colspan="3" class="majorsession"><strong>Opening: Yoshiki Higo and Alexander Serebrenik</strong></td>
+				</tr>
+				<tr>
+				<td class="duration">10:30-12:20</td><td colspan="3" class="sessionheader"><p><strong>Program Analysis (Session Chair: TBD)</strong></p></td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="4"></td>
+				<td class="papertime">15 min</td> <td class="papertype">Research</td><td>A Study on the Effects of Exception Usage in Open-Source C++ Systems<br>
+				<i>Kirsten Bradley and Mike Godfrey</i></td>
+				</tr>
+				<tr class="paperentry" >
+				<td class="papertime" >15 min</td>
+				<td class="papertype" >Research</td><td>MOAD: Modeling Observation-based Approximate Dependency<br>
+				<i>Seongmin Lee, David Binkley, Nicolas Gold, Robert Feldt and Shin Yoo</i>
+				</td>
+				</tr>
+				<tr class="paperentry" >
+				<td class="papertime">15 min</td>
+				<td class="papertype">Research</td><td>Towards constructing the SSA form using reaching definitions over dominance frontiers<br>
+				<i>Abu Naser Masud and Federico Ciccozzi</i>
+				</td>
+				</tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td>
+				<td class="papertype" >Research</td><td>Automatically Generating Fix Suggestions in Response to Static Code Analysis Warnings
+				<br>Diego Marcilio, Carlo A Furia, Rodrigo Bonifacio and Gustavo Pinto
+				</td>
+				</tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td></td><td colspan="3" class="majorsession"><strong>Lunch Break</strong></td>
+				</tr>
+
+				<tr>
+				<td class="duration">13:30-15:00</td>
+				<td colspan="3" class="sessionheader"><strong>Mining Software Repositories (Session Chair: TBD)</strong>
+				</td></tr>
+				<tr class="paperentry">
+				<td>&nbsp;</td>
+				<td class="papertime" >15 min</td>
+				<td class="papertype"> Research</td><td>Rebasing Considered Harmful: A Large-scale Investigation in Modern Code Review<br>
+				<i>Matheus Paixão and Paulo Henrique Maia</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td>&nbsp;</td>
+				  <td class="papertime">10 min</td>
+				  <td class="papertype" >Engineering</td>
+				  <td>Automatically Curated Datasets <br>
+				  <i>Marcus Kessel and Colin Atkinson</i>
+				  </td>	</tr>
+				<tr class="paperentry" >
+				<td>&nbsp;</td>
+				  <td class="papertime">10 min</td>
+				  <td class="papertype">RENE</td>
+				  <td>An Exploratory Study on Automatic Architectural Change Analysis Using Natural Language Processing Techniques
+				  <br><i>Amit Kumar Mondal, Banani Roy and Kevin A. Schneider</i>
+				  </td></tr>	
+				<tr class="paperentry">
+				<td>&nbsp;</td>
+				  <td class="papertime" >15 min</td>
+				  <td class="papertype" >Research</td>
+				  <td>Contextualizing Rename Decisions using Refactorings and Commit Messages
+				  <br><i>Anthony Peruma, Mohamed Wiem Mkaouer, Michael J Decker and Christian Newman</i>
+				  </td></tr>	
+				<tr class="paperentry">
+				<td>&nbsp;</td>
+				  <td class="papertime">10 min</td> 
+				  <td class="papertype" >Engineering</td>
+				  <td>No Accounting for Taste: Supporting Developers' Individual Choices of Coding Styles
+				  <br><i>Isaac M. M. Gomes, Daniel Coutinho and Marcelo Schots</i>
+				  </td></tr>	
+				  <tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				
+				<tr>
+				<td class="duration">15:30-16:50</td><td colspan="3" class="sessionheader" ><strong>Software Bugs (Session Chair: TBD) </strong></td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="4"></td><td class="papertime">15 min</td><td>Research</td><td>
+				The Strengths and Behavioral Quirks of Java Bytecode Decompilers <br>
+				<i>Nicolas Harrand, César Soto-Valero, Martin Monperrus and Benoit Baudry</i></td>
+				</tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Automated Customized Bug-Benchmark Generation <br>
+				<i>Vineeth Kashyap, Jason Ruchti, Lucja Kot, Emma Turetsky, Rebecca Swords, Shih An Pan, Julien Henry, David Melski and Eric Schulte</i></td>
+				</tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Evaluating Automatic Fault Localization Using Markov Processes<br>
+				<i>Tim Henderson, Yigit Kucuk and Andy Podgurski</i></td>
+				</tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Toward Optimal Selection of Information Retrieval Models for Software Engineering Tasks<br>
+				<i>Md Masudur Rahman, Saikat Chakraborty, Gail Kaiser and Baishakhi Ray</i></td>
+				</tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td class="duration">
+				16:50-17:30
+				</td>
+				<td colspan="3" class="majorsession"><strong>Open Steering Committee Meeting (SC Chair)</strong></td>
+				</tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td colspan="4" class="dayheader"><p><strong>October 01, 2019</strong></p></td>
+				</tr>
+				<tr>
+				<td class="duration">9:00-10:00</td><td colspan="3" class="sessionheader">Most Influential Papers (MIP Chairs)</td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="2"></td><td>30 min</td><td>MIP</td><td class="majorsession">RASCAL: A Domain Specific Language for Source Code Analysis and Manipulation <br>
+				<i>Paul Klint, Tijs van der Storm, Jurgen J. Vinju</i>
+				</td>
+				</tr>
+				<tr class="paperentry">
+				<td>30 min</td><td>MIP</td><td class="majorsession">
+				Software Engineering by Source Transformation-Experience with TXL <br>
+				<i>James R. Cordy, Thomas R. Dean, Andrew J. Malton, Kevin A. Schneider</i>
+				</td>
+				</tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td class="duration">10:30-12:20</td><td colspan="3" class="sessionheader"><p><strong>Human Aspects (Session Chair: TBD)</strong></p></td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="5"></td>
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Characterizing Leveraged Stack Overflow Posts	
+				<br>
+				<i>Salvatore Geremia, Gabriele Bavota, Rocco Oliveto, Michele Lanza and Massimiliano Di Penta</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Interactive Refactoring Documentation Bot	
+				<br>
+				<i>Soumaya Rebai, Ousaama Ben Sghaier, Vahid Alizadeh, Marouane Kessentini and Meriem Chater</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Movement Patterns and Trajectories in Three-Dimensional Software Visualization
+				<br>
+				<i>Marcel Steinbeck, Rainer Koschke and Marc Rüdel	
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">10 min</td><td>Engineering</td><td>
+				WAL: a Tool for Diagnosing Accessibility Issues and Evolving Legacy Web Systems at Runtime	
+				<br>
+				<i>Wanessa Teotônio, Pablo Gonzalez, Paulo Maia and Pedro Muniz
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Less is More: From Multi-Objective to Mono-Objective Refactoring via Developers Knowledge Extraction
+				<br>
+				<i>
+				Vahid Alizadeh, Houcem Fehri and Marouane Kessentini
+				</i>
+				</td></tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td></td><td colspan="3" class="majorsession"><strong>Lunch Break</strong></td>
+				</tr>
+				<tr>
+				<td class="duration">13:30-15:00</td><td colspan="3" class="sessionheader" >Software Testing (Session Chair: TBD)</td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="4"></td>
+				<td class="papertime">15 min</td><td>Research</td><td>
+				On the Efficacy of Dynamic Behavior Comparison for Judging Functional Equivalence
+				<br>
+				<i>
+				Marcus Kessel and Colin Atkinson
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				On The Quality of Identifiers in Test Code
+				<br>
+				<i>
+				Bin Lin, Csaba Nagy, Gabriele Bavota, Andrian Marcus and Michele Lanza
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Simultaneous Refactoring and Regression Testing: A Multi-Tasking Approach
+				<br>
+				<i>
+				Jeffrey Yackley, Marouane Kessentini, Gabriele Bavota, Vahid Alizadeh and Bruce Maxim
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Behave Nicely! Automatic Generation of Code for Behaviour Driven Development Test Suites
+				<br>
+				<i>
+				Ruxandra Bob and Tim Storer
+				</i>
+				</td></tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td class="duration">15:30-16:50</td><td class="sessionheader" colspan="3">Security (Session Chair: TBD)</td>
+				</tr>
+				<tr class="paperentry">
+				<td rowspan="4"></td>
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Permission Issues in Open-source Android Apps: An Exploratory Study
+				<br>
+				<i>
+				Gian Luca Scoccia, Anthony Peruma, Virginia Pujols, Ivano Malavolta and Daniel Krutz
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">10 min</td><td>Engineering</td><td>
+				The Architectural Security Tool Suite ArchSec
+				<br>
+				<i>
+				Bernhard J. Berger, Karsten Sohr and Rainer Koschke
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				LUDroid: A Large Scale Analysis of Android - Web Hybridization
+				<br>
+				<i>
+				Abhishek Tiwari, Jyoti Prakash, Sascha Groß and Christian Hammer
+				</i>
+				</td></tr>
+				<tr class="paperentry">
+				<td class="papertime">15 min</td><td>Research</td><td>
+				Introducing Privacy in Screen Event Frequency Analysis for Android Apps
+				<br>
+				<i>
+				Hailong Zhang, Sufian Latif, Raef Bassily and Atanas Rountev
+				</i>
+				</td></tr>
+				<tr>
+				<td colspan="4" class="cleaner" >&nbsp;</td>
+				</tr>
+				<tr>
+				<td class="duration">&nbsp;</td><td colspan="3" class="majorsession"><strong>Closing: Yoshiki Higo and Alexander Serebrenik </strong></td>
+				</tr>
 				</table>
-				
-				
               </p>
 
             </div>
