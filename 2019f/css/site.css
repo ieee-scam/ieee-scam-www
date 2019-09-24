@@ -9,3 +9,17 @@ h2,h3,h4,h5,h6 {
   margin-left: auto;
   margin-right: auto;
 }
+
+#keynoteImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#keynotePresentation {
+  text-align: center;
+}
+
+#keynoteDescription {
+  text-align: justify;
+}
