@@ -10,16 +10,16 @@ h2,h3,h4,h5,h6 {
   margin-right: auto;
 }
 
-#keynoteImage {
+.authorImage {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 
-#keynotePresentation {
+.authorPresentation {
   text-align: center;
 }
 
-#keynoteDescription {
+.authorDescription {
   text-align: justify;
 }
