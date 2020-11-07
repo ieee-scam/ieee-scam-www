@@ -11,12 +11,12 @@ h2,h3,h4,h5,h6 {
 }
 
 th{
-  padding: 15px;
+  padding: 15px !important;
 }
 
 td{
-  padding: 15px;
-  border: 1px solid black;
-  border-left: none;
-	border-right: none;
+  padding: 15px !important;
+  border: 1px solid black !important;
+  border-left: none !important;
+	border-right: none !important;
 }
