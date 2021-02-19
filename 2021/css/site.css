@@ -82,3 +82,7 @@ li > a.nav-highlight {
   right: 0;
 }
 
+#howto-table td,th {
+  padding: 10px;
+}
+
