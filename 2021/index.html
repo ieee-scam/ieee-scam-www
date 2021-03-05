@@ -69,8 +69,15 @@
             <!-- Enable links to subpages by removing the "no-" prefix. -->
             <ul class="nav nav-stacked nav-pills" id="sidebar">
               <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-              <li><a data-toggle="pill" href="#howtosubmit">How to Submit</a></li>
-              <li><a data-toggle="pill" href="#cfpresearchtrack">Call for Research Track Papers</a></li>         
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  href="#" role="button" aria-haspopup="tree" aria-expanded="false">
+                  Submission <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a data-toggle="pill" href="#howtosubmit">How to Submit</a></li>
+                    <li><a data-toggle="pill" href="#cfpresearchtrack">Call for Research Track Papers</a></li>   
+                  </ul>
+              </li>      
               <li role="presentation" class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" 
                       href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -178,9 +185,9 @@
                 </tr>
                 <tr>
                   <td>Engineering</td>
+                  <td>The engineering track looks for papers that discuss the innovations and solutions to practical problems that researchers and practitioners face in source code analysis and manipulation of software systems.</td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2193">Behnaz Hassanshahi</a>, <a href="https://grammarware.net/">Vadim Zaytsev</a></td>
                 </tr>
                 <tr>
                   <td>Replication and Negative Results (RENE)</td>
