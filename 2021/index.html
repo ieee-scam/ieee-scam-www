@@ -77,6 +77,7 @@
                     <li><a data-toggle="pill" href="#howtosubmit">How to Submit</a></li>
                     <li><a data-toggle="pill" href="#cfpresearchtrack">Call for Research Track Papers</a></li>   
                     <li><a data-toggle="pill" href="#cfpengtrack">Call for Engineering Track Papers</a></li>
+                    <li><a data-toggle="pill" href="#cfprenetrack">Call for Replication and Negative Results Papers</a></li>
                   </ul>
               </li>      
               <li role="presentation" class="dropdown">
@@ -192,9 +193,9 @@
                 </tr>
                 <tr>
                   <td>Replication and Negative Results (RENE)</td>
+                  <td>The RENE track provides a venue for researchers to submit papers reporting (1) replications of previous empirical studies (including controlled experiments, case studies, and surveys) and (2) important and relevant negative or null results (i.e., results that failed to show an effect, but help to eliminate useless hypotheses.</td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><a href="https://www.shbonita.me/">Bonita Sharif</a>, <a href="https://www.uni-paderborn.de/en/person/573/">Heike Wehrheim</a></td>
                 </tr>
                 <tr>
                   <td>New Ideas and Emerging Results (NIER)</td>
@@ -279,7 +280,7 @@
 
                 <p>SCAM explicitly solicits results from any theoretical or technological domain that can be applied to these and similar topics. Submitted papers should describe original, unpublished, and significant work and must not have been previously accepted for publication nor be concurrently submitted for review in another journal, book, conference, or workshop.</p>
  
-                <p>Before submitting pleas follow the guidelines in <a href="#howtosubmit">How to Submit</a>. Additionally, papers must not exceed 12 pages (the last 2 pages can be used for references only) and the papers should be submitted electronically in PDF format via <a href="https://easychair.org/conferences/?conf=scam2021">EasyChair</a>. Submission will be reviewed by at least three members of the <a href="http://www.ieee-scam.org/2021/#progcom">program committee</a>, judging the paper on its novelty, quality, importance, evaluation, and scientific rigor. If the paper is accepted, at least one author must register for the conference and present the paper.           </p>
+                <p>Before submitting please follow the guidelines in <a href="#howtosubmit">How to Submit</a>. Additionally, papers must not exceed 12 pages (the last 2 pages can be used for references only) and the papers should be submitted electronically in PDF format via <a href="https://easychair.org/conferences/?conf=scam2021">EasyChair</a>. Submission will be reviewed by at least three members of the <a href="http://www.ieee-scam.org/2021/#progcom">program committee</a>, judging the paper on its novelty, quality, importance, evaluation, and scientific rigor. If the paper is accepted, at least one author must register for the conference and present the paper.           </p>
                 
                 <h3>Important Dates for Research Papers</h3>
                 <table border="0">
@@ -317,7 +318,7 @@
             <div id="cfpengtrack" class="tab-pane fade">
               <h3>Call for Engineering Track Papers</h3>
 
-              <p>in the 21st IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) looks for papers that discuss innovations and solutions to practical problems that researchers and practitioners face in source code analysis and manipulation of software systems. With the research advancements in source code analysis during the past decades, the industry has adopted many of the research ideas and built tools and techniques to solve real-world problems in daily jobs of software engineers. The Engineering Track provides an opportunity to discuss these important and often overlooked ideas and achievements so that software engineers and researchers can use them to improve their engineering development and produce high-quality software. This track aims at bringing researchers and software engineers to communicate and share their insights and collaborate on tools, libraries, and infrastructure for source code analysis. </p>
+              <p>The Engineering Track in the 21st IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) looks for papers that discuss innovations and solutions to practical problems that researchers and practitioners face in source code analysis and manipulation of software systems. With the research advancements in source code analysis during the past decades, the industry has adopted many of the research ideas and built tools and techniques to solve real-world problems in daily jobs of software engineers. The Engineering Track provides an opportunity to discuss these important and often overlooked ideas and achievements so that software engineers and researchers can use them to improve their engineering development and produce high-quality software. This track aims at bringing researchers and software engineers to communicate and share their insights and collaborate on tools, libraries, and infrastructure for source code analysis. </p>
                
               <p>This track welcomes six-page papers that report on the design and implementation of tools for source code analysis and manipulation, as well as libraries, infrastructure, and real-world studies. The papers are expected to discuss engineering work artifacts that have NOT been published before as the main contribution. We encourage submissions that accompany papers in the Research Track.</p>
 
@@ -381,7 +382,57 @@
             <!-- End Eng Call -->
 
 
-			
+            <!-- Begin RENE Call-->
+
+            <div id="cfprenetrack" class="tab-pane fade">
+              <h3>Call for Replication and Negative Results Papers</h3>
+
+              <p>The 21st IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) will be hosting a Replication and Negative Result (RENE) track once again in 2021. This track provides a venue for researchers to submit papers reporting (1) replications of previous empirical studies (including controlled experiments, case studies, and surveys) and (2) important and relevant negative or null results (i.e., results that failed to show an effect, but help to eliminate useless hypotheses, therefore reorienting researchers on more promising research paths) related to source code analysis and manipulation (see list of topics in Technical Research Track).</p>
+
+              <p><b>Replications studies</b>: The papers in this category must go beyond simply re-implementing an algorithm and/or re-running the artifacts provided by the original paper. Such submissions should apply the approach on at least a partially new data sets (open-source or proprietary). This also means that it is possible to use available infrastructures to conduct measurements and experiments but with different/extended datasets and different conditions, scenarios, etc. Replication studies can either strengthen the results of the original study by increasing external validity with additional data or provide new insights into the variables that may impact the results. A replication paper should clearly report on results that the authors were able to reproduce as well as on the aspects of the work that were irreproducible.</p>
+
+              <p><b>Negative results papers</b>: In this category we seek papers that report on negative results. We seek negative results for all types of software engineering research related to source code and manipulation (qualitative, quantitative, case study, experiment, etc.). Negative results are important contributions to scientific knowledge because they allow us to prune our hypothesis space. As Walter Tichy writes, "Negative results, if trustworthy, are extremely important for narrowing down the search space. They eliminate useless hypotheses and thus reorient and speed up the search for better approaches."</p>
+
+              <h4>Evaluation Criteria</h4>
+
+              <p>Both Reproducibility Studies and Negative Results submissions will be evaluated according to the following standards:</p>
+
+              <ul>
+                <li>Depth and breadth of the empirical studies.</li>
+                <li>Clarity of writing.</li>
+                <li>Appropriateness of conclusions.</li>
+                <li>Amount of useful, actionable insights.</li>
+                <li>Deep discussion regarding the implications of the negative results or new results obtained with reproducibility studies.</li>
+                <li>Availability of artifacts.</li>
+                <li>Underlying methodological rigor and detailed description of procedures. For example, a negative result due primarily to misaligned expectations or due to lack of statistical power (small samples) is not a good submission. The negative result should be a result of a lack of effect, not lack of methodological rigor.</li>
+                <li>Clear descriptions of the differences between the original setup and the one used in the study (for the case of reproducibility studies).</li>
+              </ul>
+
+              <p>Most importantly, we expect that replication studies clearly point out the artifacts the study is built upon, and to provide the links to all the artifacts in the submission (the only exception will be given to those papers that reproduce the results on proprietary datasets that can not be publicly released).The paper should describe any changes to the original study design made during the replication, along with a justification for each change. The papers should contain a discussion section that compares the findings of the original and replication studies and describe the new knowledge gained from the replication along with any lessons learned from performing the replication. Partial replications are also welcome as long as the paper clearly states which parts of the study were replicated and which parts are new.</p>
+
+              <h4>Submission Guidelines</h4>
+
+              <p>Before submitting please follow the guidelines in <a href="#howtosubmit">How to Submit</a>. Additionally, submissions must be original, in the sense that the findings and writing have not been previously published or under consideration elsewhere. Papers must not exceed 10 pages for the main text, inclusive of figures, tables, appendices; references only may be included on up to 2 additional pages. The paper must be clearly marked as a RENE paper. The papers should be submitted electronically in PDF format via <a href="https://easychair.org/conferences/?conf=scam2021">EasyChair</a>. Submission will be reviewed by at least three members of the program committee, judging the paper on its novelty, quality, importance, evaluation, and scientific rigor. If the paper is accepted, at least one author must attend the conference and present the paper.</p>
+
+              <h4>Important Dates</h4>
+
+              <table border="0">
+                <tr>
+                <td width="150px"><strong>Abstract Submission:</strong></td><td> July 26st, 2021</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Paper Submission:</strong></td><td> August 2nd, 2021</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Author Notification:</strong></td><td> August 20th, 2021</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Camera Ready:</strong></td><td> August 27th, 2021</td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- End RENE Call -->
 			
 			
             <!-- Begin NIER Call -->
