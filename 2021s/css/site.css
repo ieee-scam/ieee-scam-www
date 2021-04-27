@@ -1,0 +1,25 @@
+h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.w-75 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.authorImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.authorPresentation {
+  text-align: center;
+}
+
+.authorDescription {
+  text-align: justify;
+}
