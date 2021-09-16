@@ -20,7 +20,7 @@ function setTimezoneInItem(item, utcOffset) {
     var hour = time.split(":")[0];
     var minutes = time.split(":")[1];
 
-    start_time = new Date(Date.UTC('2020','01','01', hour, minutes,'30'));
+    start_time = new Date(Date.UTC('2020','01','01', hour, minutes,'00'));
     end_time = addMinutes(start_time, parseInt(durationInMinutes));
 
     offsetInMinutes = utcOffset * 60;
@@ -28,7 +28,7 @@ function setTimezoneInItem(item, utcOffset) {
     start_time = addMinutes(start_time, offsetInMinutes);
     end_time = addMinutes(end_time, offsetInMinutes);
 
-    item.innerHTML = start_time.getHours() + ":" + start_time.getMinutes() + " - " + end_time.getHours + ":" + end_time.getMinutes();
+    item.innerHTML = start_time.getHours() + ":" + start_time.getMinutes() < 10 ? "0" + start_time.getMinutes() : start_time.getMinutes() + " - " + end_time.getHours() + ":" + end_time.getMinutes() ? "0" + end_time.getMinutes() : end_time.getMinutes();
 }
 
 convertTableItems(2);
