@@ -109,3 +109,8 @@ li > a.nav-highlight {
   background-color: rgb(204, 0, 255);
   padding: 5px;
 }
+
+#program-table .social-event {
+  background-color: rgb(67, 148, 0);
+  padding: 5px;
+}
