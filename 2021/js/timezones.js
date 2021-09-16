@@ -34,7 +34,7 @@ function setTimezoneInItem(item, utcOffset) {
 
 var selectZone = document.getElementById('timezone-select');
 selectZone.addEventListener('change', function() {
-  alert(this.value);
+  convertTableItems(parseInt(selectZone.value));
 }, false);
 
-convertTableItems(2);
+convertTableItems(0);
