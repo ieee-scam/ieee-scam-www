@@ -33,7 +33,7 @@ function setTimezoneInItem(item, utcOffset) {
 }
 
 var selectZone = document.getElementById('timezone-select');
-a.addEventListener('change', function() {
+selectZone.addEventListener('change', function() {
   alert(this.value);
 }, false);
 
