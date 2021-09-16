@@ -28,7 +28,8 @@ function setTimezoneInItem(item, utcOffset) {
     start_time = addMinutes(start_time, offsetInMinutes);
     end_time = addMinutes(end_time, offsetInMinutes);
 
-    item.innerHTML = start_time.getHours() + ":" + start_time.getMinutes() < 10 ? "0" + start_time.getMinutes() : start_time.getMinutes() + " - " + end_time.getHours() + ":" + end_time.getMinutes() ? "0" + end_time.getMinutes() : end_time.getMinutes();
+    item.innerHTML = start_time.getHours() + ":" + (start_time.getMinutes() < 10 ? "0" + start_time.getMinutes() : start_time.getMinutes()) + " - " + 
+                end_time.getHours() + ":" + (end_time.getMinutes() ? "0" + end_time.getMinutes() : end_time.getMinutes());
 }
 
 convertTableItems(2);
