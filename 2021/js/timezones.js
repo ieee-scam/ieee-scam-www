@@ -32,4 +32,9 @@ function setTimezoneInItem(item, utcOffset) {
                 end_time.getUTCHours() + ":" + (end_time.getUTCMinutes() < 10 ? "0" + end_time.getUTCMinutes() : end_time.getUTCMinutes());
 }
 
+var selectZone = document.getElementById('timezone-select');
+a.addEventListener('change', function() {
+  alert(this.value);
+}, false);
+
 convertTableItems(2);
