@@ -94,3 +94,14 @@ li > a.nav-highlight {
   width: 100%;
 }
 
+#program-table .major-item {
+  background-color: yellow;
+  padding: 5px;
+}
+
+#program-table .dayheader {
+  background-color: orange;
+  font-weight: bold;
+  padding: 10px;
+}
+
