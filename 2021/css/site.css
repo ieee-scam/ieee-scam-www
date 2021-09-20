@@ -124,3 +124,8 @@ li > a.nav-highlight {
   background-color: rgb(252, 236, 94);
   padding: 5px;
 }
+
+img .artifact-eval {
+  width: 48px;
+  height: 48px;
+}
