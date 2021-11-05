@@ -1,0 +1,131 @@
+h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.w-75 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li > a.nav-highlight {
+  font-weight: bold;
+  color: white !important;
+  background-color: #5cb85c !important;
+}
+
+.table-highlight, .table-highlight > td > a {
+  font-weight: bold;
+  color: white !important;
+  background-color: #5cb85c !important;
+  text-decoration: none;
+}
+
+#program .panel-heading {
+  font-weight: bold;
+}
+
+#program td:first-child {
+  width: 17%;
+}
+
+#program small {
+  display: block;
+  font-style: italic;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+
+.store-badge {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#itunes {
+  background-image: url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg);
+  width: 135px;
+  height: 40px;
+  margin: 10px;
+}
+
+#google-play {
+  background-image: url(https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png);
+  background-size: cover;
+  width: 155px;
+  height: 60px;
+}
+
+#carousel {
+  height: 350px;
+  background-color: #444;
+}
+
+#carousel div.item > img {
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel div.carousel-caption > p {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+#carousel div.carousel-caption {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+#howto-table td,th {
+  padding: 10px;
+}
+
+.pc-table td, th {
+  padding: 10px;
+}
+
+.pc-table {
+  width: 100%;
+}
+
+#program-table .major-item {
+  background-color: yellow;
+  padding: 5px;
+}
+
+#program-table .dayheader {
+  background-color: orange;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#program-table .session-header {
+  background-color: rgb(227, 113, 255);
+  padding: 5px;
+}
+
+#program-table .social-event {
+  background-color: rgb(170, 255, 100);
+  padding: 5px;
+}
+
+#program-table .keynote {
+  background-color: rgb(71, 160, 196);
+  padding: 5px;
+}
+
+#program-table .sc-meeting {
+  background-color: rgb(252, 236, 94);
+  padding: 5px;
+}
+
+.artifact-eval {
+  width: 48px;
+  height: 48px;
+}
