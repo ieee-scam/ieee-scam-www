@@ -69,20 +69,20 @@
             <!-- Enable links to subpages by removing the "no-" prefix. -->
             <ul class="nav nav-stacked nav-pills" id="sidebar">
               <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-              <!--<li role="presentation" class="dropdown">
+              <li role="presentation" class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown"
                   href="#" role="button" aria-haspopup="tree" aria-expanded="false">
                   Program <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a data-toggle="pill" href="#keynotes">Keynotes</a></li>
-                    <li><a data-toggle="pill" href="#program">Program</a></li>
+                    <li><a data-toggle="pill" href="#keynotes">Keynote</a></li>
+                    <!--<li><a data-toggle="pill" href="#program">Program</a></li>
                     <li><a data-toggle="pill" href="#mip">Most Influential Paper</a></li>
                     <li><a data-toggle="pill" href="#research-track-papers">Research Track Accepted Papers</a></li>
                     <li><a data-toggle="pill" href="#engineering-track-papers">Engineering Track Accepted Papers</a></li>
                     <li><a data-toggle="pill" href="#RENE-track-papers">RENE Track Accepted Papers</a></li>
-                    <li><a data-toggle="pill" href="#NIER-track-papers">NIER Track Accepted Papers</a></li>
+                    <li><a data-toggle="pill" href="#NIER-track-papers">NIER Track Accepted Papers</a></li>-->
                   </ul>
-              </li>  -->
+              </li>
               <li><a data-toggle="pill" href="#registration">Registration</a></li>
               <li role="presentation" class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown"
@@ -752,9 +752,9 @@
             </div>
 
             <div id="keynotes" class="tab-pane fade">
-              <h3>Keynotes</h3>
+              <h3>Keynote</h3>
               
-              <p>We are proud to announce the following two keynotes for SCAM 2021:</p>
+              <p>We are proud to announce the following keynote for SCAM 2022:</p>
 
               <table>
                 <tr>
@@ -763,30 +763,23 @@
                   <th style="width: 70%;"></th>
                 </tr>
                 <tr>
-                  <td valign="top"><img src="images/mira.jpg" class="img-responsive center-block" style="max-width: 100%;"></td>
+                  <td valign="top"><img src="https://www.bodden.de/wordpress/wp-content/uploads/2018/06/Prof.-Dr.-Eric-Bodden_EIM_25.11.2015_Foto-Frauke-Do%CC%88ll-768x996.jpg" class="img-responsive center-block" style="max-width: 100%;"></td>
                   <td></td>
                   <td>
-                    <p><b>Title: Collaborative Code Intelligence</b></p>
-                    <p><b>Abstract:</b> Like artificial intelligence moved from its first wave relying on handcrafted knowledge to its second wave that emphasizes statistical approaches, code intelligence has in the last two decades embraced statistical approaches, most recently with a strong focus on deep learning, especially transformer models, hoping to adopt to code what these architectures have achieved in the area of NLP. Just like AI is expected to embark the third wave bringing together knowledge-based and statistical reasoning, the next generation of code intelligence systems will probably intertwine rule-based and statistical reasoning and will become multi-modal to include in the set of their analysis subjects non-code artefacts such as documents, developer forums, knowledge bases, and more - hence, the term collaborative code intelligence. This potential development raises research questions, on which the keynote will touch upon. Special focus will be put on architectural models for collaborative code intelligence. To this end, I will briefly present  the architecture for collaborative classical code analyses of the OPAL framework and generalize from there to consider questions regarding the interplay between classical and  learning-based code analysis methods. (How) can classical analyses approaches be used to improve the quality and robustness of learning-based code processing, or to automate data generation and/or curation? Is there a role for them as part of the optimization engine driving the adjustments of model parameters? Etc.</p>
-                    <p><b>Mira Mezini</b> is a professor for computer science at the Technical University of Darmstadt, Germany.  Her research is at the intersection of two fundamental computer science methods. First, she and her group design and implement new programming models and frameworks with the goal of maximizing the automation of technical (non-functional) concerns, so that developers creativity and engineering efforts are focussed on solutions for application domain concerns. Second, they design new methods and techniques for reasoning about software properties. There are obvious synergies between these two areas. One can design programming models dedicated to writing program analyses, so as to facilitate their design and implementation. On the other way around, program intelligence methods can be instrumental for ensuring the efficiency and safety of language concepts.</p>
+                    <p><b>Title: When the rubber hits the road: an exciting journey from an academic analysis framework to a SAST product in industry</b></p>
+                    <p><b>Abstract:</b> For decades now, static-analysis researchers have sought to solve the daunting triad between precision, coverage, and performance. Using frameworks such as Soot, Doop, WALA, FlowDroid, Phasar, and the like, the community has prototyped many promising data structures and algorithms that improve towards this goal - and with success: lab experiments now frequently achieve low analysis runtimes with excellent signal-to-noise ratio.
+                      Bringing these advances into commercial static-analysis products is challenging, however, because this would generally involve radical, incompatible changes to the product’s solver. Hence we felt very fortunate when in 2020, Contrast Security gave us the opportunity to jointly realize a brand-new, developer-centric static application security testing (SAST) product using our latest technology and applying our research results.
+                      For us researchers, this was - and continues to be - an exciting journey, with many unknowns: Would our lab results hold up in practice? What additional tricks are needed to make it all work? How (not) to compose the development team? How would end-users react to the solution? And how to make this a win-win situation for everybody?
+                      </p>
+                    <p><b>Eric Bodden</b> (<a href="https://www.bodden.de">https://www.bodden.de</a>) is one of the leading experts on secure software engineering, with a specialty in building highly precise tools for automated program analysis. He is Professor for Secure Software Engineering at Paderborn University and director for Software Engineering and IT-Security at Fraunhofer IEM, where he is collaborating with the leading national and international software development companies.
+                      <br>
+                      Prof. Bodden's research was awarded numerous times. 2019, Bodden was named ACM Distinguished Member. At the German IT-Security Price, his group scored 1st place in 2016 and 2nd place in 2014. In 2014, the DFG awarded Bodden the Heinz Maier-Leibnitz-Preis, Germany's highest honor for young scientists. Prof. Bodden's research has received five ACM Distinguished Paper Awards in different communities. Prof. Bodden is a member of the editorial boards of ACM Transactions on Software Engineering and Methodology (TOSEM) and Springer Empirical Software Engineering (EMSE). In 2020, Bodden was elected into the Working Group 2.4 Software Implementation Technology of the International Federation for Information Processing (IFIP).
+                      </p>
                   </td>
                 </tr>
                 <tr>
                   <td height="50px" colspan="3"></td>
                 </tr>
-                <tr>
-                  <td valign="top"><img src="images/phil.png" class="img-responsive center-block" style="max-width: 100%;"></td>
-                  <td></td>
-                  <td>
-                    <p><b>Title: The inevitable emergence of write-only software</b></p>
-                    <p><b>Abstract:</b> From the NATO conferences held 50 years ago that blessed its usage, the term "software engineering" has been used by the industry as shorthand for "keeping code easy to understand and evolve by teams." We often use the term in contrast with "computer science," generally understood as "the science (and art) of efficiently solving abstract computational problems."</p>
-                      <p>This goal has ultimately become the kingmaker of paradigms, programming languages, design patterns, architectures, and even code editors. Object-Orientation, Test-Driven Development, Agile Methods, refactoring, Continuous Integration, Domain-Driven Design are examples of what the industry has produced and consumed over decades, focused on building and maintaining increasingly larger codebases that can stand the test of time.</p>
-                      <p>In the last decade, I have seen a subtle yet increasingly more evident shift in priorities. Over the last decade, small companies with just a few engineers need to build systems that support hundreds of millions of users before it even has a working business model. After a long trial-and-error period, we have established things like microservices, serverless computing, and crash-only software as the most practical way to build this type of software.</p>
-                      <p>In this new mindset, the rules have changed. We don't build software to last—we don't know if our companies will last! So instead, we make software focusing on time-to-market and the ability to quickly adapt to new requirements as our businesses pivot, searching for the holy grail of product/market fit.</p>
-                      <p>In this session, I will walk you through how I perceive the changes that this industry has been through since I first started my career twenty years ago and what implications and new open questions this new reality brings to the field of software engineering.
-                      </p>
-                    <p><b>Phil Calçado</b> is Senior Director of Engineering at SeatGeek, where he leads the team that builds the live events platform used by 44 million people worldwide. Before SeatGeek, he has led the platform team at Meetup/WeWork, worked on Linkerd—the pioneering Service Mesh, and headed product engineering for DigitalOcean and SoundCloud, both pioneers in the adoption of Microservices architectures.</p>
-                  </td>
               </table>
 
 
