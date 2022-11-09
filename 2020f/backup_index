@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSER 2020 Fall</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118032083-1"></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // gtag('config', 'UA-118032083-1');
+    </script>
+  </head>
+
+  <body>
+
+    <!-- Begin Header -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <br/>
+            <img class="img-responsive" src="images/logo_SER.gif" alt="CSER">
+          </div>
+
+          <div class="col-md-10">
+            <h1>Consortium for Software Engineering Research<br /> 2020 Fall Meeting</h1>
+            <h3>November 14th, 2020, Virtual</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+
+    <!-- Begin Body -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Begin Left panel -->
+        <div class="col-md-3">
+
+          <!-- Begin Menu -->
+          <div class="well">
+            <!-- Enable links to subpages by removing the "no-" prefix. -->
+            <ul class="nav nav-stacked nav-pills" id="sidebar">
+              <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+              <!-- <li><a data-toggle="no-pill" href="#acceptedPapers">Accepted Papers</a></li> --> 
+              <li><a data-toggle="pill" href="#theprogram">Program</a></li>
+              <li><a data-toggle="pill" href="#call">Call for Submissions</a></li>
+              <li><a data-toggle="pill" href="#orgcom">Organizing Committee</a></li>
+              <li><a data-toggle="pill" href="#steercom">Steering Committee</a></li>
+              <li><a data-toggle="pill" href="#venue">Venue</a></li>
+              <li><a data-toggle="pill" href="#registration">Registration</a></li>
+              <!-- <li><a data-toggle="pill" href="#sponsorship">Sponsorship</a></li> -->
+              <li><a href="http://www.cser.ca/" target="_blank">Conference series</a></li>
+            </ul>
+          </div>
+          <!-- End Menu -->
+
+        </div>
+        <!-- End Left panel -->
+
+
+        <!-- Begin Main panel -->
+        <div class="col-md-9">
+          <div class="tab-content">
+
+            <!--- Begin Home -->
+            <div id="home" class="tab-pane fade in active">
+              <div class="visible-lg visible-md">              </div>
+
+              <h3>Welcome to CSER'20 Fall!</h3>
+	      <h4 style="color:red;">Announcement for registerent</h4>
+	      <p style="color:red"><strong>If you have not received the zoom link, please send email to <a href="mailto:wangsong@york.ca", style="color:blue">wangsong@yorku.ca</a> to request the zoom link with a copy of your registeration comfirmation</strong></p>
+              <p><a href="http://www.cser.ca/">CSER</a> 2020 Fall will be held virtually on November 14th.</p> 
+			  <p> Our CSER Fall Workshop seeks to motivate engaging discussions among faculty, graduate students and industry participants about software engineering research in a broad sense. 
+			  
+              <h4>Aim</h4>
+              CSER brings together (primarily) Canadian-based software engineering researchers, including faculty, graduate students, industry participants, and any others who are interested. 
+
+        <h4>Keynote I</h4>
+			  <div style="text-align: center;" id="keynotePresentation" class="authorPresentation">
+                <img id="keynoteImage" src="images/Storey.jpg" alt="Margaret-Ann Storey" class="authorImage">
+                <a href="http://margaretstorey.com/" target="_blank"><h5>Margaret-Anne Storey</h5></a>
+				</div>
+				<div id="keynoteDescription" class="authorDescription">
+
+                <h5>Bio</h5>
+                <p style="text-align: justify; text-justify: auto;"><strong>Margaret-Anne Storey</strong> is a Professor of Computer Science and the Co-Director of the Matrix Institute for Applied Data Science at the University of Victoria. She holds a Canada Research Chair in Human and Social Aspects of Software Engineering and is a member of the Royal Society of Canada’s College of New Scholars, Artists and Scientists. She held the Lise Meitner Guest Professorship at Lund University in Sweden from 2016 to 2018, a professorship that promotes gender diversity in science. Together with her students and collaborators, she seeks to understand how software tools, communication media, data visualizations, and social theories can be leveraged to improve how software engineers and knowledge workers explore, understand, analyze and share complex information and knowledge. She has published widely on these topics and collaborates extensively with high-tech companies and non-profit organizations to ensure real-world applicability of her research contributions and tools. Over the past several years, she has collaborated with product teams and researchers at Microsoft to understand developer satisfaction and developer productivity, with the goal of improving their engineering systems and processes.
+                </p> 
+                <h5>Title</h5>
+                <p>The Who, What, How of Software Engineering Research</p>
+
+                <h5>Abstract</h5>
+                <p style="text-align: justify; text-justify: auto;">Software engineering is a socio-technical endeavor, and while many of our contributions focus on technical aspects, human stakeholders such as software developers are directly affected by and can benefit from our research and tool innovations. But how much of our research addresses human and social issues, and how do we study human and social aspects in our research designs? In this talk I present the Who-What-How research framework and use the framework to show how there is a need for more diverse research strategies that aim at a deeper understanding of human and social aspects of software development practice to balance the design and evaluation of technical innovations.</p></div>
+        <br>
+			  <h4>Keynote II</h4>
+			  <div style="text-align: center;" id="keynotePresentation" class="authorPresentation">
+                <img id="keynoteImage" src="images/AlvinFrancis.png" alt="Alvin Francis" class="authorImage">
+                <a href="https://www.linkedin.com/in/alvincfrancis/" target="_blank"><h5>Alvin Francis</h5></a>
+				</div>
+				<div id="keynoteDescription" class="authorDescription">
+
+                <h5>Bio</h5>
+                <p style="text-align: justify; text-justify: auto;"><strong>Alvin Francis</strong> is the Director of Development for Planning and Cognos Analytics at IBM. 
+                  Prior to IBM, Alvin spent several years in the telecommunications industry where he held various senior leader positions such as Director of Sales, Vice President of Marketing and Product Management and General Manager. 
+                  He has an MBA from University of Western Ontario Ivey School of Business, a Master of Science in Electrical Engineering from the University of Toronto and undergraduate degrees in Physics, Mathematics and Electrical Engineering from New Mexico State University. 
+                  </p>
+
+                <h5>Title</h5>
+                <p>How AI is impacting Software development</p>
+
+                <h5>Abstract</h5>
+                <p>The presentation will focus on the intersection of AI and Software development.  It will examine how AI can be leveraged in the Software Development Lifecycle and the challenges that data scientists and software developers face to operationalize AI at scale.
+                </p>
+
+              </div>
+          
+              <h4>Important Dates</h4>
+
+              <table class="table table-hover table-condensed w-75">
+                <thead>
+                  <tr>
+                    <th scope="col">&nbsp;</th>
+                    <th scope="col">Research Papers</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Submission Deadline</td>
+					<td><strike style="color:red;">Oct 23rd</strike> <div style="color:blue;">Nov 2nd</div></td>
+                    <!---<td>October <strike>1</strike>2nd, 2018</td> -->
+                  </tr>
+                  <tr>
+                    <td>Notification</td>
+					<td><strike style="color:red;">Nov 2nd</strike> <div style="color:blue;">Nov 6th</div></td>
+                    <!---<td>October 14, 2018</td>-->
+                  </tr>
+                   <tr>
+                    <td><a href="#registration">Registration</a></td>
+					<td>Nov 11th </td>
+                  </tr>
+                </tbody>
+              </table>
+          <!-- <p>Please check back later for updates.</p> -->
+
+     <!--          <div style="max-width: 600px; margin-left: auto; margin-right: auto;">
+                <a class="twitter-timeline" data-height="700" href="https://twitter.com/ieeeCSER">Tweets by ieeeCSER</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div> -->
+
+            </div>
+            <!--- End Home -->
+
+            <!-- Begin Accepted Papers -->
+            <div id="theprogram" class="tab-pane fade">
+
+              <h3>CSER Fall 2020 Detailed Program</h3>
+	      <h4 style="color:red;">Please note that all the times are EST Eastern Standard Time.</h4>
+			  
+             <!-- <iframe src="https://docs.google.com/spreadsheets/d/1wdlYYlsTY6Qm6S9R9aA5-RbhxYBsKUmhgYor6qyPhzY/preview" width="90%" height="500px"></iframe> -->
+						<table border="0" bordercolor="black" align="left" width="1000px">
+				<tr>
+					<th style="width:130px; padding: 15px;"></th>
+					<th style="width:150px; padding: 15px;" align="center" >Time</th>
+					<th style="padding: 15px; width:150px;">Agenda Item</th>
+					<th style="padding: 15px; width:200px;">Speaker(s)</th>
+					<th style="padding: 15px; width:500px;">Title</th>
+				</tr>
+				<tr>
+			<td><img src="images/Sedef Akinli Kocak.jpg" alt="" border=0 height=100 width=100>
+			<br>
+			<br>
+			<img src="images/Song Wang.jpg" alt="" border=0 height=100 width=100>
+			</td>
+            <td>9:00-9:10 AM</td>
+					<td>Opening Remarks</td>
+					<td><strong>Sedef Akinli Kocak</strong>
+            <br>Vector Institute
+            <br>
+			<br>
+			<br>
+			<br>
+			<strong>Song Wang</strong>
+            <br>York University
+            </td>
+					<td></td>
+				</tr>				
+				<tr>
+					<td><img src="images/Margaret-Ann Storey.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>9:10-10:00 AM</td>
+					<td>Keynote-I</td>
+					<td><strong>Margaret-Anne Storey</strong>
+              <br>University of Victoria</td>
+					<td>The Who, What, How of Software Engineering Research</td>
+				</tr>				
+				<tr>
+					<td><img src="images/Heng Li.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>10:00-10:30 AM</td>
+					<td>New Faculty Talk
+					<br><strong>(20 mins Talk 
+					<br>+ 10 mins QA)
+					</strong></td>
+          <td><strong>Heng Li</strong>
+              <br>Polytechnique Montréal</td>
+					<td>Towards Effective Monitoring of Large-Scale Software Systems</td>
+				</tr>				
+				<tr>
+					<td><img src="images/Shurui Zhou.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>10:30-11:00 AM</td>
+					<td>New Faculty Talk</td>
+          <td><strong>Shurui Zhou</strong>
+            <br>University of Toronto
+            </td>
+					<td>Improving Collaboration Efficiency for Distributed and Interdisciplinary Software Teams</td>
+				</tr>				
+				<tr>
+					<td><img src="images/masud.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>11:00-11:30 AM</td>
+					<td>New Faculty Talk</td>
+					<td><strong>Masud Rahman</strong>
+            <br>Dalhousie University</td>
+					<td>Finding Bugs and Features in the Software Code with Better Search Queries</td>
+				</tr>				
+				<tr>
+					<td><img src="images/ajay.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>11:30-11:50 AM</td>
+					<td>Research Talk
+					<br><strong>(15 mins Talk 
+					<br>+ 5 mins QA)
+					</strong></td>
+					<td><strong>Ajay Kumar Jha</strong>
+            <br>University of Alberta</td>
+					<td>Annotation practices in Android apps</td>
+				</tr>				
+				<tr>
+					<td><img src="images/Parvizi.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>11:50-12:10 AM</td>
+					<td>Research Talk</td>
+					<td><strong>Alireza Parvizimosaed</strong>
+            <br>University of Ottawa</td>
+					<td>Formal Specifications for Contracts</td>
+				</tr>				
+				<tr>
+					<!-- <td></td> -->
+					<td>12:10-1:00 PM</td>
+					<td>Break</td>
+					<td></td>
+					<td></td>
+				</tr>				
+				<tr>
+					<td><img src="images/AlvinFrancis.png" alt="" border=0 height=100 width=100></img></td>
+					<td>1:00-1:50 PM</td>
+					<td>Keynote-II</td>
+          <td><strong>Alvin Francis</strong> 
+            <br>IBM</td>
+					<td>Importance of software development In the age of AI</td>
+				</tr>				
+				<tr>
+					<td><img src="images/gias.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>1:50-2:20 PM</td>
+					<td>New Faculty Talk</td>
+					<td><strong>Gias Uddin</strong>
+            <br>University of Calgary</td>
+					<td>Automatic Mining and Summarization of Crowd Sourced Software Knowledge</td>
+				</tr>				
+				<tr>
+					<td><img src="images/mohammed_sayagh.jpeg" alt="" border=0 height=100 width=100></img></td>
+					<td>2:20-2:50 PM</td>
+					<td>New Faculty Talk</td>
+          <td><strong>Mohammed Sayagh</strong>
+            <br>ETS - Québec University</td>
+					<td>Supporting the creation and operation of multi-component systems</td>
+				</tr>				
+				<tr>
+					<td><img src="images/Fatemeh_Fard.png" alt="" border=0 height=100 width=100></img></td>
+					<td>2:50-3:10 PM</td>
+					<td>Research Talk</td>
+					<td><strong>Fatemeh H. Fard</strong>
+            <br>University of British Columbia.</td>
+					<td>Natural Language Processing for Analyzing Mobile App User Feedbacks</td>
+				</tr>				
+				<tr>
+					<td><img src="images/shivashree.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>3:10-3:30 PM</td>
+					<td>Research Talk</td>
+          <td><strong>Shivashree Subramanian</strong>
+            <br>McGill University.</td>
+					<td>Quantifying, Characterizing, and Mitigating Flakily Covered Program Elements</td>
+
+				</tr>				
+				<tr>
+					<td><img src="images/nezzati.jpg" alt="" border=0 height=100 width=100></img></td>
+					<td>3:30-3:50 PM</td>
+					<td>Research Talk</td>
+          <td><strong>Nsaer Ezzati-Jivan</strong>
+            <br>Brock University
+          </td>
+					<td>Leveraging software observability with social network methods</td>
+				</tr>				
+				<tr>
+					<td>
+					<img src="images/Hausi Muller.jpg" alt="" border=0 height=100 width=100>
+					<br>
+					<br>
+					<img src="images/Kelly Lyons.jpg" alt="" border=0 height=100 width=100>
+					<br>
+					<br>
+					<img src="images/Marin Litoiu.jpg" alt="" border=0 height=100 width=100>
+					</td>
+					<td>3:50-4:10 PM</td>
+					<td>Closing remarks and Announcement</td>
+					<td>
+            <strong>Hausi Muller</strong>
+            <br>University of Victoria
+			<br>
+			<br>
+			<br>
+			<br>
+            <br><strong>Kelly Lyons</strong>
+            <br>University of Toronto
+			<br>
+			<br>
+			<br>
+			<br>
+            <br><strong>Marin Litoiu</strong>
+            <br>York University
+            </td>
+					<td></td>
+				</tr>
+			</table>
+
+
+            </div>
+            <!-- End Accepted Papers -->
+
+            <!-- Begin ProgramProgram 
+
+             <div id="theprogram" class="tab-pane fade">
+                <div class="panel-group">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Program (notional!)</div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                              <li class="list-group-item">8:30 - 9:00 <h5>Registration and Breakfast</h5></li>
+                                <li class="list-group-item">9:00 - 9:15  <h5>Conference Opening</h5></li>
+                                <li class="list-group-item">9:15 - 10:15 <h5>Keynote by Ahmed Hassan</h5>
+                                  <small><p><i>Session Chair: Neil Ernst</i></p></small>
+                                </li>
+                                <li class="list-group-item">10:15 - 10:45 <h5>Coffee Break</h5></li>
+                                <li class="list-group-item">10:45 - 11:30<h5>New Faculty Talks</h5>
+                                    <small>
+                                        <p><i>Session Chair: Yan Liu</i></p>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                              <tr>
+                                                <td class="col-md-6">new faculty</td>
+                                                <td class="col-md-6">Title </td>
+                                            </tr>
+                                            <tr>
+                                                <td>new faculty</td>
+                                                <td>cool title</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </small>
+                            </li>
+                            <li class="list-group-item">12:00 - 14:00 <h5>Lunch and Posters</h5></li>
+                            <li class="list-group-item">13:30 - 15:00 <h5>Session 2: Short talks</h5>
+                                <small>
+                                    <p><i>Session Chair: TBD</i></p>
+                                    <table class="table table-striped">
+                                        <tbody>
+                                          <tr>
+                                            <td class="col-md-6">name</td>
+                                            <td class="col-md-6">title </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </small>
+                        </li>
+                        <li class="list-group-item">15:00 - 15:30 <h5>Coffee Break</h5></li>
+                        <li class="list-group-item">15:30 - 17:30 <h5>Session 3: More talks</h5>
+                            <small>
+                                <p><i>Session Chair: Hausi</i></p>
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td class="col-md-6">name</td>
+                                        <td class="col-md-6">title</td>
+                                    </tr>
+                
+                                </tbody>
+                            </table>
+                        </small>
+                    </li>
+                    <li class="list-group-item">17:30<h5>Closing</h5></li>
+                    <li class="list-group-item">17:45 - 19:30 <h5>Reception and Posters</h5></li>
+                </ul>
+            </div>      
+          </div>
+        </div>
+      </div>-->
+        
+
+            <!-- Begin Call -->
+            <div id="call" class="tab-pane fade">
+
+              <h3>Call for Submissions</h3>
+                <p>Submissions are welcome from across software engineering. </p>
+                
+				We invite you to contribute by sending your proposals for:
+                <ul>
+                 <li>New faculty talks (20 mins Talk + 10 mins QA)</li>
+                  <li>Regular research talks (15 mins Talk + 5 mins QA)</li>
+                  <li>Poster/demo/lightning talk presentations</li>
+                </ul>
+                The deadline to send in your proposals is: <strike style="color:red;">Friday, October 23, 2020, 23:59 (EDT)</strike> <strong style="color:blue;">Monday, November 2nd, 2020.</strong>
+
+                <p>Please visit the following form to <a href="https://forms.gle/QnreiEsbGGHQrDu38">submit your proposal</a>. Include the following to allow us to prepare a great program:
+                  <ul>
+                      <li>Presentation title</li>
+                      <li>Author name(s) (with the presenter(s) highlighted) and affiliation</li>
+                      <li>Presentation abstract (up to 150 words)</li>
+                      <li>Type of talk (e.g., new faculty, regular, or poster/demo)</li>
+                    </ul>
+                There is also time during the meeting to briefly publicize software engineering related events such as conferences, workshops, projects, etc. Please make sure you send us your request for announcements (including the presenter’s name and the event’s title) to guarantee a time slot for your announcement.
+
+              <h3>Proceedings</h3>
+
+              <p>CSER does not publish proceedings in order to keep presentations informal and speculative.</p>
+
+            </div>
+            <!-- End Call -->
+
+
+            <!-- Begin Organizing Committee -->
+            <div id="orgcom" class="tab-pane fade">
+
+              <h5>Program Co-Chairs</h5>
+              <ul>
+                <li><a href="https://ca.linkedin.com/in/sedefakocak">Sedef Akinli Kocak</a>, Vector Institute & Ryerson University </li>
+                <li><a href="https://www.eecs.yorku.ca/~wangsong/">Song Wang</a>, York University</li>
+              </ul>
+
+
+              <h5>Finance Chair</h5>
+              <ul>
+                <li><a href="http://fcoallier-en.etsmtl.net">François Coallier</a>, ETS</li>
+              </ul>
+
+              <h5>Social Media Chair</h5>
+              <ul>
+			 <li> <a href="https://www.linkedin.com/in/moshi-wei/?originalSubdomain=ca">Moshi Wei</a>, York University</li>
+                 <!--<li><a href="https://users.encs.concordia.ca/~rab_abdu/">Rabe Abdalkareem, Concordia</a></li> -->
+              </ul>
+
+            </div>
+            <!-- End Organizing Committees -->
+
+             <!-- Begin Steering Committee -->
+            <div id="steercom" class="tab-pane fade">
+
+              <h4>CSER Steering Committee</h4>
+              <ul>
+                <li><a href="http://marinlitoiu.info.yorku.ca">Marin Litoiu</a>, York University</li>
+                <li><a href="http://individual.utoronto.ca/klyons/">Kelly Lyons</a>, University Toronto</li>
+                <li><a href="http://webhome.cs.uvic.ca/~hausi/">Hausi Müller</a>, University of Victoria</li>
+              </ul>
+            </div>
+            <!-- End Steering Committee -->
+
+
+            <!-- Begin Venue -->
+            <div id="venue" class="tab-pane fade">
+
+                <div class="col-lg-5 col-md-6">
+<!--                   <img class="img-responsive" src="images/Madrid.png" alt="Madrid">
+ -->                </div>
+                <h4>Virtual</h4>
+                <p>Due to the COVID-19 pandemics, the CSER 2020 Fall will be run fully virtual, we will post updates on the virtual setup on the conference website.</p>
+				
+            </div>
+            <!-- End Venue -->
+          <!-- Begin Reg -->
+            <div id="registration" class="tab-pane fade">
+
+                <div class="col-lg-5 col-md-6"></div>
+                <h4>Registration</h4>
+                <p>
+                  Dr. François Coallier's office at ÉTS in Montréal has kindly agreed to handle CSER Fall 2020 registration. Please <a href="https://www.etsmtl.ca/Evenements/CSER?lang=en-ca">submit your registration using the on-line form</a>. Deadline is Nov 11th. 
+				  The registration site accepts Visa and MasterCard only. 
+
+                  <ul>
+                    <li>Students: $25</li>
+                    <li>Non-students (faculty, industry, government, etc.): $75</li>
+                  </ul>
+                </p>
+
+            </div>
+            <!-- End Reg -->
+          </div>
+        </div>
+        <!-- End Main panel -->
+
+      </div>
+    </div>
+    <!-- End Body -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">&copy; CSER 2020 Fall, this site builds on an excellent foundation by <a href="http://damevski.github.io">Kosta Damevski</a>.</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      $(function() {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+        window.scrollTo(0, 0);
+      });
+
+      $(document).ready(function() {
+        $('a').click(function(event) {
+          var hash = $(this).attr('href');
+          if (hash.startsWith('#')) {
+            window.location.hash = hash;
+          }
+        });
+      });
+
+      $(window).bind('hashchange', function(event) {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+        window.scrollTo(0, 0);
+      });
+    </script>
+
+  </body>
+</html>
