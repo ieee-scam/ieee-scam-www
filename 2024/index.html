@@ -1,0 +1,2301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SCAM 2024 - International Working Conference on Source Code Analysis &amp; Manipulation</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118032083-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118032083-1');
+    </script>
+
+    <style>.lst-kix_ps0c4r9o8yz0-8>li:before{content:"\0025a0   "}.lst-kix_ps0c4r9o8yz0-4>li:before{content:"\0025cb   "}.lst-kix_ps0c4r9o8yz0-3>li:before{content:"\0025cf   "}.lst-kix_ps0c4r9o8yz0-7>li:before{content:"\0025cb   "}.lst-kix_ps0c4r9o8yz0-6>li:before{content:"\0025cf   "}.lst-kix_ps0c4r9o8yz0-5>li:before{content:"\0025a0   "}.lst-kix_ps0c4r9o8yz0-0>li:before{content:"\0025cf   "}.lst-kix_ps0c4r9o8yz0-2>li:before{content:"\0025a0   "}.lst-kix_ps0c4r9o8yz0-1>li:before{content:"\0025cb   "}ul.lst-kix_cwol6ejyo6ck-8{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-7{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-4{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-3{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-6{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-5{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-0{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-1{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-2{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-3{list-style-type:none}
+      ul.lst-kix_ps0c4r9o8yz0-4{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-5{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-6{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-7{list-style-type:none}ul.lst-kix_ps0c4r9o8yz0-8{list-style-type:none}.lst-kix_c3tlyu5foqqj-0>li:before{content:"\0025cf   "}.lst-kix_c3tlyu5foqqj-1>li:before{content:"\0025cb   "}.lst-kix_c3tlyu5foqqj-2>li:before{content:"\0025a0   "}ul.lst-kix_v4ad8faqjrm0-8{list-style-type:none}.lst-kix_c3tlyu5foqqj-3>li:before{content:"\0025cf   "}ul.lst-kix_v4ad8faqjrm0-7{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-6{list-style-type:none}.lst-kix_c3tlyu5foqqj-6>li:before{content:"\0025cf   "}ul.lst-kix_8h5r6dmx9w2l-0{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-5{list-style-type:none}ul.lst-kix_8h5r6dmx9w2l-1{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-4{list-style-type:none}ul.lst-kix_8h5r6dmx9w2l-2{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-3{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-2{list-style-type:none}
+      .lst-kix_c3tlyu5foqqj-4>li:before{content:"\0025cb   "}.lst-kix_c3tlyu5foqqj-8>li:before{content:"\0025a0   "}ul.lst-kix_v4ad8faqjrm0-1{list-style-type:none}ul.lst-kix_v4ad8faqjrm0-0{list-style-type:none}.lst-kix_c3tlyu5foqqj-5>li:before{content:"\0025a0   "}.lst-kix_c3tlyu5foqqj-7>li:before{content:"\0025cb   "}.lst-kix_v4ad8faqjrm0-2>li:before{content:"\0025a0   "}.lst-kix_cwol6ejyo6ck-5>li:before{content:"\0025cf   "}.lst-kix_cwol6ejyo6ck-6>li:before{content:"\0025cf   "}.lst-kix_v4ad8faqjrm0-1>li:before{content:"\0025cb   "}.lst-kix_v4ad8faqjrm0-3>li:before{content:"\0025cf   "}ul.lst-kix_8h5r6dmx9w2l-7{list-style-type:none}.lst-kix_cwol6ejyo6ck-1>li:before{content:"\0025cf   "}ul.lst-kix_8h5r6dmx9w2l-8{list-style-type:none}ul.lst-kix_8h5r6dmx9w2l-3{list-style-type:none}.lst-kix_v4ad8faqjrm0-0>li:before{content:"\0025cf   "}.lst-kix_cwol6ejyo6ck-0>li:before{content:"\0025cf   "}.lst-kix_cwol6ejyo6ck-7>li:before{content:"\0025cf   "}
+      .lst-kix_cwol6ejyo6ck-8>li:before{content:"\0025cf   "}ul.lst-kix_8h5r6dmx9w2l-4{list-style-type:none}ul.lst-kix_8h5r6dmx9w2l-5{list-style-type:none}ul.lst-kix_8h5r6dmx9w2l-6{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-0{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-2{list-style-type:none}ul.lst-kix_cwol6ejyo6ck-1{list-style-type:none}.lst-kix_cwol6ejyo6ck-2>li:before{content:"\0025cf   "}.lst-kix_ds4qd22cqlki-7>li:before{content:"\0025cb   "}.lst-kix_cwol6ejyo6ck-3>li:before{content:"\0025cf   "}.lst-kix_cwol6ejyo6ck-4>li:before{content:"\0025cf   "}.lst-kix_ds4qd22cqlki-8>li:before{content:"\0025a0   "}.lst-kix_ds4qd22cqlki-3>li:before{content:"\0025cf   "}.lst-kix_ds4qd22cqlki-5>li:before{content:"\0025a0   "}.lst-kix_ds4qd22cqlki-2>li:before{content:"\0025a0   "}.lst-kix_ds4qd22cqlki-6>li:before{content:"\0025cf   "}ul.lst-kix_325f0x0ag5z-8{list-style-type:none}ul.lst-kix_325f0x0ag5z-6{list-style-type:none}ul.lst-kix_325f0x0ag5z-7{list-style-type:none}
+      .lst-kix_ds4qd22cqlki-4>li:before{content:"\0025cb   "}ul.lst-kix_325f0x0ag5z-0{list-style-type:none}ul.lst-kix_325f0x0ag5z-1{list-style-type:none}.lst-kix_325f0x0ag5z-8>li:before{content:"\0025cf   "}ul.lst-kix_325f0x0ag5z-4{list-style-type:none}.lst-kix_325f0x0ag5z-7>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-7>li:before{content:"\0025cb   "}.lst-kix_8h5r6dmx9w2l-8>li:before{content:"\0025a0   "}ul.lst-kix_325f0x0ag5z-5{list-style-type:none}ul.lst-kix_325f0x0ag5z-2{list-style-type:none}ul.lst-kix_325f0x0ag5z-3{list-style-type:none}.lst-kix_v4ad8faqjrm0-5>li:before{content:"\0025a0   "}.lst-kix_ds4qd22cqlki-1>li:before{content:"\0025cb   "}.lst-kix_v4ad8faqjrm0-4>li:before{content:"\0025cb   "}.lst-kix_ds4qd22cqlki-0>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-2>li:before{content:"\0025a0   "}.lst-kix_325f0x0ag5z-1>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-1>li:before{content:"\0025cb   "}.lst-kix_8h5r6dmx9w2l-0>li:before{content:"\0025cf   "}
+      .lst-kix_325f0x0ag5z-3>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-3>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-4>li:before{content:"\0025cb   "}.lst-kix_325f0x0ag5z-0>li:before{content:"\0025cf   "}.lst-kix_325f0x0ag5z-4>li:before{content:"\0025cf   "}ul.lst-kix_c3tlyu5foqqj-0{list-style-type:none}.lst-kix_v4ad8faqjrm0-6>li:before{content:"\0025cf   "}.lst-kix_325f0x0ag5z-5>li:before{content:"\0025cf   "}.lst-kix_8h5r6dmx9w2l-5>li:before{content:"\0025a0   "}.lst-kix_8h5r6dmx9w2l-6>li:before{content:"\0025cf   "}.lst-kix_v4ad8faqjrm0-7>li:before{content:"\0025cb   "}.lst-kix_v4ad8faqjrm0-8>li:before{content:"\0025a0   "}.lst-kix_325f0x0ag5z-6>li:before{content:"\0025cf   "}ul.lst-kix_ds4qd22cqlki-0{list-style-type:none}ul.lst-kix_ds4qd22cqlki-1{list-style-type:none}ul.lst-kix_ds4qd22cqlki-2{list-style-type:none}ul.lst-kix_ds4qd22cqlki-3{list-style-type:none}ul.lst-kix_ds4qd22cqlki-4{list-style-type:none}ul.lst-kix_ds4qd22cqlki-5{list-style-type:none}
+      ul.lst-kix_c3tlyu5foqqj-1{list-style-type:none}ul.lst-kix_ds4qd22cqlki-6{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-2{list-style-type:none}ul.lst-kix_ds4qd22cqlki-7{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-3{list-style-type:none}ul.lst-kix_ds4qd22cqlki-8{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-4{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-5{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-6{list-style-type:none}.lst-kix_325f0x0ag5z-2>li:before{content:"\0025cf   "}ul.lst-kix_c3tlyu5foqqj-7{list-style-type:none}ul.lst-kix_c3tlyu5foqqj-8{list-style-type:none}ol{margin:0;padding:0}table td,table th{padding:0}.c19{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;background-color:#f90;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c11{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;background-color:#b6d7a8;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}
+      .c2{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;background-color:#ff0;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c7{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;background-color:#b6d7a8;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c29{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#fff;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c26{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#fff;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}
+      .c6{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c10{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c9{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}.c17{border-right-style:solid;padding:5pt;border-bottom-color:#000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000;vertical-align:top;border-right-color:#000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;border-top-color:#000;border-bottom-style:solid}
+      .c12{color:#000;font-weight:400;text-decoration:none;vertical-align:baseline;font-style:italic}.c0{color:#000;font-weight:400;text-decoration:none;vertical-align:baseline;font-style:normal}.c16{color:#000;font-weight:700;text-decoration:none;vertical-align:baseline;font-style:normal}.c28{color:#000;font-weight:400;text-decoration:none;vertical-align:baseline;font-style:normal}.c1{padding-top:0;padding-bottom:0;line-height:1.15;orphans:2;widows:2;text-align:left}.c4{padding-top:0;padding-bottom:0;line-height:1;text-align:left;height:12pt}.c8{padding-top:0;padding-bottom:0;line-height:1;text-align:left}.c20{margin-left:-.8pt;border-spacing:0;border-collapse:collapse;margin-right:auto}.c18{background-color:#fff;max-width:510.3pt;padding:42.5pt}.c5{font-weight:700}.c13{height:0}.c27{height:23.5pt}.c21{background-color:#f90}.c23{height:12pt}.c25{height:24pt}.c14{background-color:#ff0}.c22{font-weight:700}.c15{font-style:italic}.c3{height:22pt}.c24{background-color:#b6d7a8}
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Begin Header -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <br/>
+            <img class="img-responsive" src="scam_images/SCAM_logo.png" alt="SCAM">
+          </div>
+
+          <div class="col-md-10">
+            <h1>24rd IEEE International Working Conference on Source Code Analysis and Manipulation</h1>
+            <h3>October, 2024 - Flagstaff, AZ, USA</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+
+    <!-- Begin Body -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Begin Left panel -->
+        <div class="col-md-3">
+
+          <!-- Begin Menu -->
+          <div class="well">
+            <!-- Enable links to subpages by removing the "no-" prefix. -->
+            <ul class="nav nav-stacked nav-pills" id="sidebar">
+              <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+              <!--li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="tree" aria-expanded="false">Program <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a data-toggle="pill" href="#keynotes">Keynotes</a></li>
+                    <li><a data-toggle="pill" href="#program">Program</a></li>
+                    <li><a data-toggle="pill" href="#mip">Most Influential Paper</a></li>
+                    <li><a data-toggle="pill" href="#accepted-papers">Accepted Papers</a></li>
+                  </ul>
+              </li>
+              <li><a data-toggle="pill" href="#registration">Registration</a></li>
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  href="#" role="button" aria-haspopup="tree" aria-expanded="false">
+                  Submission <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a data-toggle="pill" href="#howtosubmit">How to Submit</a></li>
+                    <li><a data-toggle="pill" href="#cfpresearchtrack">Call for Research Track Papers</a></li>   
+                    <li><a data-toggle="pill" href="#cfpengtrack">Call for Engineering Track Papers</a></li>
+                    <li><a data-toggle="pill" href="#cfprenetrack">Call for Replication and Negative Results Papers</a></li>
+                    <li><a data-toggle="pill" href="#cfpniertrack">Call for New Ideas and Emerging Results Papers</a></li>
+                    <li><a data-toggle="pill" href="#cfpaetrack">Artifact Evaluation</a></li>
+                  </ul>
+                </li-->
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" 
+                      href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Organization <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <!--li><a data-toggle="pill" href="#steer">Steering Committee</a></li-->
+                  <li><a data-toggle="pill" href="#org">Organizing Committee</a></li>
+                  <!--li><a data-toggle="pill" href="#pc">Program Committees</a></li-->
+                </ul>
+              </li>
+              <!--li><a data-toggle="pill" href="#fun">Fun</a></li>
+              <li><a data-toggle="pill" href="#skit">Skit</a></li>
+              <li><a data-toggle="pill" href="#supporters">Supporters</a></li>
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  href="#" role="button" aria-haspopup="tree" aria-expanded="false">
+                  Scholarships <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a data-toggle="pill" href="#scholarship">Author Scholarship</a></li>
+                    <li><a data-toggle="pill" href="#participation-scholarship">Participation Scholarships</a></li>
+                  </ul>
+              </li-->
+              <li><a href="http://www.ieee-scam.org/" target="_blank">Conference series</a></li>
+            </ul>
+          </div>
+          <!-- End Menu -->
+
+          <!-- Begin Sponsors -->
+          <!--div class="panel panel-default">
+            <div class="panel-heading">Sponsors</div>
+            <div class="panel-body">
+              <br/>
+              <img class="img-responsive center-block" width="150" src="images/ieee_cs_new.png" alt="IEEE Computer Society"/>
+              <br/>
+              <img class="img-responsive center-block" width="150" src="images/ieee-tcse.png" alt="IEEE Technical Council on Software Engineering"/>
+              <br/>
+            </div>
+          </div-->
+          <!-- End Sponsors -->
+
+          <!-- Begin Supporters -->
+          <!--div class="panel panel-default">
+            <div class="panel-heading">Supporters</div>
+            <div class="panel-body" style="text-align: center">
+              <br>
+              <a href="https://www.thetradedesk.com/" target="_blank"><img class="img-responsive center-block" width="180" src="https://www.thetradedesk.com/assets/global/ttd-logo.svg" alt="The Trade Desk" title="The Trade Desk is a global technology company with a mission to create a better, more open internet for everyone through principled, intelligent advertising. Handling over 1 trillion queries per day, our platform operates at an unprecedented scale. Our award-winning culture is based on trust, ownership, empathy, and collaboration, and we are committed to fostering inclusive spaces where everyone can bring their authentic selves to work every day. Come see us if you have a passion for solving hard problems at scale and are eager to join a dynamic, globally-connected team where your contributions will make a meaningful difference in building a better media ecosystem!"/></a>
+              <br>
+              <a href="http://www.semdesigns.com/" target="_blank"><img class="img-responsive center-block" width="180" src="http://www.semdesigns.com/images/SDLogo.png" alt="Semantic Design"/></a>
+              <br>
+            </div>
+          </div-->
+          <!-- End Supporters -->
+
+        </div>
+        <!-- End Left panel -->
+
+
+        <!-- Begin Main panel -->
+        <div class="col-md-9">
+          <div class="tab-content">
+
+            <!--- Begin Home -->
+            <div id="home" class="tab-pane fade in active">
+
+              <h3>Welcome to SCAM 2024!</h3>
+
+              <p><a href="http://www.ieee-scam.org/">SCAM</a> 2024 will be held in Flagstaff, Arizona, USA, co-located with <a href="https://conf.researchr.org/home/icsme-2024">ICSME 2024</a>.</p>
+
+              <p>The aim of the International Working Conference on Source
+                 Code Analysis &amp; Manipulation (SCAM) is to bring together
+                 researchers and practitioners working on theory,
+                 techniques and applications which concern analysis and/or
+                 manipulation of the source code of computer systems. While
+                 much attention in the wider software engineering community
+                 is properly directed towards other aspects of systems
+                 development and evolution, such as specification, design
+                 and requirements engineering, it is the source code that
+                 contains the only precise description of the behaviour of
+                 the system. The analysis and manipulation of source code
+                 thus remains a pressing concern.</p>
+
+              <h5>Definition of ‘Source Code’</h5>
+
+              <blockquote class="blockquote">
+                <p style="font-size: 14px;">For the purpose of clarity ‘source code’ is taken to mean any fully executable description of a software system.
+                   It is therefore so-construed as to include machine code, very high level languages and executable graphical representations of systems.
+                   The term ‘analysis’ is taken to mean any automated or semi automated procedure which takes source code and yields insight into its meaning.
+                   The term ‘manipulation’ is taken to mean any automated or semi-automated procedure which takes and returns source code.</p>
+                <footer class="blockquote-footer"><cite><a href="http://www.ieee-scam.org/SCAM-charter-2012.pdf">Steering Committee Charter</a></cite></footer>
+              </blockquote>
+
+              <!--h4 style="margin-top: 3em;">Important dates</h4>
+
+              <table border="0">
+                <tr>
+                    <th></th><th>Research track</th><th>RENE track</th><th>Engineering and NIER tracks</th>
+                </tr>
+                <tr>
+                <td width="160px"><strong>Abstract Submission:</strong></td><td width="210px">Thursday, June 29th, 2023</td><td width="210px">Thursday, July 13th, 2023<br><b style="color: red;">Deadline extended!</b></td><td>Thursday, July 13th, 2023<br><b style="color: red;">Deadline extended!</b></td>
+                </tr>
+                <tr>
+                <td width="160px"><strong>Paper Submission:</strong></td><td>Thursday, July 6th, 2023</td><td>Thursday, July 13th, 2023<br><b style="color: red;">Deadline extended!</b></td><td>Thursday, July 13th, 2023</td>
+                </tr>
+                <tr>
+                <td width="160px"><strong>Author Notification:</strong></td><td>Thursday, August 10th, 2023</td><td>Thursday, August 10th, 2023</td><td>Thursday, August 17th, 2023</td>
+                </tr>
+                <tr>
+                <td width="160px"><strong>Camera Ready:</strong></td><td>Thursday, August 24th, 2023</td><td>Thursday, August 24th, 2023</td><td>Thursday, August 24th, 2023</td>
+                </tr>
+              </table-->              
+
+            </div>
+            <!--- End Home -->
+
+
+            <!-- Begin how to submit-->
+
+            <div id="howtosubmit" class="tab-pane fade">
+              <h3>How to Submit to SCAM 2022</h3>
+
+              <p>There are several tracks in the SCAM 2022 program. This page contains an overview for those tracks, and additional information required to submit. Each track has its own submission page and deadlines. Please consult the specific page of the track for all the relevant details.</p>
+              <p>The below table contains an overview of the tracks and links to their pages:</p>
+              
+
+              <table>
+                <tr><th width="45%">Track name</th><th width="23%">Deadlines</th><th width="15%">Page limit</th><th width="17%">Call for paper</th></tr>
+                <tr><td>Research</td><td>Abstract: June 17, 2022<br>Paper: June 23, 2022</td><td style="text-align: center;">12</td><td style="text-align: center;"><a href="https://www.ieee-scam.org/2022/#cfpresearchtrack" target="_blank"><img src="images/open-in-new.svg" width="24"></a></td></tr>
+                <tr><td>Engineering</td><td><s>Abstract: July 1, 2022</s><br>Abstract + Paper: July 8, 2022</td><td style="text-align: center;">6</td><td style="text-align: center;"><a href="https://www.ieee-scam.org/2022/#cfpengtrack" target="_blank"><img src="images/open-in-new.svg" width="24"></a></td></tr>
+                <tr><td>Replication and Negative Results (RENE)</td><td>Abstract: July 1, 2022<br>Paper: July 8, 2022</td><td style="text-align: center;">12</td><td style="text-align: center;"><a href="https://www.ieee-scam.org/2022/#cfprenetrack" target="_blank"><img src="images/open-in-new.svg" width="24"></a></td></tr>
+                <tr><td>New Ideas and Emerging Results (NIER)</td><td>Abstract: July 1, 2022<br>Paper: July 8, 2022</td><td style="text-align: center;">5</td><td style="text-align: center;"><a href="https://www.ieee-scam.org/2022/#cfpniertrack" target="_blank"><img src="images/open-in-new.svg" width="24"></a></td></tr>
+              </table>
+              
+              <h4>Submission Guidelines</h4>
+
+              <p>All submissions must be in English and should be submitted electronically in PDF format using EasyChair: <a href="https://easychair.org/conferences/?conf=scam2023" target="_blank">https://easychair.org/conferences/?conf=scam2023</a></p>
+
+              <p>Submitted papers should describe original, unpublished, and significant work and must not have been previously accepted for publication nor be concurrently submitted for review in another journal, book, conference, or workshop.</p>
+
+              <p>Papers must not exceed 12 pages (the last 2 pages can be used for references only) and must conform to the IEEE proceedings paper format guidelines. Templates in Latex and Word are available on <a href="https://www.ieee.org/conferences_events/conferences/publishing/templates.html" target="_blank">IEEE's website</a>. All submissions must be in English and should be submitted electronically in PDF format using EasyChair: <a href="https://easychair.org/conferences/?conf=scam2023">https://easychair.org/conferences/?conf=scam2023</a></p>
+
+              <p>All authors, reviewers, and organizers are expected to uphold the <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf" target="_blank">IEEE Code of Conduct</a>. Failure to do so may lead to a (desk) rejection of the paper.</p>
+
+              <h4>Double-blind Review</h4>
+
+              <p>We follow a double-blind reviewing process, and every submission must adhere to the following rules:</p>
+              <ul>
+                <li>Author names and affiliations must be omitted. (The track co-chairs will check compliance before reviewing begins</li>
+                <li>References to authors' own related work must be in the third person. (For example, not "We build on our previous work..." but rather "We build on the work of...")</li>
+              </ul>
+
+              <p>If the program chairs find that authors did not respect the rules of double-blind review they can decide to (desk) reject the paper.</p>
+
+              <h4>Artifact Evaluation</h4>
+
+              <p>This year, likewise past year, ICSME, SCAM, and VISSOFT have joined forces and present a single Artifact Evaluation Track for all three venues. Authors of (short and long) papers accepted in the SCAM 2022 are invited to submit their artifacts for evaluation to the <a href="https://cyprusconferences.org/icsme2022/call-for-joint-artifact-evaluation-track-and-rose-festival-track/" target="_blank">ICSME 2022 Joint Artifact Evaluation Track</a>.</p>
+
+              <h4>Proceedings</h4>
+
+              <p>All accepted papers, presented at the conference, will appear in the proceedings which will be available through the IEEE Digital Library.</p>
+
+              <h4>Special Issue</h4>
+
+              <p>Extended versions of papers accepted at one of the SCAM 2022 tracks will be invited for submission in <a href="https://onlinelibrary.wiley.com/journal/20477481" target="_blank">Journal of Software: Evolution and Process, Wiley</a>.</p>
+            </div>
+
+            <!-- End how to submit-->
+
+            <!-- Begin Call-->
+          
+            <div id="cfpresearchtrack" class="tab-pane fade">
+
+              <h3>Call for Research Track Papers</h3>
+
+              <p>The 23rd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2023) aims to bring together researchers and practitioners working on theory, techniques, and applications that concern analysis and/or manipulation of the source code of software systems. The term “source code” refers to any fully executable description of a software system, such as machine code, (very) high-level languages, and executable graphical representations of systems. The term “analysis” refers to any (semi-)automated procedure that yields insight into source code, while “manipulation” refers to any automated or semi-automated procedure that takes and returns source code. While much attention in the wider software engineering community is directed towards other aspects of systems development and evolution, such as specification, design, and requirements engineering, it is the source code that contains the only precise description of the behavior of a system. Thus, the analysis and manipulation of source code remains a critical area of research from which SCAM 2023 solicits high-quality submissions.</p>
+
+              <h4>Covered Topics and Paper Formats</h4>
+
+              <p>We welcome submission of papers that describe original and significant work in the field of source code analysis and manipulation. Topics of interest include, but are not limited to:</p>
+
+              <ul>
+                <li>abstract interpretation</li>
+                <li>bad smell detection</li>
+                <li>bug location and prediction</li>
+                <li>clone detection</li>
+                <li>concern, concept, and feature localization and mining</li>
+                <li>decompilation</li>
+                <li>energy efficient source code</li>
+                <li>natural language analysis of source code artifacts</li>
+                <li>program comprehension</li>
+                <li>program slicing</li>
+                <li>program transformation and refactoring</li>
+                <li>repository, revision, and change analysis</li>
+                <li>security vulnerability analysis</li>
+                <li>source level metrics</li>
+                <li>source level optimization</li>
+                <li>source-level testing and verification</li>
+                <li>static and dynamic analysis</li>
+              </ul>
+
+                <p>SCAM explicitly solicits results from any theoretical or technological domain that can be applied to these and similar topics. Submitted papers should describe original, unpublished, and significant work and must not have been previously accepted for publication nor be concurrently submitted for review in another journal, book, conference, or workshop.</p>
+
+                <p>Papers must not exceed 12 pages (the last 2 pages can be used for references only) and must conform to the IEEE proceedings paper format guidelines. Templates in Latex and Word are available on <a href="https://www.ieee.org/conferences_events/conferences/publishing/templates.html" target="_blank">IEEE's website</a>. All submissions must be in English and should be submitted electronically in PDF format. Submission will be reviewed by at least three members of the <a href="http://www.ieee-scam.org/2022/#pc">program committee</a>, judging the paper on its novelty, quality, importance, evaluation, and scientific rigor. If the paper is accepted, at least one author must register for the conference and present the paper.
+                  All authors, reviewers, and organizers are expected to uphold the <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf" target="_blank">IEEE Code of Conduct</a>. Failure to do so may lead to a (desk) rejection of the paper.</p>
+
+                <h4>Submission guidelines</h4>
+
+                <p>All submissions must be in English and should be submitted electronically in PDF format using EasyChair: <a href="https://easychair.org/conferences/?conf=scam2023" target="_blank">https://easychair.org/conferences/?conf=scam2023</a></p>
+
+                <ul>
+                    <li>Papers must not exceed 12 pages, and the last 2 pages can be used for references only.</li>
+                    <li>Papers must conform to the IEEE proceedings paper format guidelines. Templates in Latex and Word are available on IEEE's website.</li>
+                    <li>All submissions must be in English and should be submitted electronically in PDF format.</li>
+                    <li>Submissions will be reviewed by at least three members of the program committee, judging the paper on its <b>novelty, presentation quality, importance, soundness, and the quality of its evaluation</b>.</li>
+                    <li>If the paper is accepted, at least one author must register for the conference and present the paper.</li>
+                    <li>All authors, reviewers, and organizers are expected to uphold the IEEE Code of Conduct. Failure to do so may lead to a (desk) rejection of the paper.</li>
+                </ul>
+
+                <h4>Double-blind Review</h4>
+
+                <p>We follow a double-blind reviewing process. Submitted papers must adhere to the following rules:</p>
+                <ul>
+                  <li>Author names and affiliations must be omitted. (The track co-chairs will check compliance before reviewing begins.)</li>
+                  <li>References to authors' own related work must be in the third person. (For example, not "We build on our previous work..." but rather "We build on the work of...")</li>
+                </ul>
+
+                <p>If the program chairs find that authors did not respect the rules of double-blind review they can decide to (desk) reject the paper. </p>
+
+                <h4>Artifact Evaluation</h4>
+                <p>ICSME, SCAM, and VISSOFT have joined forces and present a single Artifact Evaluation Track for all three venues. Authors of <b>short</b> and <b>long</b> papers, accepted to SCAM 2023, are invited to submit their artifacts for evaluation to the <a href="https://conf.researchr.org/track/icsme-2023/icsme-2023-artifact-evaluation-track-and-rose-festival" target="_blank">ICSME 2023 Joint Artifact Evaluation Track</a>.</p>
+
+                <h4>Proceedings</h4>
+                <p>All accepted papers will appear in the proceedings which will be available through the IEEE Digital Library.</p>
+
+                
+                <h4>Important Dates for Research Track Papers</h4>
+                <p>All submission dates are at 23:59 AoE (Anywhere on Earth, UTC-12).</p>
+                <table border="0">
+                  <tr>
+                  <td width="150px"><strong>Abstract Submission:</strong></td><td>Thursday, June 29th, 2023</td>
+                  </tr>
+                  <tr>
+                  <td width="150px"><strong>Paper Submission:</strong></td><td>Thursday, July 6th, 2023</td>
+                  </tr>
+                  <tr>
+                  <td width="150px"><strong>Author Notification:</strong></td><td>Thursday, August 10th, 2023</td>
+                  </tr>
+                  <tr>
+                  <td width="150px"><strong>Camera Ready:</strong></td><td>Thursday, August 24th, 2023</td>
+                  </tr>
+                </table>
+ 
+            
+              </div>
+
+            <!-- End Call -->
+			
+
+            <!-- Begin Eng Call -->
+
+            <div id="cfpengtrack" class="tab-pane fade">
+              <h3>Call for Engineering Track Papers</h3>
+
+              <p>The Engineering Track in the 23rd IEEE International Working Conference on Source Code
+                Analysis and Manipulation (SCAM 2023) looks for papers that discuss innovations and solutions
+                to practical problems that researchers and practitioners face in source code analysis and
+                manipulation of software systems. With the research advancements in source code analysis
+                during the past decades, the industry has adopted many of the research ideas and built tools
+                and techniques to solve real-world problems in daily jobs of software engineers. The
+                Engineering Track provides an opportunity to discuss these important and often overlooked
+                ideas and achievements so that software engineers and researchers can use them to improve
+                their engineering development and produce high-quality software. This track aims at bringing
+                researchers and software engineers to communicate and share their insights and collaborate on
+                tools, libraries, and infrastructure for source code analysis.</p>
+               
+              <p>This track welcomes six-page papers (included references) that report on the design and
+                implementation of tools for source code analysis and manipulation, as well as libraries,
+                infrastructure, and real-world studies. The papers are expected to discuss engineering work
+                artifacts that have NOT been published before as the main contribution. We encourage
+                submissions that accompany papers in the Research Track.</p>
+
+              <h4>What artifacts qualify as Engineering Track material?</h4>
+
+              <ul>
+                <li><b>Tools:</b> Software or hardware that facilitate source code analysis.</li>
+                <li><b>Libraries:</b> Reusable APIs and frameworks.</li>
+                <li><b>Infrastructure:</b> Projects that provide/facilitate access to data for reproducibility.</li>
+                <li><b>Data:</b> Reusable datasets for other researchers to reproduce the results.</li>
+                <li><b>Real-world Studies:</b> Studies that focus on how tools, libraries, infrastructure and data enable research.</li>
+                <li><b>Engineering challenges:</b> Identifying engineering challenges that remain unresolved and have impact on research in source-code analysis.</li>
+              </ul>
+
+              Topics of interest include, but are not limited to:
+
+              <ul>
+                <li>Program transformation, refactoring, analysis, optimization and measurement.</li>
+                <li>Mining repositories, revisions and changes.</li>
+                <li>Bad smell detection, clone management, and program comprehension.</li>
+                <li>Concern, concept and feature localization and mining.</li>
+                <li>Source-level testing, verification, bug detection and prediction, security vulnerability analysis.</li>
+                <li>Natural language analysis of source code artifacts.</li>
+              </ul>
+
+              <h4>Submission guidelines</h4>
+
+              <p>All submissions must be in English and should be submitted electronically in PDF format using EasyChair: <a href="https://easychair.org/conferences/?conf=scam2023" target="_blank">https://easychair.org/conferences/?conf=scam2023</a></p>
+
+              <p>The submission length has a limit of six pages, with the expectation that authors use the space
+                to discuss artifact motivation, design, and use cases in detail. Papers must conform to the IEEE
+                proceedings paper format guidelines. Templates in Latex and Word are available on IEEE's
+                website. All submissions must be in English and should be submitted electronically in PDF
+                format. Each submission will be reviewed by members of the Engineering Track program
+                committee. Authors of accepted papers will be required to present their contributions at the
+                conference.</p>
+
+                <p>The key criterion for acceptance is that the paper should (a) follow the above mentioned
+                    guidelines and (b) make an original contribution that can benefit practitioners in the field now
+                    and/or others designing and building artifacts for source code analysis and manipulation. The
+                    artifacts can range from an early research prototype to a polished deployed product. Papers
+                    about commercial products are welcome, as long as the guidelines described above are
+                    followed.</p>
+
+                <p>Videos and other demo material may be taken into account by reviewers as they review the
+                    paper, but the paper should be self contained. In order to preserve the anonymity of the
+                    reviewers, such material should be hosted on an anonymous public source, or made available
+                    in such a way that the track chairs can download them once and redistribute them to reviewers.</p>
+
+                <p>All authors, reviewers, and organizers are expected to uphold the IEEE Code of Conduct.
+                    Failure to do so may lead to a (desk) rejection of the paper.</p>
+
+              <h5>Double-blind Review</h5>
+
+              <p>This year, we are following a double-blind reviewing process. Submitted papers must adhere to
+                the following rules:</p>
+
+              <ul>
+                <li>Author names and affiliations must be omitted. (The track co-chairs will check
+                    compliance before reviewing begins.)</li>
+                    <li>References to authors' own related work must be in the third person. (For example,
+                        instead of writing “We build on our previous work...” you should write “We build on the
+                        work of...”)</li>
+              </ul>
+
+              <p>If the program chairs find that authors did not respect the rules of double-blind review they can
+                decide to (desk) reject the paper.</p>
+
+                <h4>Artifact evaluation</h4>
+
+                <p>ICSME, SCAM, and VISSOFT have joined forces and present a single Artifact Evaluation Track
+                    for all three venues. Authors of short and long papers, accepted to SCAM 2023, are invited to
+                    submit their artifacts for evaluation to the <a href="https://conf.researchr.org/track/icsme-2023/icsme-2023-artifact-evaluation-track-and-rose-festival" target="_blank">ICSME 2023 Joint Artifact Evaluation Track</a>.</p>
+
+              <h4>Proceedings</h4>
+
+              <p>All accepted papers will appear in the proceedings, which will be available through the IEEE
+                Digital Library.</p>
+
+              <h4>Important Dates</h4>
+
+              <p>All submission dates are at 23:59 AoE (Anywhere on Earth, UTC-12).</p>
+
+              <table border="0">
+                <tr>
+                <td width="150px"><strong>Abstract Submission:</strong></td><td>Thursday, July 13th, 2023 <b style="color: red;">Deadline extended!</b></td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Paper Submission:</strong></td><td>Thursday, July 13th, 2023</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Author Notification:</strong></td><td>Thursday, August 17th, 2023</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Camera Ready:</strong></td><td>Thursday, August 24th, 2023</td>
+                </tr>
+              </table>
+
+              <h4>Track co-chairs</h4>
+
+              <ul>
+                <li>Laura Moreno, CQSE, USA</li>
+                <li>Hitesh Sajnani, The TradeDesk, USA</li>
+              </ul>
+
+            </div>
+            
+            <!-- End Eng Call -->
+
+
+            <!-- Begin RENE Call-->
+
+            <div id="cfprenetrack" class="tab-pane fade">
+
+        
+              <h3>Call for Replication and Negative Results Papers</h3>
+              
+              <p>The 23rd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) will be hosting a Replication and Negative Results (RENE) track once again in 2023. Taking advantages of nowadays open science practices, this track provides a venue for researchers to submit papers reporting (1) replications of previous empirical studies (including controlled experiments, case studies, and surveys) and (2) important and relevant negative or null results (i.e., results that failed to show an effect, but help to eliminate useless hypotheses, therefore reorienting researchers on more promising research paths) related to source code analysis and manipulation (see list of topics in Technical Research Track).</p>
+
+              <p><b>Replications studies</b>: Open science is key to fostering progress via transparency and empirical studies should be reproducible. However, papers in this category must go beyond simply re-implementing an algorithm and/or re-running the artifacts provided by the original paper. Such submissions should apply the approach on at least partially new data sets (open-source or proprietary). This also means that it is possible to use available infrastructures to conduct measurements and experiments but with different/extended datasets and different conditions, scenarios, etc. Replication studies can either strengthen the results of the original study by increasing external validity with additional data or provide new insights into the variables that may impact the results. A replication paper should clearly report on results that the authors were able to reproduce as well as on the aspects of the work that were irreproducible.</p>
+
+              <p><b>Negative results papers</b>: Due to open source and open science initiatives, there are vast amounts of data and software artifacts available in repositories and online archival sites, such as GitHub and Zenodo. Not all analyses of such data and software artifacts result in expected positive results. In this category, we seek papers that report on negative results. We seek negative results for all types of software engineering research related to source code and manipulation (qualitative, quantitative, case study, experiment, etc.). Negative results are important contributions to scientific knowledge because they allow us to prune our hypothesis space. As Walter Tichy writes, "Negative results, if trustworthy, are extremely important for narrowing down the search space. They eliminate useless hypotheses and thus reorient and speed up the search for better approaches."</p>
+
+              <h4>Evaluation Criteria</h4>
+
+              <p>Both Reproducibility Studies and Negative Results submissions will be evaluated according to the following standards:</p>
+
+              <ul>
+                <li>Depth and breadth of the empirical studies.</li>
+                <li>Clarity of writing.</li>
+                <li>Appropriateness of conclusions.</li>
+                <li>Amount of useful, actionable insights.</li>
+                <li>Deep discussion regarding the implications of the negative results or new results obtained with reproducibility studies.</li>
+                <li>Availability of artifacts.</li>
+                <li>Underlying methodological rigor and detailed description of procedures. For example, a negative result due primarily to misaligned expectations or due to lack of statistical power (small samples) is not a good submission. The negative result should be a result of a lack of effect, not lack of methodological rigor.</li>
+                <li>Clear descriptions of the differences between the original setup and the one used in the study (for the case of reproducibility studies).</li>
+              </ul>
+
+              <p>Since we have decided to actively support open science, we expect that replication studies clearly point out the artifacts the study is built upon, and to provide the links to all the artifacts in the submission. However, we recognize that the success of the open science initiative depends on the willingness (and possibilities) of authors to disclose their data and artifacts. Note that all submissions will undergo the same review process independent of whether authors disclose their artifacts or data. For more information about our open science policy, please visit the <a href="https://conf.researchr.org/track/icsme-2023/icsme-2023-papers" target="_blank">ICSME 2023 call for papers</a>.</p>
+
+              <h4>Submission Guidelines</h4>
+
+              <p>Papers must not exceed 12 pages (the last 2 pages can be used for references only) and must conform to the IEEE proceedings paper format guidelines. Templates in Latex and Word are available on <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">IEEE's website</a>. All submissions must be in English and should be submitted electronically in PDF format via <a href="https://easychair.org/conferences/?conf=scam2023" target="_blank">EasyChair</a>. Additionally, submissions must be original, in the sense that the findings and writing have not been previously published or under consideration elsewhere. The paper must be clearly marked as a RENE paper. Submissions will be reviewed by at least three members of the program committee. If the paper is accepted, at least one author must attend the conference and present the paper.
+            </p>
+
+            <h4>Double-blind review</h4>
+            <p>We follow a double-blind reviewing process. Submitted papers must adhere to the following rules:</p>
+            <ul>
+                <li>Author names and affiliations must be omitted. The track co-chairs will check compliance before reviewing begins.</li>
+                <li>References to authors' own related work must be in the third person. For example, not "We build on our previous work..." but rather "We build on the work of..."</li>
+            </ul>
+            <p>If the program chairs find that authors did not respect the rules of double-blind review they can decide to (desk) reject the paper.</p>
+
+
+            <h4>Artifact evaluation</h4>
+
+            <p>ICSME, SCAM, and VISSOFT have joined forces and present a single Artifact Evaluation Track for all three venues. Authors of short and long papers, accepted to SCAM 2023, are invited to submit their artifacts for evaluation to the <a href="https://conf.researchr.org/track/icsme-2023/icsme-2023-artifact-evaluation-track-and-rose-festival" target="_blank">ICSME 2023 Joint Artifact Evaluation Track</a>.
+            </p>
+
+            <h4>Proceedings</h4>
+            <p>All accepted papers will appear in the proceedings, which will be available through the IEEE Xplore Digital Library.</p>
+
+              <h4>Important Dates</h4>
+
+              <p><b>All submission dates are at 23:59 AoE (Anywhere on Earth, UTC-12).</b></p>
+
+              <table border="0">
+                <tr>
+                <td width="150px"><strong>Abstract Submission:</strong></td><td>Thursday, June 13th, 2023 <b style="color: red;">Deadline extended!</b></td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Paper Submission:</strong></td><td>Thursday, July 13th, 2023 <b style="color: red;">Deadline extended!</b></td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Author Notification:</strong></td><td>Thursday, August 10th, 2023</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Camera Ready:</strong></td><td>Thursday, August 24th, 2023</td>
+                </tr>
+              </table>
+
+              <h4>Track co-chairs</h4>
+            <ul>
+              <li>Quentin Stiévenart, Université du Québec à Montréal, Canada</li>
+              <li>Eduardo Figueiredo, Federal University of Minas Gerais, Brazil</li>
+            </ul>
+            </div>
+
+            
+
+            <!-- End RENE Call -->
+			
+			
+            <!-- Begin NIER Call -->
+
+            <div id="cfpniertrack" class="tab-pane fade">
+
+              <h3>Call for New Ideas and Emerging Results papers</h3>
+
+              <p>Following the success of the previous editions of the New Ideas and Emerging Results (NIER) track at SCAM 2021 and SCAM 2022, the 23rd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2023) will again host a NIER track. This track aims to provide a place for researchers and practitioners to present, discuss, and polish early-stage research. This early-stage research should be innovative with the potential to make a strong future impact on the research or practice of software engineering. However, as it concerns early-stage research, the NIER track does not require submissions to have a strong evaluation. Instead, submissions should contain preliminary results that indicate the future potential of the research as well as a discussion of the challenges which must be overcome in the pursuit of the given research goals. These challenges should act as both future research directions as well as topics which the authors feel require discussion within the community. The topics of interest for this track are the same as for the main research track and are listed below.
+            </p>
+
+              <h4>Topics of Interest</h4>
+
+              <p>We welcome the submission of papers that describe original and significant work in the field of source code analysis and manipulation. Topics of interest include, but are not limited to:</p>
+
+              <ul>
+                <li>abstract interpretation</li>
+                <li>bad smell detection</li>
+                <li>bug location and prediction</li>
+                <li>clone detection</li>
+                <li>concern, concept, and feature localization and mining</li>
+                <li>decompilation</li>
+                <li>energy efficient source code</li>
+                <li>natural language analysis of source code artifacts</li>
+                <li>program comprehension</li>
+                <li>program slicing</li>
+                <li>program transformation and refactoring</li>
+                <li>repository, revision, and change analysis</li>
+                <li>security vulnerability analysis</li>
+                <li>source level metrics</li>
+                <li>source level optimization</li>
+                <li>source-level testing and verification</li>
+                <li>static and dynamic analysis</li>
+              </ul>
+
+              <p>We explicitly solicit results from any theoretical or technological domain that can be applied to these and similar topics.</p>
+
+              <h4>Submission guidelines</h4>
+
+              <p>All submissions must be in English and should be submitted electronically in PDF format using EasyChair: <a href="https://easychair.org/conferences/?conf=scam2023" target="_blank">https://easychair.org/conferences/?conf=scam2023</a></p>
+
+              <p>Submitted papers should describe original, unpublished, and significant work. These papers must not have been previously accepted for publication, nor be concurrently submitted for review in another journal, book, conference, or workshop.</p>
+              <p>The submissions must follow the rules of the double-blind reviewing process. Additionally:</p>
+              <ul>
+                <li>papers must not exceed 6 pages, including figures, tables, appendices, and references (the 6th page can be used for references only)</li>
+                <li>papers must be marked as a NIER track papers</li>
+                <li>papers must conform to the IEEE proceedings paper format guidelines; templates in LaTeX and Word are available on IEEE’s website</li>
+                <li>all submissions must be in English and should be submitted electronically in PDF format</li>
+                <li>if the paper is accepted, at least one author must register for the conference and present the paper</li>
+                <li>all authors, reviewers, and organizers are expected to uphold the IEEE Code of Conduct; failure to do so may lead to a (desk) rejection of the paper</li>
+              </ul>
+
+              <h5>Double-blind review</h5>
+              <p>We follow a double-blind reviewing process. Submitted papers must adhere to the following rules:</p>
+              <ul>
+                <li>author names and affiliations must be omitted (the track co-chairs will check compliance before reviewing begins)</li>
+                <li>eferences to authors' own related work must be in the third person (for example, instead of writing “We build on our previous work...” you should write “We build on the work of...”)</li>
+              </ul>
+              <p>If the program chairs find that authors did not respect the rules of double-blind review they can decide to (desk) reject the paper.</p>
+
+              <h4>Paper evaluation</h4>
+
+              <p>Submissions will be evaluated based on their originality, the importance of their contribution, the challenges highlighted, and their potential future significance. In addition, reviewers are asked to consider the soundness, overall quality, clarity and consistency of presentation, and whether the submission appropriately contextualizes itself with respect to related work. Again, the NIER track does not require a complete evaluation. Preliminary data and a discussion of the challenges and future research directions supported by this preliminary data are encouraged.</p>
+
+              <h4>Artifact Evaluation</h4>
+
+              <p>ICSME, SCAM, and VISSOFT have joined forces and present a single Artifact Evaluation Track for all three venues. Authors of short and long papers, accepted to SCAM 2023, are invited to submit their artifacts for evaluation to the <a href="https://conf.researchr.org/track/icsme-2023/icsme-2023-artifact-evaluation-track-and-rose-festival" target="_blank">ICSME 2023 Joint Artifact Evaluation Track</a>.</p>
+
+              <h4>Proceedings</h4>
+
+              <p>All accepted papers will appear in the SCAM 2023 proceedings, which will be available through the IEEE Digital Library.</p>
+
+              <h4>Important Dates</h4>
+
+              <p>All submission dates are at 23:59 AoE (Anywhere on Earth, UTC-12).</p>
+
+              <table border="0">
+                <tr>
+                <td width="150px"><strong>Abstract Submission:</strong></td><td>Thursday, July 13th, 2023 <b style="color: red;">Deadline extended!</b></td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Paper Submission:</strong></td><td>Thursday, July 13th, 2023</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Author Notification:</strong></td><td>Thursday, August 17th, 2023</td>
+                </tr>
+                <tr>
+                <td width="150px"><strong>Camera Ready:</strong></td><td>Thursday, August 24th, 2023</td>
+                </tr>
+              </table>
+
+              <h4>Track co-chairs</h4>
+              <ul>
+                <li>Michele Pasqua, University of Verona (Italy) </li>
+                <li>Preetha Chatterjee, Drexel University (USA)</li>
+              </ul>
+
+            </div>
+            
+            <!-- End NIER Call -->
+
+            <div id="cfpaetrack" class="tab-pane fade">
+              <h3>Artifact Evaluation</h3>
+              <p>T.B.A.</p><!--
+              <p>This year <a href="https://icsme2021.github.io/">ICSME</a>, SCAM, and <a href="https://vissoft.info/2021/">VISSOFT</a> have joined forces and present a single Artifact Evaluation Track for all three venues. The combined AE track will introduce the artifact evaluation for the first time to SCAM! Authors of (short and long) papers accepted in the ICSME, SCAM, or VISSOFT 2021 are invited to submit their artifacts for evaluation to the ICSME 2021 Joint Artifact Evaluation Track here. </p>
+
+              <h6>Artifact Evaluation Important Dates</h6>
+
+              <table border="0">
+                <tr>
+                <td width="150px"><strong>Artifact Submission:</strong></td><td> August 27th, 2021</td>
+                </tr>
+                <td width="150px"><strong>Author Notification:</strong></td><td> September 17th, 2021</td>
+                </tr>
+                <tr>
+              </table>
+            --></div>	
+			
+
+
+            <!-- Begin Organization  -->
+            <div id="steer" class="tab-pane fade">
+              <h3>Steering Committee</h3>
+              <ul class="entrylist">
+                  <li><a href="http://www.inf.u-szeged.hu/~beszedes/eng/index.html" class="no-decoration" target="_blank">Árpád Beszédes</a>, 2021-2024, 2nd term</li>
+                  <li><a href="https://www.johanfabry.be" class="no-decoration" target="_blank">Johan Fabry</a>, 2019-2022, 1st term</li>
+                  <li><a href="https://benhermann.eu/" class="no-decoration" target="_blank">Ben Hermann</a>, 2021-2024, 1st term</li>
+                  <li><a href="http://paigerodeghero.com" class="no-decoration" target="_blank">Paige Rodeghero</a>, 2019-2022, 1st term</li>
+                  <li><a href="http://soft.vub.ac.be/~cderoove/" class="no-decoration" target="_blank">Coen De Roover</a>, 2020-2023, 2nd term</li>
+                  <li><a href="http://grammarware.net/" class="no-decoration" target="_blank">Vadim Zaytsev</a>, 2020-2023, 1st term, <b>SC Chair</b></li>
+                </ul>
+                <h4>Charter</h4>
+
+                <p>The International Working Conference on Source Code Analysis &amp; Manipulation (SCAM) is governed by the steering committee following a community ratified <a href="http://www.ieee-scam.org/SCAM-charter-2012.pdf">steering committee charter</a> (v1.2, adopted in 2012).</p>
+
+            </div>
+
+            <div id="org" class="tab-pane fade">
+              <h3>Organizing Committee</h3>
+
+                <h5>General Chair</h5>
+                <ul>
+                  <li><a href="http://soft.vub.ac.be/~cderoove/" target="_blank">Coen De Roover</a>, Vrije Universiteit Brussel, Belgium</li>
+                </ul>
+
+                <!--h5>Research Track Program Co-Chairs</h5>
+                <ul>
+                  <li><a href="https://www.se.rit.edu/~cnewman/" target="_blank">Christian Newman</a>, Rochester Institute of Technology, USA</li>
+                  <li><a href="https://software.imdea.org/~alessandra.gorla/" target="_blank">Alessandra Gorla</a>, IMDEA, Spain</li>
+                </ul>
+
+                
+                <h5>Engineering Track Program Co-Chairs</h5>
+                <ul>
+                  <li><a href="https://www.cqse.eu/en/company/team/laura-moreno/" target="_blank">Laura Moreno</a>, CQSE, USA</li>
+                  <li><a href="https://www.ics.uci.edu/~hsajnani/" target="_blank">Hitesh Sajnani</a>, The TradeDesk, USA</li>
+                </ul>
+
+                <h5>RENE Track PC Co-chairs</h5> 
+                <ul>
+                    <li><a href="https://acieroid.github.io/" target="_blank">Quentin Stiévenart</a>, Université du Québec à Montréal, Canada</li>
+                  <li><a href="https://homepages.dcc.ufmg.br/~figueiredo/" target="_blank">Eduardo Figueiredo</a>, Universidade Federal de Minas, Brasil</li>
+                </ul>
+
+                <h5>New Ideas and Emerging Results (NIER)  co-chairs</h5> 
+                <ul>
+                  <li><a href="https://preethac.github.io/" target="_blank">Preetha Chatterjee</a>, Drexel University, USA</li>
+                  <li><a href="https://michelepasqua.github.io/" target="_blank">Michele Pasqua</a>, University of Verona, Italy</li>
+                </ul>			  
+			  
+			
+                <h5>Most Influential Paper Co-chairs</h5>	
+                  <ul>			  
+                    <li><a href="https://mcis.cs.queensu.ca/bram.html" target="_blank">	Bram Adams</a>, Queen's University, Canada</li>   
+                    <li><a href="https://sites.google.com/view/juergenrilling/home" target="_blank">Juergen Rilling</a>, Concordia University, Canada</li>      
+                  </ul>				
+
+                <h5>Finance Chair</h5>
+                  <ul>
+                    <li><a href="http://www.cs.loyola.edu/~binkley" target="_blank">Dave Binkley</a>, Loyola University Maryland, USA</li>
+                  </ul>
+                  
+                <h5>Publicity Chair</h5>
+                <ul>
+                  <li><a href="https://ahmedzerouali.github.io/" target="_blank">Ahmed Zerouali</a>, Vrije Universiteit Brussel, Belgium</li>
+                </ul-->
+
+                <h5>Web Chair</h5>
+                  <ul>
+                    <li><a href="#" target="_blank">Davide Corradini</a>, University of Verona, Italy</li>
+                  </ul>
+
+                <h5>Proceeding Chair</h5>
+                  <ul>
+                    <li><a href="#" target="_blank">Davide Corradini</a>, University of Verona, Italy</li>
+                  </ul>
+
+                <!--<h5>Scholarships Co-Chairs</h5>
+                  <ul>
+                    <li><a href="http://www.cs.loyola.edu/~binkley/">Dave Blinkley</a>, Loyola University Maryland, USA</li>
+                    <li><a href="http://paigerodeghero.com/">Paige Rodeghero</a>, Clemson University, USA</li>
+                  </ul>
+          
+                  <h5>Local Arrangements Chair</h5>
+                  <ul>
+                    <li><a href="#" target="_blank">Nicolás Cardozo</a>, Universidad de los Andes, Colombia</li>
+                  </ul>-->
+            </div>
+
+            <div id="pc" class="tab-pane fade">
+              <h3>Program Committees</h3>
+            
+              <p>This page contains all of the Program Committee members for the various tracks of SCAM.</p>
+
+              <h4><a href="#cfpresearchtrack">Research Track</a></h4>
+
+              <table class="pc-table">
+                <tbody>
+                  <tr>
+                    <th style="width: 55%;">Name</th>
+                    <th style="width: 45%;">Affiliation</th>
+                  </tr>
+              
+                  <tr><td>Eman Alomar</td><td>SIT</td></tr>
+                  <tr><td>Francesca Arcelli Fontana</td><td>University of Milano – Bicocca</td></tr>
+                  <tr><td>Lingfeng Bao</td><td>Zhejiang University</td></tr>
+                  <tr><td>Alexandre Bergel</td><td>University of Chile</td></tr>
+                  <tr><td>Arianna Blasi</td><td>Meta</td></tr>
+                  <tr><td>Eunjong Choi</td><td>Kyoto Institute of Technology</td></tr>
+                  <tr><td>Joanna Cecilia da Silva Santos</td><td>University of Notre Dame</td></tr>
+                  <tr><td>Coen De Roover</td><td>Vrije Universiteit Brussel</td></tr>
+                  <tr><td>Dario Di Nucci</td><td>University of Salerno</td></tr>
+                  <tr><td>Kecia Ferreira</td><td>Federal Center for Technological Education of Minas Gerais</td></tr>
+                  <tr><td>Cuiyun Gao</td><td>The Chinese University of Hong Kong</td></tr>
+                  <tr><td>Alessandra Gorla</td><td>IMDEA</td></tr>
+                  <tr><td>Sebastian Herold</td><td>Karlstad University, Department of Computer Science</td></tr>
+                  <tr><td>Siyuan Jiang</td><td>Eastern Michigan University</td></tr>
+                  <tr><td>Maria Kechagia</td><td>University College London</td></tr>
+                  <tr><td>Timo Kehrer</td><td>University of Bern</td></tr>
+                  <tr><td>Maxime Lamothe</td><td>Polytechnique Montreal</td></tr>
+                  <tr><td>Xupeng Li</td><td>Columbia University</td></tr>
+                  <tr><td>Facundo Molina</td><td>IMDEA Software Institute</td></tr>
+                  <tr><td>Csaba Nagy</td><td>Università della Svizzera italiana</td></tr>
+                  <tr><td>Christian Newman</td><td>Rochester Institute of Technology</td></tr>
+                  <tr><td>Ali Ouni</td><td>ETS Montreal, University of Quebec</td></tr>
+                  <tr><td>Mike Papadakis</td><td>University of Luxembourg</td></tr>
+                  <tr><td>Anthony Peruma</td><td>University of Hawai‘i at Mānoa</td></tr>
+                  <tr><td>Fabio Petrillo</td><td>École de technologie supérieure (ÉTS)</td></tr>
+                  <tr><td>Aurora Ramírez</td><td>University of Córdoba</td></tr>
+                  <tr><td>Banani Roy</td><td>University of Saskatchewan</td></tr>
+                  <tr><td>Hitesh Sajnani</td><td>Microsoft</td></tr>
+                  <tr><td>Kevin Schneider</td><td>University of Saskatchewan</td></tr>
+                  <tr><td>Tushar Sharma</td><td>Dalhousie University</td></tr>
+                  <tr><td>Allison Sullivan</td><td>The University of Texas at Arlington</td></tr>
+                  <tr><td>Yiming Tang</td><td>Concordia University</td></tr>
+                  <tr><td>Zhe Yu</td><td>Rochester Institute of Technology</td></tr>
+                  <tr><td>Xueling Zhang</td><td>Rochester Institute of Technology</td></tr>
+                  <tr><td>Mel Ó Cinnéide</td><td>National University of Ireland, Dublin</td></tr>
+                  <tr><td>Michael Decker *</td><td>Bowling Green State University</td></tr>
+                  <tr><td>Naser Al Madi *</td><td>Colby College</td></tr>
+                </tbody>
+              </table>
+
+              * Emergency review volunteer
+
+              <h4><a href="#cfpengtrack">Engineering Track</a></h4>
+
+              <table class="pc-table">
+                <tbody>
+                  <tr>
+                    <th style="width: 55%;">Name</th>
+                    <th style="width: 45%;">Affiliation</th>
+                  </tr>
+              
+                  <tr><td>Akinori Ihara</td><td>Wakayama University</td></tr>
+                  <tr><td>Ali Ouni</td><td>ETS Montreal - University of Quebec</td></tr>
+                  <tr><td>Daniel Izquierdo-Cortazar</td><td>Bitergia</td></tr>
+                  <tr><td>Gábor Antal</td><td>University of Szeged</td></tr>
+                  <tr><td>Hironori Washizaki</td><td>Waseda University</td></tr>
+                  <tr><td>Jacek Czerwonka</td><td>Microsoft</td></tr>
+                  <tr><td>James Davis</td><td>Purdue University</td></tr>
+                  <tr><td>Jochen Quante</td><td>Robert Bosch GmbH</td></tr>
+                  <tr><td>Johan Fabry</td><td>Raincode Labs</td></tr>
+                  <tr><td>Judit Jász</td><td>SZTE University</td></tr>
+                  <tr><td>Karsten Sohr</td><td>Center for Computing Technologies - Universität Bremen</td></tr>
+                  <tr><td>Preethu Rose</td><td>TCS</td></tr>
+                  <tr><td>Ravindra Naik</td><td>TCS Research - TRDDC - Pune</td></tr>
+                  <tr><td>Shivali Agarwal</td><td>IBM - India Research Lab</td></tr>
+                  <tr><td>Wolfram Fenske</td><td>pure-systems GmbH</td></tr>
+                  <tr><td>Zoltan Porkolab</td><td>Eotvos Lorond University</td></tr>
+                </tbody>
+              </table>
+
+              <h4><a href="#cfprenetrack">RENE Track</a></h4>
+
+              <table class="pc-table">
+                <tbody>
+                  <tr>
+                    <th style="width: 55%;">Name</th>
+                    <th style="width: 45%;">Affiliation</th>
+                  </tr>
+              
+                  <tr><td>Alexander Serebrenik</td><td>Eindhoven University of Technology</td></tr>
+                  <tr><td>Andrea Stocco</td><td>Technical University of Munich</td></tr>
+                  <tr><td>Eduardo Fernandes</td><td>University of Southern Denmark</td></tr>
+                  <tr><td>Eduardo Figueiredo</td><td>Federal University of Minas Gerais</td></tr>
+                  <tr><td>Fabiano Ferrari</td><td>Federal University of Sao Carlos</td></tr>
+                  <tr><td>Fiorella Zampetti</td><td>University of Sannio</td></tr>
+                  <tr><td>Gias Uddin</td><td>University of Calgary</td></tr>
+                  <tr><td>Gilles Perrouin</td><td>University of Namur</td></tr>
+                  <tr><td>Jeongju Sohn</td><td>University of Luxembourg</td></tr>
+                  <tr><td>Leandro Antonelli</td><td>Universidad Nacional de La Plata</td></tr>
+                  <tr><td>Lingfeng Bao</td><td>Zhejiang University</td></tr>
+                  <tr><td>Mariano Ceccato</td><td>University of Verona</td></tr>
+                  <tr><td>Maurizio Leotta</td><td>University of Genova</td></tr>
+                  <tr><td>Naser Jivan</td><td>Brock University</td></tr>
+                  <tr><td>Quentin Stiévenart</td><td>Université du Québec à Montréal</td></tr>
+                  <tr><td>Vassilis Zafeiris</td><td>Athens University of Economics and Business</td></tr>
+                  <tr><td>Wesley Assunção</td><td>North Carolina State University</td></tr>
+                  <tr><td>Xiao Chen</td><td>Monash University</td></tr>
+                  <tr><td>Zoltán Porkoláb</td><td>Eötvös Loránd University</td></tr>
+                </tbody>
+              </table>
+
+            
+              <h4><a href="#cfpniertrack">NIER Track</a></h4>
+              <table class="pc-table">
+                <tbody>
+                  <tr>
+                    <th style="width: 55%;">Name</th>
+                    <th style="width: 45%;">Affiliation</th>
+                  </tr>
+              
+                  <tr><td>Matteo Biagiola</td><td></td></tr>
+                  <tr><td>Preetha Chatterjee</td><td>Drexel University</td></tr>
+                  <tr><td>Jesus M. Gonzalez-Barahona</td><td></td></tr>
+                  <tr><td>Péter Hegedűs</td><td></td></tr>
+                  <tr><td>Andrea Janes</td><td>FHV Vorarlberg University of Applied Sciences</td></tr>
+                  <tr><td>Foutse Khomh</td><td></td></tr>
+                  <tr><td>Stefano Lambiase</td><td></td></tr>
+                  <tr><td>Alberto Lovato</td><td>Università degli studi di Verona</td></tr>
+                  <tr><td>Christian Macho</td><td>University of Klagenfurt</td></tr>
+                  <tr><td>Csaba Nagy</td><td>Università della Svizzera italiana</td></tr>
+                  <tr><td>Ana-Maria Oprescu</td><td></td></tr>
+                  <tr><td>Luca Pascarella</td><td>ETH Zurich</td></tr>
+                  <tr><td>Michele Pasqua</td><td>University of Verona</td></tr>
+                  <tr><td>Fabiano Pecorelli</td><td></td></tr>
+                  <tr><td>Valeria Pontillo</td><td>University of Salerno</td></tr>
+                  <tr><td>Masud Rahman</td><td>Dalhousie University</td></tr>
+                  <tr><td>Vincenzo Riccio</td><td>University of Udine</td></tr>
+                  <tr><td>Mohammed Sayagh</td><td>Queen's University</td></tr>
+                  <tr><td>Giulia Sellitto</td><td>University of Salerno</td></tr>
+                  <tr><td>Andrea Stocco</td><td>Technische Universität München</td></tr>
+                  <tr><td>Gias Uddin</td><td></td></tr>
+                  <tr><td>László Vidács</td><td>University of Szeged, Hungarian Academy of Sciences</td></tr>
+                </tbody>
+              </table>
+
+              <!--table class="pc-table"><tbody><tr><th style="width: 35%;">Name</th><th style="width: 10%;">Webpage</th><th style="width:45%;">Affiliation</th></tr><tr><td>Péter Hegedűs</td><td><a href="http://www.inf.u-szeged.hu/~hpeter/"><img src="images/web.svg" width="24"></a></td><td>University of Szeged</td></tr><tr><td>Zhe Yu</td><td><a href="http://zhe-yu.github.io/"><img src="images/web.svg" width="24"></a></td><td>Rochester Institute of Technology</td></tr><tr><td>Valeria Pontillo</td><td><a href="https://valeriapontillo.github.io/"><img src="images/web.svg" width="24"></a></td><td>University of Salerno</td></tr><tr><td>Luca Pascarella</td><td></td><td>Università della Svizzera Italiana (USI)</td></tr><tr><td>Christian Macho</td><td><a href="http://serg.aau.at/bin/view/ChristianMacho/WebHome"><img src="images/web.svg" width="24"></a></td><td>University of Klagenfurt</td></tr><tr><td>Foutse Khomh</td><td><a href="http://www.khomh.net/"><img src="images/web.svg" width="24"></a></td><td>DGIGL, École Polytechnique de Montréal</td></tr><tr><td>Ana-Maria Oprescu</td><td></td><td>University of Amsterdam</td></tr><tr><td>Gordana Rakic</td><td></td><td>Faculty of Science, Novi Sad</td></tr><tr><td>Gias Uddin</td><td><a href="https://giasuddin.ca/"><img src="images/web.svg" width="24"></a></td><td>University of Calgary</td></tr><tr><td>Eleni Constantinou</td><td><a href="http://www.econst.eu"><img src="images/web.svg" width="24"></a></td><td>Eindhoven University of Technology</td></tr><tr><td>Simone Scalabrino</td><td><a href="http://dibt.unimol.it/staff/sscalabrino"><img src="images/web.svg" width="24"></a></td><td>University of Molise</td></tr><tr><td>Jesus M. Gonzalez-Barahona</td><td><a href="http://gsyc.es/~jgb"><img src="images/web.svg" width="24"></a></td><td>Universidad Rey Juan Carlos</td></tr><tr><td>Fabiano Pecorelli</td><td></td><td>Tampere University</td></tr><tr><td>Anthony Cleve</td><td><a href="http://www.info.fundp.ac.be/~acl"><img src="images/web.svg" width="24"></a></td><td>University of Namur</td></tr><tr><td>Mohammed Sayagh</td><td></td><td>Queen's University</td></tr><tr><td>Christian Newman</td><td><a href="http://www.cs.kent.edu/~cnewman"><img src="images/web.svg" width="24"></a></td><td>Rochester Institute of Technology</td></tr>
+              
+              
+                <tr><td>László	Vidács</td><td><a href="http://www.inf.u-szeged.hu/~lac/"><img src="images/web.svg" width="24"></a></td><td>University of Szeged</td></tr>
+
+                <tr><td>Giulia	Sellitto</td><td><a href="https://giuliasellitto7.github.io"><img src="images/web.svg" width="24"></a></td><td>University of Salerno</td></tr>
+
+                <tr><td>Xiaozhou	Li</td><td><a href="https://researchportal.tuni.fi/en/persons/xiaozhou-li"><img src="images/web.svg" width="24"></a></td><td>Tampere University</td></tr>
+
+                <tr><td>Andrea	Janes</td><td><a href="https://www.unibz.it/it/faculties/computer-science/academic-staff/person/2237-andrea-alexander-janes"><img src="images/web.svg" width="24"></a></td><td>University of Bozen-Bolzano</td></tr>
+
+                <tr><td>Francesco	Lomio</td><td><a href="https://francescolomio.github.io"><img src="images/web.svg" width="24"></a></td><td>Tampere University</td></tr>
+
+                <tr><td>Stefano	Lambiase</td><td><a href="https://stefanolambiase.github.io"><img src="images/web.svg" width="24"></a></td><td>University of Salerno</td></tr>
+              
+              </tbody></table-->
+              
+            </div>
+            <!-- End Organization -->
+
+
+            <!-- Begin Program -->
+
+            <div id="registration" class="tab-pane fade">
+              <h3>Registration</h3>
+
+              <p>For SCAM 2023 registration, kindly visit the Registration page on the ICSME site through <a href="https://conf.researchr.org/attending/icsme-2023/Registration" target="_blank">this link</a>.</p>
+
+              <h4>Accomodation</h4>
+              <p>You can find details about accommodation on the ICSME site as well, accessible through <a href="https://conf.researchr.org/attending/icsme-2023/accomodation" target="_blank">this link</a>.</p>
+
+            </div>
+
+            <div id="research-track-papers" class="tab-pane fade">
+              <h3>Accepted Papers for the Research Track</h3>
+
+              <ul>
+                <li>Title: <b>BoostNSift: A Query Boosting and Code Sifting Technique for Method Level Bug Localization</b> by: <i>Abdul Razzaq, Jim Buckley, James Patten, Muslim Chochlov and Ashish Rajendra Sai</i></li>
+                <li>Title: <b>How does Migrating to Kotlin Impact the Run-time Efficiency of Android Apps?</b> by: <i>Michael Peters, Gian Luca Scoccia and Ivano Malavolta</i></li>
+                <li>Title: <b>Jicer: Simplifying Cooperative Android App Analysis Tasks</b> by: <i>Felix Pauck and Heike Wehrheim</i></li>
+                <li>Title: <b>D-REX: Static Detection of Relevant Runtime Exceptions with Location Aware Transformer</b> by: <i>Farima Farmahinifarahani, Yadong Lu, Vaibhav Saini, Pierre Baldi and Cristina Lopes</i></li>
+                <li>Title: <b>A Precise Framework for Source-Level Control-Flow Analysis</b> by: <i>Idriss Riouak, Christoph Reichenbach, Görel Hedin, and Niklas Fors</i></li>
+                <li>Title: <b>Formal Definition and Automatic Generation of Semantic Metrics: An Empirical Study on Bug Prediction</b> by: <i>Ting Hu, Ran Mo, Pu Xiong, Zengyang Li and Qiong Feng</i></li>
+                <li>Title: <b>Fex: Assisted Extraction of Domain Features from C Programs</b> by: <i>Patrick Müller, Krishna Narasimhan and Mira Mezini</i></li>
+                <li>Title: <b>Improving Readability of Scratch Programs with Search-based Refactoring</b> by: <i>Felix Adler, Gordon Fraser, Eva Gründinger, Nina Körber, Simon Labrenz, Jonas Lerchenberger, Stephan Lukasczyk and Sebastian Schweikl</i></li>
+                <li>Title: <b>Empirical Comparison of Black-box Test Case Generation Tools for RESTful APIs</b> by: <i>Davide Corradini, Amedeo Zampieri, Michele Pasqua and Mariano Ceccato</i></li>
+                <li>Title: <b>Measuring source code conciseness across programming languages using compression</b> by: <i>Lodewijk Bergmans, Xander Schrijen, Edwin Ouwehand and Magiel Bruntink</i></li>
+                <li>Title: <b>Leveraging Unsupervised Learning to Summarize APIs Discussed in Stack Overflow</b> by: <i>Amirhossein Naghshzan, Latifa Guerrouj and Olga Baysal</i></li>
+                <li>Title: <b>Method Calls Frequency-Based Tie-Breaking Strategy For Software Fault Localization</b> by: <i>Qusay Idrees Sarhan, Béla Vancsics and Árpád Beszédes</i></li>
+                <li>Title: <b>What do Developers Discuss about Code Comments?</b> by: <i>Pooja Rani, Mathias Birrer, Sebastiano Panichella, Mohammad Ghafari and Oscar Nierstrasz</i></li>
+                <li>Title: <b>Towards Understanding Developers’ Machine-Learning Challenges: A Multi-Language Study on Stack Overflow</b> by: <i>Alaleh Hamidi, Giuliano Antoniol, Foutse Khomh, Massimiliano Di Penta and Mohammad Hamidi</i></li>
+
+              </ul>
+            </div>
+
+            <div id="accepted-papers" class="tab-pane fade">
+              <h3>Accepted Papers</h3>
+
+              <h4>Research track</h4>
+              <ul>
+                <li><i>Applying the Universal Version History Concept to Help De-Risk Copy-Based Code Reuse</i> by David Reid and Audris Mockus</li>
+                <li><i>Automating test-specific refactoring mining: a mixed-method investigation</i> by Luana Martins, Heitor Costa, Marcio Ribeiro, Fabio Palomba and Ivan Machado</li>
+                <li><i>Behind Developer Contributions on Conflicting Merge Scenarios</i> by Gustavo Vale, Eduardo Fernandes, Eduardo Figueiredo and Sven Apel</li>
+                <li><i>Calibrating Deep Learning-based Code Smell Detection using Human Feedback</i> by Himesh Nandani, Mootez Saad and Tushar Sharma</li>
+                <li><i>Change Pattern Detection for Optimising Incremental Static Analysis</i> by Cindy Wauters, Jens Van der Plas, Quentin Stiévenart and Coen De Roover</li>
+                <li><i>CIGAR: Contrastive Learning for GitHub Action Recommendation</i> by Jiangnan Huang and Bin Lin</li>
+                <li><i>Do Code Quality and Style Issues Differ Across (Non-)Machine Learning Notebooks? Yes!</i> by Md Saeed Siddik and Cor-Paul Bezemer</li>
+                <li><i>Evolutionary Feature Dependencies: Analyzing Feature Co-Changes in C Systems</i> by Sandro Schulze, Phillipp Engelke and Jacob Krüger</li>
+                <li><i>Explaining Transformer-based Code Models: What Do They Learn? When They Do Not Work?</i> by Ahmad Haji Mohammadkhani, Hadi Hemmati and Chakkrit Tantithamthavorn</li>
+                <li><i>Generating Understandable Unit Tests through End-to-End Test Scenario Carving</i> by Amirhossein Deljouyi and Andy Zaidman</li>
+                <li><i>How They Relate and Leave: Understanding Atoms of Confusion in Open-Source Java Projects</i> by Oton Pinheiro, Lincoln Rocha and Windson Viana</li>
+                <li><i>How Well Can Masked Language Models Spot Identifiers That Violate Naming Guidelines?</i> by Viola Campos, Johannes Villmow, Jean Petry, Amine Abbad-Andaloussi, Adrian Ulges and Barbara Weber</li>
+                <li><i>Leveraging User-Defined Identifiers for Counterfactual Data Generation in Source Code Vulnerability Detection</i> by Hongyu Kuang, Feng Yang, Long Zhang, Gaigai Tang and Lin Yang</li>
+                <li><i>PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events</i> by Mohammed Adib Khan, Morteza Noferesti and Naser Ezzati-Jivan</li>
+                <li><i>PTLVD:Program Slicing and Transformer-based Line-level Vulnerability Detection System</i> by Tao Peng, Shixu Chen, Fei Zhu, Junwei Tang, Junping Liu and Xinrong Hu</li>
+                <li><i>Quality Assurance Awareness in Open Source Software Projects on GitHub</i> by Ali Khatami and Andy Zaidman</li>
+                <li><i>Symbolic Execution to Detect Semantic Merge Conﬂicts</i> by Ward Muylaert, Johannes Härtel and Coen De Roover</li>
+                <li><i>The Docker Hub Image Inheritance Network: Construction and Empirical Insights</i> by Ruben Opdebeeck, Jonas Lesy, Ahmed Zerouali and Coen De Roover</li>
+                <li><i>Unboxing Default Argument Breaking Changes in Scikit Learn</i> by Joao Eduardo Montandon, Luciana L. Silva, Cristiano Politowski, Ghizlane El Boussaidi and Marco Tulio Valente</li>
+                <li><i>Using the TypeScript compiler to fix erroneous Node.js snippets</i> by Brittany Reid, Christoph Treude and Markus Wagner</li>
+                <li><i>When to Let the Developer Guide: Trade-offs Between Open and Guided Test Amplification</i> by Carolin Brandt, Danyao Wang and Andy Zaidman</li>
+              </ul>
+
+              <h4>Engineering track</h4>
+              <ul>
+                <li><i>ACER: An AST-based Callgraph Generator Framework</i> by Andrew Chen, Yanfu Yan and Denys Poshyvanyk</li>
+                <li><i>Enabling Go Program Analysis in Rascal</i> by Luke Swearngan and Mark Hills</li>
+                <li><i>On Developing and Improving Tools for Architecture-Smell Tracking in Java Systems</i> by Philipp Gnoyke, Sandro Schulze and Jacob Krüger</li>
+                <li><i>Reproducing and Improving the BugsInPy Dataset</i> by Faustino Aguilar, Samuel Grayson and Darko Marinov</li>
+              </ul>
+
+              <h4>New Ideas and Emerging Results track</h4>IDEs as the Bridge: Connecting Humans and Code
+              <ul>
+                <li><i>Can We Trust the Default Vulnerabilities Severity?</i> by Matteo Esposito, Sergio Moreschini, Valentina Lenarduzzi, David Hästbacka and Davide Falessi</li>
+                <li><i>On the Impact of Language Selection for Training and Evaluating Programming Language Models</i> by Jonathan Katzy, Maliheh Izadi and Arie van Deursen</li>
+                <li><i>Uncovering the Hidden Risks: The Importance of Predicting Bugginess in Untouched Methods</i> by Matteo Esposito and Davide Falessi</li>
+              </ul>
+            </div>
+
+          
+
+            <div id="keynotes" class="tab-pane fade">
+              <h3>Keynotes</h3>
+              
+              <p>We are proud to announce the following keynotes:</p>
+
+              <table>
+                <tr>
+                  <th style="width: 25%;"></th>
+                  <th style="width: 5%;"></th>
+                  <th style="width: 70%;"></th>
+                </tr>
+                <tr>
+                  <td valign="top"><img src="http://sandeepkuttal.ens.utulsa.edu/prof.png" class="img-responsive center-block" style="max-width: 100%;"></td>
+                  <td></td>
+                  <td>
+                    <p><b>Title: IDEs as the Bridge: Connecting Humans and Code</b></p>
+                    <p><b>Abstract:</b> In the ever-evolving world of software development, human factors play a pivotal role in shaping how individuals engage in programming activities and, subsequently, how Integrated Development Environments (IDEs) should cater to human needs. This talk delves into the intricate interplay between human expertise, gender, and the programming process, highlighting their profound impact on tasks such as code creation, foraging (finding information), reuse, and debugging. We will discuss: (1) the influence of gender and expertise-aware approaches on code development and their implications for software engineering practices, emphasizing the significance of diversity and inclusion in technology; and (2) Human-AI interaction with conversational agents, their effects on programmers and coding workflows, and ways to enhance collaboration and productivity. Our focus will center on IDEs as the critical interface between humans and code.</p>
+                    <p><b>Sandeep Kaur Kuttal</b> is an Associate Professor at The North Carolina State University, where she directs the Human-Centric Software Engineering Lab. Her research combines Human-Computer Interaction, Software Engineering, and Artificial Intelligence. She focuses on the human aspects of software engineering by studying and modeling programmer behavior and then designing and developing mixed-initiative programmer-computer systems. Sandeep is a recent recipient of the NSF CAREER and AFOSR YIP awards. She has received a best paper award at ACM CHI, best paper at ACM/IEEE ICGSE, and an honorable mention at ACM CHI. She is on the editorial board of the Journal of Computer Languages, vice-chair of the steering committee for the IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC) and acted as chair or program committee member at CHI, VL/HCC, HCII, ICSE, FSE, ASE, ICST, ICSME, CHASE, ICPC, and IUI. She is passionate about diversity and inclusion.</p><br><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top"><img src="https://people.ece.ubc.ca/amesbah/resources/images/amesbah-pic.jpg" class="img-responsive center-block" style="max-width: 100%;"></td>
+                  <td></td>
+                  <td>
+                    <p><b>Title: Reducing Hallucinations: Harnessing Contextual Analysis for AI Code Generation</b></p>
+                    <p><b>Abstract:</b> The evolution of generative AI holds tremendous promise for automating and enhancing various facets of software engineering. However, as with any nascent technology, it comes with its own set of challenges. A notable one is that generative AI can occasionally 'hallucinate', producing code that, while syntactically correct, may be contextually off-mark or even erroneous. These instances underscore the urgent need for refined methodologies and deeper insights. In this keynote, Prof. Mesbah delves into the confluence of program analysis and generative AI, charting a course toward more precise and context-aware code generation. He posits that instead of arbitrarily choosing context for a developer task, the context should encapsulate meaningful and pertinent details relevant to the task. By showcasing key findings from his recent research, he will highlight how a software's contextual grasp can be pivotal in enhancing the accuracy of AI-driven code generation.<br/>
+                      Journey with us into a session that reveals how the fusion of program analysis with generative AI is setting the stage for a future where technology seamlessly augments human creativity and precision in coding activities.</p>
+                    <p><b>Ali Mesbah</b> is a Professor at the University of British Columbia (UBC). He dedicates his research to addressing critical challenges in software engineering, specifically in the areas of automated software analysis and testing, software evolution, and fault localization and repair. His recent work involves the integration of program analysis with generative AI to devise advanced code generation techniques. Throughout his career, Prof. Mesbah has been honoured with several awards, including the Amazon Research Award, Killam Accelerator Research Fellowship, Killam Research Prize, Canadian Natural Sciences and Engineering Research Council (NSERC) Discovery Accelerator, a Most Influential Paper Award (SCAM 2023), and multiple ACM/IEEE Distinguished Paper Awards. He is a member of the steering committee for the UBC Research Excellence Cluster on Trustworthy ML, has served as an Associate Editor for the IEEE Transactions on Software Engineering, and regularly serves on program committees of flagship conferences in software engineering such as ICSE.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="50px" colspan="3"></td>
+                </tr>
+              </table>
+
+
+            </div>
+
+            <div id="mip" class="tab-pane fade">
+              <h3>Most Influential Paper award</h3>
+
+              <p>SCAM 2021 is happy to announce that the most influencial paper award goes to "Lightweight Transformation and Fact Extraction with the srcML Toolkit" by Michael Collard, Michael Decker, and Jonathan Maletic originally published in SCAM 2011. The srcML toolkit is a widely-used fact extraction and source-code transformation toolkit, which  continues to have a large impact on the software engineering research community because it is easy to use and continues to be maintained and updated. The first paper on the tool was published at SCAM 2011 and since then it has fostered a wide range of research innovations throughout software engineering and been awarded the Mining Software Repositories 2020 Foundational Contribution Award. Many SCAMers have used the tool in their own research, making this paper well deserving of the MIP award.</p>
+
+              <p>The Most Influential Paper Co-chairs are Arpad Beszedes and Dawn Lawrie.</p>
+            </div>
+
+            <div id="program" class="tab-pane fade">
+              <h3>Program</h3>
+              
+              <table class="c20">
+                <tr class="c25">
+                    <td class="c19" colspan="3" rowspan="1">
+                        <h4 class="c8"><span class="c5">Sunday, October 1st, 2023</span></h4>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">5.45 PM - 7.45 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span>Joint reception SCAM, IWSC and VISSOFT at </span><span class="c22">Villa
+                                Paulina</span><span class="c0">&nbsp;(University campus)</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">8.00 PM</span></p>
+                    </td>
+                    <td class="c10" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c0">Buses take people back to the conference hotels</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c29" colspan="3" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                </tr>
+                <tr class="c25">
+                    <td class="c19" colspan="3" rowspan="1">
+                        <p class="c8"><h4 class="c5">Monday, October 2nd, 2023<br></h4><span
+                                class="c22">Location:</span><span class="c0">&nbsp;room RGD 004, RGD building, also known as
+                                &ldquo;Centro Civico&rdquo; (University campus)</span></p>
+                        <p class="c8"><span class="c22">Start time:</span><span>&nbsp;9.00 AM</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.00 AM - 10.30 AM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 1</span></p>
+                        <p class="c8"><span class="c0">Chair: Leon Moonen</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.00 AM - 9.30 AM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Opening</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Opening and keynote introduction</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.30 AM - 10.30 AM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">SCAM + VISSOFT keynote</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c12">IDEs as the Bridge: Connecting Humans and Code</span></p>
+                        <p class="c8"><span class="c0">Sandeep Kaur Kuttal</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">10.30 AM - 11.00 AM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Coffee break 1</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">11.00 AM - 12.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 2: Software Evolution and Maintenance</span></p>
+                        <p class="c8"><span class="c0">Chair: Eduardo Figueiredo</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">11.00 AM - 12.10 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span class="c0">~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">How They Relate and Leave: Understanding Atoms of Confusion in
+                                Open-Source Java Projects</span></p>
+                        <p class="c1"><span class="c0">Oton Pinheiro, Lincoln Rocha, and Windson Viana</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span class="c0">~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Change Pattern Detection for Optimising Incremental Static
+                                Analysis</span></p>
+                        <p class="c1"><span>Cindy Wauters, Jens Van der Plas, Quentin Sti&eacute;venart, and Coen De
+                                Roover</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span class="c0">~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Evolutionary Feature Dependencies: Analyzing Feature Co-Changes in C
+                                Systems</span></p>
+                        <p class="c1"><span class="c0">Sandro Schulze, Phillipp Engelke, and Jacob Kr&uuml;ger</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">NIER Track</span></p>
+                        <p class="c8"><span>~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">On the Impact of Language Selection for Training and Evaluating
+                                Programming Language Models</span></p>
+                        <p class="c1"><span class="c0">Jonathan Katzy, Maliheh Izadi, and Arie van Deursen</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Unboxing Default Argument Breaking Changes in Scikit Learn</span></p>
+                        <p class="c1"><span class="c0">Joao Eduardo Montandon, Luciana Lourdes Silva, Cristiano Politowski,
+                                Ghizlane El Boussaidi, and Marco Tulio Valente</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Automating test-specific refactoring mining: a mixed-method
+                                investigation</span></p>
+                        <p class="c1"><span class="c0">Luana Martins, Heitor Costa, Marcio Ribeiro, Fabio Palomba, and Ivan
+                                Machado</span></p>
+                    </td>
+                </tr>
+                <tr class="c13">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">12.10 PM - 12.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Discussion</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">12.30 PM - 2.00 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Lunch break</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">2.00 PM - 3.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 3: Vulnerability and Security Analysis</span></p>
+                        <p class="c8"><span class="c0">Chair: Quentin Sti&eacute;venart</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">2.00 PM - 3.10 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Applying the Universal Version History Concept to Help De-Risk
+                                Copy-Based Code Reuse</span></p>
+                        <p class="c1"><span class="c0">David Reid and Audris Mockus</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                      <p class="c1"><span class="c12">The Docker Hub Image Inheritance Network: Construction and Empirical
+                              Insights</span></p>
+                      <p class="c1"><span class="c0">Ruben Opdebeeck, Jonas Lesy, Ahmed Zerouali and Coen De Roover</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">PTLVD: Program Slicing and Transformer-based Line-level Vulnerability
+                                Detection System</span></p>
+                        <p class="c1"><span class="c0">Tao Peng, Shixu Chen, Fei Zhu, Junwei Tang, Junping Liu and Xinrong
+                                Hu</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">NIER Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c15">Can We Trust the Default Vulnerabilities Severity?<br></span><span
+                                class="c0">Matteo Esposito, Sergio Moreschini, Valentina Lenarduzzi, David H&auml;stbacka and
+                                Davide Falessi</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                      <p class="c1"><span class="c12">Leveraging User-Defined Identifiers for Counterfactual Data Generation
+                              in Source Code Vulnerability Detection</span></p>
+                      <p class="c1"><span class="c0">Hongyu Kuang, Feng Yang, Long Zhang, Gaigai Tang, and Lin Yang</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">CIGAR: Contrastive Learning for GitHub Action Recommendation</span></p>
+                        <p class="c1"><span class="c0">Jiangnan Huang and Bin Lin</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">3.10 PM - 3.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c16"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Discussion</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">3.30 PM - 4.00 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Coffee break 2</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.00 PM - 5.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 4</span></p>
+                        <p class="c8"><span class="c0">Chair: Mike Godfrey</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.00 PM - 4.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0">MIP</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Most influential paper award SCAM 2013</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.30 PM - 5.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c16"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Open steering committee meeting</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">5.45 PM - 9.00 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">SCAM banquet</span></p>
+                        <p class="c8"><span class="c0">At restaurant Maria Tomasa, 5 min walk from campus, follow student
+                                volunteers</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.15 PM</span></p>
+                    </td>
+                    <td class="c10" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c0">Buses take people back from the banquet to the conference hotels</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c29" colspan="3" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                </tr>
+                <tr class="c25">
+                    <td class="c19" colspan="3" rowspan="1">
+                        <p class="c8"><h4 class="c5">Tuesday, October 3rd, 2023<br></h4><span
+                                class="c22">Location:</span><span class="c0">&nbsp;room RGD 004, RGD building, also known as
+                                &ldquo;Centro Civico&rdquo; (University campus)</span></p>
+                        <p class="c8"><span class="c22">Start time:</span><span class="c0">&nbsp;9.00 AM</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.00 AM - 10.30 AM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 5</span></p>
+                        <p class="c8"><span class="c0">Chair: Alessandra Gorla</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.00 AM - 9.30 AM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Notifications</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0">Notifications and keynote introduction</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">9.30 AM - 10.30 AM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">SCAM keynote</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c12">Reducing Hallucinations: Harnessing Contextual Analysis for AI Code
+                                Generation</span></p>
+                        <p class="c8"><span class="c0">Ali Mesbah</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">10.30 AM - 11.00 AM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Coffee break 1</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">11.00 AM - 12.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 6: Software Quality and Technical Debt</span></p>
+                        <p class="c8"><span class="c0">Chair: Laura Moreno</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">11.00 AM - 12.10 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Quality Assurance Awareness in Open Source Software Projects on
+                                GitHub</span></p>
+                        <p class="c1"><span class="c0">Ali Khatami and Andy Zaidman</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">How Well Can Masked Language Models Spot Identifiers That Violate Naming
+                                Guidelines?</span></p>
+                        <p class="c1"><span class="c0">Viola Campos, Johannes Villmow, Jean Petry, Amine Abbad-Andaloussi,
+                                Adrian Ulges, and Barbara Weber</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Engineering Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">On Developing and Improving Tools for Architecture-Smell Tracking in
+                                Java Systems</span></p>
+                        <p class="c1"><span class="c0">Philipp Gnoyke, Sandro Schulze, and Jacob Kr&uuml;ger</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Calibrating Deep Learning-based Code Smell Detection using Human
+                                Feedback</span></p>
+                        <p class="c1"><span class="c0">Himesh Nandani, Mootez Saad and Tushar Sharma</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Do Code Quality and Style Issues Differ Across (Non-)Machine Learning
+                                Notebooks? Yes!</span></p>
+                        <p class="c1"><span class="c0">Md Saeed Siddik and Cor-Paul Bezemer</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Behind Developer Contributions on Conflicting Merge Scenarios</span></p>
+                        <p class="c1"><span class="c0">Gustavo Vale, Eduardo Fernandes, Eduardo Figueiredo, and Sven Apel</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c16"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Discussion</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">12.30 PM - 2.00 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Lunch break</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">2.00 PM - 3.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 7: Software Testing and Debugging</span></p>
+                        <p class="c8"><span class="c0">Chair: Coen de Roover</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">When to Let the Developer Guide: Trade-offs Between Open and Guided Test
+                                Amplification</span></p>
+                        <p class="c1"><span class="c0">Carolin Brandt, Danyao Wang, and Andy Zaidman</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Generating Understandable Unit Tests through End-to-End Test Scenario
+                                Carving</span></p>
+                        <p class="c1"><span class="c0">Amirhossein Deljouyi and Andy Zaidman</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Using the TypeScript compiler to fix erroneous Node.js snippets</span>
+                        </p>
+                        <p class="c1"><span class="c0">Brittany Reid, Christoph Treude, and Markus Wagner</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">NIER Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Uncovering the Hidden Risks: The Importance of Predicting Bugginess in
+                                Untouched Methods</span></p>
+                        <p class="c1"><span class="c0">Matteo Esposito and Davide Falessi</span></p>
+                    </td>
+                </tr>
+                <tr class="c27">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Explaining Transformer-based Code Models: What Do They Learn? When They
+                                Do Not Work?</span></p>
+                        <p class="c1"><span class="c0">Ahmad Haji Mohammadkhani, Hadi Hemmati and Chakkrit
+                                Tantithamthavorn</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">PASD: A Performance Analysis Approach Through the Statistical Debugging
+                                of Kernel Events</span></p>
+                        <p class="c1"><span class="c0">Mohammed Adib Khan, Morteza Noferesti and Naser Ezzati-Jivan</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">3.10 PM - 3.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c16"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Discussion</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">3.30 PM - 4.00 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Coffee break 2</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17 c14" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.00 PM - 5.30 PM</span></p>
+                    </td>
+                    <td class="c10 c14" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c16">Session 8: Software Analysis</span></p>
+                        <p class="c8"><span class="c0">Chair: Hitesh Sajnani</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.00 PM - 4.45 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Main track</span></p>
+                        <p class="c8"><span>~ 10 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c15">Symbolic Execution to Detect Semantic Merge
+                                Conflicts<br></span><span>Ward Muylaert, Johannes H&auml;rtel and Coen De Roover</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Engineering Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c15">ACER: An AST-based Call Graph Generator Framework<br></span><span>Andrew
+                                Chen, Yanfu Yan and Denys Poshyvanyk</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Engineering Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Reproducing and Improving the BugsInPy Dataset</span></p>
+                        <p class="c1"><span class="c0">Faustino Aguilar, Samuel Grayson and Darko Marinov</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0"></span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Engineering Track</span></p>
+                        <p class="c8"><span class="c0">~ 7 minutes</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c1"><span class="c12">Enabling Go Program Analysis in Rascal</span></p>
+                        <p class="c1"><span class="c0">Luke Swearngan and Mark Hills</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">4.45 PM - 5.00 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c16"></span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Discussion</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">5.00 PM - 5.30 PM</span></p>
+                    </td>
+                    <td class="c9" colspan="1" rowspan="1">
+                        <p class="c4"><span class="c0">Closing</span></p>
+                    </td>
+                    <td class="c6" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">Closing and introduction of SCAM 2024</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c17" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">5.30 PM</span></p>
+                    </td>
+                    <td class="c10" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c0">Student volunteers walk SCAM participants to the reception</span></p>
+                    </td>
+                </tr>
+                <tr class="c3">
+                    <td class="c11" colspan="1" rowspan="1">
+                        <p class="c8"><span class="c0">5.45 PM - 7.45 PM</span></p>
+                    </td>
+                    <td class="c7" colspan="2" rowspan="1">
+                        <p class="c8"><span class="c0">Joint reception SCAM, VISSOFT, ICSME on the terrace of Edificio C on
+                                campus</span></p>
+                    </td>
+                </tr>
+            </table>
+
+            </div>
+
+
+            <!-- End Program -->
+
+
+            <!-- Begin Fun -->
+            <div id="fun" class="tab-pane fade">
+
+              <h3>Fun</h3>
+
+              <p>SCAM has always maintained the tradition of giving participants a special SCAM mug. You can see the mugs of some of the past editions in the slideshow below.</p>
+
+              <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                  <li data-target="#carousel" data-slide-to="2"></li>
+                  <li data-target="#carousel" data-slide-to="3"></li>
+                  <li data-target="#carousel" data-slide-to="4"></li>
+                  <li data-target="#carousel" data-slide-to="5"></li>
+                  <li data-target="#carousel" data-slide-to="6"></li>
+                  <li data-target="#carousel" data-slide-to="7"></li>
+                  <li data-target="#carousel" data-slide-to="8"></li>
+                  <li data-target="#carousel" data-slide-to="9"></li>                  
+                  <li data-target="#carousel" data-slide-to="10"></li>                  
+                  <li data-target="#carousel" data-slide-to="11"></li>
+                  <li data-target="#carousel" data-slide-to="12"></li>
+                  <li data-target="#carousel" data-slide-to="13"></li>
+                  <li data-target="#carousel" data-slide-to="14"></li>
+                  <li data-target="#carousel" data-slide-to="15"></li>                  
+                  <li data-target="#carousel" data-slide-to="16"></li>            
+                  <li data-target="#carousel" data-slide-to="17"></li>       
+                  <li data-target="#carousel" data-slide-to="18"></li>    
+                  <li data-target="#carousel" data-slide-to="19"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="../2021/merch/SCAM2001-web.jpg" alt="2001">
+                    <div class="carousel-caption">
+                      <p>2001, Florence, Italy</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2002-web.jpg" alt="2002">
+                    <div class="carousel-caption">
+                      <p>2002, Montreal, Canada</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2003-web.jpg" alt="2003">
+                    <div class="carousel-caption">
+                      <p>2003, Amsterdam, The Netherlands</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2004-web.jpg" alt="2004">
+                    <div class="carousel-caption">
+                      <p>2004, Chicago, USA</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2005-web.jpg" alt="2005">
+                    <div class="carousel-caption">
+                      <p>2005, Budapest, Hungary</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2006-web.jpg" alt="2006">
+                    <div class="carousel-caption">
+                      <p>2006, Philadelphia, USA</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2007-web.jpg" alt="2007">
+                    <div class="carousel-caption">
+                      <p>2007, Paris, France</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2008-web.jpg" alt="2008">
+                    <div class="carousel-caption">
+                      <p>2008, Beijing, China</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2009-web.jpg" alt="2009">
+                    <div class="carousel-caption">
+                      <p>2009, Edmonton, Canada</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2010-web.jpg" alt="2010">
+                    <div class="carousel-caption">
+                      <p>2010, Timișoara, Romania</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2011-web.png" alt="2011">
+                    <div class="carousel-caption">
+                      <p>2011, Williamsburg, USA</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2012-web.JPEG" alt="2012">
+                    <div class="carousel-caption">
+                      <p>2012, Riva del Garda, Italy</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2013-web.png" alt="2013">
+                    <div class="carousel-caption">
+                      <p>2013, Eindhoven, The Netherlands</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2014-web.png" alt="2014">
+                    <div class="carousel-caption">
+                      <p>2014, Victoria, Canada</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2015-web.JPEG" alt="2015">
+                    <div class="carousel-caption">
+                      <p>2015, Bremen, Germany</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2016-web.png" alt="2016">
+                    <div class="carousel-caption">
+                      <p>2016, Raleigh, USA</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2017-web.png" alt="2017">
+                    <div class="carousel-caption">
+                      <p>2017, Shanghai, China</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2018-web.JPEG" alt="2018">
+                    <div class="carousel-caption">
+                      <p>2018, Madrid, Spain</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2019-web.JPEG" alt="2019">
+                    <div class="carousel-caption">
+                      <p>2019, Cleveland, USA</p>
+                    </div>
+                  </div>                  
+                  <div class="item">
+                    <img src="../2021/merch/SCAM2020-web.JPEG" alt="2020">
+                    <div class="carousel-caption">
+                      <p>2020, Adelaide, Australia / Online</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+            </div>
+            <!-- Begin Fun -->
+
+            <!-- Begin Skit -->
+            <div id="skit" class="tab-pane fade">
+
+
+              <h3>Skit</h3>
+
+              <style type="text/css">
+                .Normal {
+                margin:1.0pt;
+                margin-top:1.0pt;
+                margin-bottom:1.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                }
+                .Heading {
+                margin:1.0pt;
+                margin-top:12.0pt;
+                margin-bottom:6.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Sans";
+                font-size:14.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                }
+                .TextBody {
+                mso-style-name:"Text Body";
+                line-height:115%;
+                margin:1.0pt;
+                margin-top:1.0pt;
+                margin-bottom:7.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                }
+                .List {
+                line-height:115%;
+                margin:1.0pt;
+                margin-top:1.0pt;
+                margin-bottom:7.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                }
+                .Caption {
+                margin:1.0pt;
+                margin-top:6.0pt;
+                margin-bottom:6.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-style:italic;
+                font-weight:normal;
+                border:none;
+                }
+                .Index {
+                margin:1.0pt;
+                margin-top:1.0pt;
+                margin-bottom:1.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                }
+                
+                .tm7 {
+                font-style:italic;
+                font-family:"TimesNewRomanPS-ItalicMT";
+                }
+                .tm8 {
+                font-size:10.0pt;
+                font-family:"TimesNewRomanPS-ItalicMT";
+                }
+                .tm9 {
+                font-family:"TimesNewRomanPS-ItalicMT";
+                }
+                .tm10 {
+                font-size:10.0pt;
+                font-family:"TimesNewRomanPSMT";
+                }
+                .tm11 {
+                font-family:"TimesNewRomanPSMT";
+                }
+                .tm12 {
+                font-family:"TimesNewRomanPSMT";
+                font-weight:bold;
+                }
+                .tm13 {
+                margin-left:0.0pt;
+                text-indent:36.0pt;
+                }
+                .tm14 {
+                margin:1.0pt;
+                margin-top:1.0pt;
+                margin-bottom:1.0pt;
+                margin-left:0.0pt;
+                margin-right:0.0pt;
+                text-indent:0.0pt;
+                font-family:"Liberation Serif";
+                font-size:12.0pt;
+                color:Black;
+                font-weight:normal;
+                border:none;
+                margin-left:0.0pt;
+                text-indent:36.0pt;
+                }
+                
+                </style>
+
+              <p class="Normal"><em><span class="tm7">Scene:&#8198; &#8198; A long line in an official-looking hall, leading to a desk.&#8198; &#8198; At the desk is a </span><span
+                class="tm8">SECRETARY</span><span class="tm9">; a </span><span class="tm8">MAN</span><span class="tm9"> and his </span><span
+                class="tm8">WIFE</span><span class="tm9"> are at the front of the line.&#8198; &#8198; Somewhere in the line is a group of </span><span
+                class="tm8">VIKINGS</span><span class="tm9">.</span></em></p>
+               <p class="Normal"><em><span class="tm7">&#160;</span></em></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; &#8217;Morning!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; &#8217;Morning..&#8198; &#8198; What conference package would you like to sign up for?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; Well, what&#8217;ve you got?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; Well, there&#8217;s ICSE and SCAM; ICSME and SCAM; GECCO, WSE, SCAM, and ISSTA; SCAM, WSE, PLDI, SCAM, and SCAM; SCAM, ICPC, SCAM, SCAM,
+               SANER, SCAM, ICST, and SCAM&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; (starting to chant) SCAM SCAM SCAM SCAM&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; SCAM, SCAM, SCAM, SCAM, ICSE, SCAM, SCAM, and SCAM&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; (singing) Lovely SCAM!&#8198; &#8198; Lovely SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; ...or partying in the colorful Limassol carnival, take a picture of the Aphrodite&#8217;s Rock, Zenobia wreck diving, followed by a tasting
+               of Haloumi cheese paired with Commandaria wine, and </span><strong><span class="tm12">SCAM</span></strong><span class="tm11">.</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; Have you got anything without SCAM?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; (flipping papers) Well, there&#8217;s SCAM, ICSE, GECCO, and SCAM; that&#8217;s not got much SCAM in it&#8230;.</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; I don&#8217;t want </span><em><span class="tm7">any </span></em><span
+                class="tm11">SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; Why can&#8217;t she go to ISSTA, CSM, ICSM, ICSME, and SCAM?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; </span><em><span class="tm7">That&#8217;s </span></em><span
+                class="tm11">got SCAM in it!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; Hasn&#8217;t got as much SCAM as SCAM, ICSE, GECCO, and SCAM, has it?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; SCAM SCAM SCAM SCAM, SCAM SCAM SCAM SCAM&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; Could you put us down for ISSTA, ICSE, and SCAM without the SCAM then?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; (shudders) Ugggh&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; What do you mean &#8220;ugggh&#8221;?&#8198; &#8198; I don&#8217;t want to go to SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; Lovely SCAM!&#8198; &#8198; Wonderful SCAM!</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; (to </span><span class="tm10">VIKINGS</span><span
+                class="tm11">) Shaddup!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; Lovely SCAM!&#8198; &#8198; Wonderful SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; </span><em><span class="tm7">Shaddup!</span></em><span
+                class="tm11">&#8198; &#8198; (aside) Bloody Vikings&#8230;You can&#8217;t go to ISSTA, ICSE, and SCAM without the SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">WIFE</span><span class="tm11">:&#8198; &#8198; (shriek) </span><em><span class="tm7">I don&#8217;t want to go to SCAM!</span></em></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; Ssssh, dear, don&#8217;t cause a fuss.&#8198; &#8198; I&#8217;ll attend your SCAM.&#8198; &#8198; I love it!&#8198; &#8198; I&#8217;m signing
+               up for SCAM, SCAM, SCAM, SCAM, SCAM, SCAM, GECCO, SCAM, SCAM, and SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; (singing) SCAM SCAM SCAM SCAM, SCAM SCAM SCAM SCAM!&#8198; &#8198; Lovely SCAM!&#8198; &#8198; Wonderful SCAM!</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; (to </span><span class="tm10">VIKINGS</span><span
+                class="tm11">) Shut </span><em><span class="tm7">up! </span></em><span class="tm11">(to </span><span class="tm10">MAN</span><span
+                class="tm11">) GECCO&#8217;s full up.</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">MAN</span><span class="tm11">:&#8198; &#8198; Well, could I go to her SCAM instead of GECCO then?</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">SECRETARY</span><span class="tm11">:&#8198; &#8198; You mean you&#8217;re going to SCAM SCAM SCAM SCAM&#8230;</span></p>
+               <p class="Normal"><span class="tm11">&#160;</span></p>
+               <p class="Normal"><span class="tm10">VIKINGS</span><span class="tm11">:&#8198; &#8198; (join in with the</span><span class="tm10"> SECRETARY</span><span
+                class="tm11"> and start singing)</span></p>
+               <p class="tm14"><span class="tm11">SCAM SCAM SCAM SCAM.</span></p>
+               <p class="tm14"><span class="tm11">Lovely SCAM! Wonderful SCAM! </span></p>
+               <p class="tm14"><span class="tm11">Lovely SCAM! Wonderful SCAM &#8211;</span></p>
+               <p class="tm14"><span class="tm11">SCA-A-A-A-AM SCA-A-A-A-AM SCA-A-A-A-AM SCA-A-A-A-AM &#8211;</span></p>
+               <p class="tm14"><span class="tm11">Lovely SCAM! (Lovely SCAM!)</span></p>
+               <p class="tm14"><span class="tm11">Lovely SCAM! (Lovely SCAM!)</span></p>
+               <p class="tm14"><span class="tm11">Lovely SCAM!</span></p>
+               <p class="tm14"><span class="tm11">SCAM, SCAM, SCAM,</span></p>
+               <p class="tm14"><span class="tm11">SCAAAAAAAAM!</span></p>
+
+               <br><br>
+
+            </div>
+            <!-- End Skit -->
+
+
+            <!-- Begin Sponsorship -->
+            <div id="supporters" class="tab-pane fade">
+
+
+              <h3>Supporters</h3>
+
+              <p>For SCAM 2022 we are proud to have the support of two leading companies in Software Engineering, GrammaTech and Facebook. We would like to thank both GrammaTech and Facebook for their support, as they make it possible to host SCAM!</p>
+
+              <h4>About GrammaTech</h4>
+
+              <p>GrammaTech is a small company that was originally founded in Ithaca New York in 1988 as a spin-off of Cornell University. We do both contract research and develop commercial products. Our team of researchers comprises 20 PhD-qualified scientists who conduct research projects that are mostly funded by various US government agencies. These are primarily oriented towards cybersecurity, and touch on software analysis, transformation, monitoring and autonomic functions. Our most successful commercial product to date is CodeSonar, an advanced static analysis tool for finding serious software defects that is sold mostly to customers in embedded safety-critical industries. A new product named CodeSentry is a SaaS product to find N-day security vulnerabilities in software binaries. GrammaTech welcomes inquiries from those interested in joining our team; see the following <a href="https://www.grammatech.com/careers">page</a>.</p>
+
+              <h4>About Facebook</h4>
+
+              <p>At Facebook, our mission of giving people the power to build community and bring the world closer together requires constant innovation. That’s where research comes in.</p>
+
+              <p>We believe the most interesting research questions are derived from real-world problems. Our expert teams of scientists and engineers work quickly and collaboratively to build smarter, more meaningful experiences on a global scale by solving the most challenging technology problems, as well as look toward the future.</p>
+            </div>
+            <!-- End Sponsorship -->
+
+            <div id="scholarship" class="tab-pane fade">
+              <h3>SCAM Author Scholarships</h3>
+
+              <p>Thanks to generous support from Grammatech and Facebook, SCAM is pleased to offer scholarships for authors who are (a) undergraduate and graduate students, (b) participants from low- or lower-middle income countries, (c) first-time participants, and (d) members of groups traditionally underrepresented in the SCAM community.</p>
+
+              <ul>
+                <li>The list of low- and lower-middle income countries is available <a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups">here</a>.</li>
+                <li>Such groups as women, blacks, an LGBTIQ+ have traditionally been underrepresented in computing in general, and in the SCAM community, in particular. This list is not and cannot be exhaustive. </li>
+              </ul>
+
+              <p>Applications for the author scholarships are closed, and the notifications have been sent.</p>
+            </div>
+
+            <div id="participation-scholarship" class="tab-pane fade">
+              <h3>SCAM Participation Scholarships</h3>
+
+              <p>Thanks to generous support from Grammatech and Facebook, SCAM is pleased to offer scholarships for participants who are (a) undergraduate and graduate students, (b) participants from low- or lower-middle income countries, (c) first-time participants, and (d) members of groups traditionally underrepresented in the SCAM community.</p>
+
+              <ul>
+                <li>The list of low- and lower-middle income countries is available <a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups">here</a>.</li>
+                <li>Such groups as women, blacks, an LGBTIQ+ have traditionally been underrepresented in computing in general, and in the SCAM community, in particular. This list is not and cannot be exhaustive. </li>
+              </ul>
+
+              <p>Please apply for the scholarship on <a href="https://easychair.org/conferences/?conf=scam2023">EasyChair</a>. Deadline is September 20th and notifications will be sent by September 22nd. </p>
+            </div>
+
+          </div>
+        </div>
+        <!-- End Main panel -->
+
+      </div>
+    </div>
+    <!-- End Body -->
+
+    <footer class="footer" style="margin-top: 2em;">
+      <div class="container">
+        <p class="text-muted">&copy; SCAM 2024, this site builds on an excellent foundation by <a href="http://damevski.github.io">Kosta Damevski</a>.</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      $(function() {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+        window.scrollTo(0, 0);
+      });
+
+      $(document).ready(function() {
+        $('a').click(function(event) {
+          var hash = $(this).attr('href');
+          if (hash.startsWith('#')) {
+            window.location.hash = hash;
+          }
+        });
+      });
+
+      $(window).bind('hashchange', function(event) {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+        window.scrollTo(0, 0);
+      });
+    </script>
+
+    <script type="text/javascript" src="js/timezones.js"></script>
+
+  </body>
+</html>
