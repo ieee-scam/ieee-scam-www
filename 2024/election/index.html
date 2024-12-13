@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate statements for the 2024 IEEE SCAM Steering Committee Election</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+        .candidate {
+            background: #ffffff;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .candidate h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .candidate p {
+            color: #495057;
+        }
+        .candidate a {
+            color: #28a745;
+            text-decoration: none;
+        }
+        .candidate a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Candidate statements for the<BR>2024 IEEE SCAM Steering Committee Election</h1>    
+    <div id="candidates">
+        <!-- Candidate sections will be randomized here -->
+        <div class="candidate">
+            <h2>Kevin</h2>
+            <p><strong>Statement:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>            
+			<p><strong>Bio:</strong> Kevin is a tall and confident leader among the Minions. He often steps up in critical moments to guide his fellow Minions, showcasing bravery and intelligence. Kevin has a strong sense of responsibility and loyalty to Gru and his Minion family. He’s recognized by his tall stature, two eyes, and tuft of spiky hair.</p>
+            <a href="#" target="_blank">Homepage</a>
+        </div>
+        <div class="candidate">
+            <h2>Stuart</h2>
+            <p><strong>Statement:</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>            			<p><strong>Bio:</strong> Stuart is a laid-back, music-loving Minion. He’s often seen with a ukulele or guitar in hand, jamming away while chaos unfolds around him. Stuart is shorter than Kevin, has one eye, and sports a rebellious streak, often preferring to play rather than follow orders. Despite his mischief, he has a good heart.</p>
+            <a href="#" target="_blank">Homepage</a>
+        </div>
+        <div class="candidate">
+            <h2>Bob</h2>
+            <p><strong>Statement:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>            			<p><strong>Bio:</strong> Bob is a sweet and innocent Minion with a childlike personality. He’s small, round, and easily identifiable by his two different-colored eyes (one green and one brown). Bob is incredibly loyal and often forms attachments to objects or creatures, such as his beloved teddy bear, Tim. He’s an adorable source of humor and warmth.</p>
+            <a href="#" target="_blank">Homepage</a>
+        </div>
+        <div class="candidate">
+            <h2>Dave</h2>
+            <p><strong>Statement:</strong> Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+            <p><strong>Bio:</strong> Dave is an enthusiastic and energetic Minion who often finds himself in the middle of adventures. He’s clever and eager to please but can sometimes get overly excited, leading to hilarious mishaps. Dave is medium-sized with two eyes and loves playing video games, making him one of the more relatable Minions for fans.</p>
+            <a href="#" target="_blank">Homepage</a>
+        </div>
+        <div class="candidate">
+            <h2>Jerry</h2>
+            <p><strong>Statement:</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+			<p><strong>Statement:</strong> Jerry is a slightly nervous and cautious Minion who tends to avoid trouble when he can. Despite this, he often gets dragged into the group’s antics and adds humor with his reluctance and silly reactions. Jerry has two eyes and short spiky hair, and he is often seen paired with his best buddy, Stuart.</p>
+            <a href="#" target="_blank">Homepage</a>
+        </div>
+    </div>
+
+    <script>
+        // Randomize the order of the candidates
+        const candidatesContainer = document.getElementById('candidates');
+        const candidates = Array.from(candidatesContainer.children);
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+		
+        shuffle(candidates);
+        candidatesContainer.innerHTML = '';
+        candidates.forEach(candidate => candidatesContainer.appendChild(candidate));
+    </script>
+</body>
+</html>
